@@ -197,3 +197,100 @@ def collate_fn_points(data):
 class ScannetDataset(Dataset):
     def __init__(self, path, npoints, split='train'):
         super().__init__()
+        self.label_to_names = {0: 'unclassified',
+                               1: 'wall',
+                               2: 'floor',
+                               3: 'cabinet',
+                               4: 'bed',
+                               5: 'chair',
+                               6: 'sofa',
+                               7: 'table',
+                               8: 'door',
+                               9: 'window',
+                               10: 'bookshelf',
+                               11: 'picture',
+                               12: 'counter',
+                               14: 'desk',
+                               16: 'curtain',
+                               24: 'refridgerator',
+                               28: 'shower curtain',
+                               33: 'toilet',
+                               34: 'sink',
+                               36: 'bathtub',
+                               39: 'otherfurniture'}
+        self.label_values = np.sort(np.sort([k for k, v in self.label_to_names.items()]))
+        self.label_to_idx = {l: i for i, l in enumerate(self.label_values)}
+        self.data_root = path
+        self.split = split
+        self.block_size = 1.0
+        self.npoints = npoints
+        self.ignored_label = np.sort([0])
+        self.num_pos = 0
+        self.num_neg = 0
+
+        if split == 'train':
+            self.clouds_path = np.loadtxt(os.path.join(self.data_root, 'scannetv2_train.txt'), dtype=np.str)
+        else:
+            self.clouds_path = np.loadtxt(os.path.join(self.data_root, 'scannetv2_val.txt'), dtype=np.str)
+        self.train_path = '/data/dataset/scannet/input_0.040'
+        self.files = np.sort([os.path.join(self.train_path, f + '.ply') for f in self.clouds_path])
+
+    def __getitem__(self, index):
+        path = self.files[index]
+        # print(path)
+        data = read_ply(path)
+        points = np.vstack((data['x'], data['y'], data['z'])).T
+        num_points = points.shape[0]
+        if num_points > 70000:
+            self.num_neg += 1
+        else:
+            self.num_pos += 1
+        # print("poins shape:", points.shape)
+        colors = np.vstack((data['red'], data['green'], data['blue'])).T
+
+        gt_label = data['class'].astype(np.int32)
+        # print("gt label:", np.unique(gt_label))
+        # gt_label = np.array([self.label_to_idx[i] for i in gt_label])
+        mask = np.ones([self.npoints], dtype=np.bool)
+        num_points = points.shape[0]
+
+        if num_points > self.npoints:
+            choice = np.random.choice(num_points, self.npoints, replace=True)
+            points_set = points[choice, :]
+            colors_set = colors[choice, :]
+            gt_labels_set = gt_label[choice]
+        else:
+            points_set = np.zeros([self.npoints, points.shape[1]], dtype=np.float32)
+            colors_set = np.zeros([self.npoints, colors.shape[1]], dtype=np.float32)
+            gt_labels_set = np.zeros([self.npoints], dtype=np.int32)
+            choice = np.random.choice(num_points, self.npoints - num_points, replace=True)
+            points_set[:num_points, :] = points
+            points_set[num_points:, :] = points[choice, :]
+            colors_set[:num_points, :] = colors
+            colors_set[num_points:, :] = colors[choice, :]
+            gt_labels_set[:num_points] = gt_label
+            gt_labels_set[num_points:] = gt_label[choice]
+            mask[num_points:] = False
+
+        points_all = np.zeros((self.npoints, 9))
+        points_all[:, 0:3] = points_set
+        points_all[:, 3:6] = colors_set
+        points_all[:, 6:9] = pc_normalize(points_set)
+        gt_labels_set_temp = np.array([self.label_to_idx[i] for i in gt_labels_set])
+        cloud_labels_idx = np.unique(gt_labels_set_temp)
+        cloud_labels_idx = cloud_labels_idx[cloud_labels_idx != 0].astype(np.int32)
+
+        cloud_labels = np.zeros((1, 20))
+        cloud_labels[0][cloud_labels_idx - 1] = 1
+        cloud_labels_all = np.ones((points_all.shape[0], 20))
+        cloud_labels_all = cloud_labels_all * cloud_labels
+
+        # data = np.concatenate((points_set, colors_set), axis=1)
+        data = points_all
+        # print(data.dtype, cloud_labels_all.dtype, cloud_labels.dtype, gt_labels_set.dtype, mask.dtype)
+        file_name = path.split('/')
+        file_name = file_name[-1].split('.')[0]
+        # print("gt_labels set unique:", np.unique(gt_labels_set))
+        # print("cloud_labels shape:", cloud_labels)
+        return (data.astype(np.float32), cloud_labels_all.astype(np.int32), cloud_labels.astype(np.int32),
+                gt_labels_set.astype(np.int32), mask.astype(np.bool), file_name)
