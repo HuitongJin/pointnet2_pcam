@@ -294,3 +294,29 @@ class ScannetDataset(Dataset):
         # print("cloud_labels shape:", cloud_labels)
         return (data.astype(np.float32), cloud_labels_all.astype(np.int32), cloud_labels.astype(np.int32),
                 gt_labels_set.astype(np.int32), mask.astype(np.bool), file_name)
+
+    def __len__(self):
+        return len(self.files)
+
+
+if __name__ == '__main__':
+    data = ScannetDataset('/data/dataset/scannet', npoints=40000, split='val')
+    train_dataloader = torch.utils.data.DataLoader(data, batch_size=20, shuffle=False)
+    Max = -1
+    Min = 200000
+    total_files_name = []
+    masks = []
+    labels_total = []
+    val_prob = np.zeros(20, dtype=np.float32)
+    for points, cloud_labels_all, weakly_label, gt_label, mask, files_name in train_dataloader:
+        total_files_name.append(files_name)
+        masks.append(mask)
+        labels_total += [gt_label]
+        num_points = points.shape[0]
+
+        print(points.shape, weakly_label.shape, gt_label.shape)
+    num_pos = data.num_pos
+    num_neg = data.num_neg
+    print("num_pos:", num_pos)
+    print("num_neg:", num_neg)
+    print(num_pos / (num_pos + num_neg))

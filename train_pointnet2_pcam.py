@@ -16,7 +16,6 @@ import datetime
 import logging
 import provider
 import importlib
-import shutil
 import argparse
 
 from pathlib import Path
@@ -148,7 +147,7 @@ def IoU_from_confusions(confusions):
     the last axes. n_c = number of classes
     :return: ([..., n_c] np.float32) IoU score
     """
-    # Compute TP, FP, FN. This assume that the second to last axit counts the truths (like the first axis of a
+    # Compute TP, FP, FN. This assumes that the second to last axit counts the truths (like the first axis of a
     # confusion matrix), and that the last axis counts the predictions (like the second axis of a confusion matrix)
     TP = np.diagonal(confusions, axis1=-2, axis2=-1)
     TP_plus_FN = np.sum(confusions, axis=-1)
@@ -183,7 +182,7 @@ def main(args):
     time_str = str(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M'))
     exp_dir = Path('./log/')
     exp_dir.mkdir(exist_ok=True)
-    exp_dir = exp_dir.joinpath('pointnet2_pcam')
+    exp_dir = exp_dir.joinpath('pointnet2_pcam')  # 第一个地方
     exp_dir.mkdir(exist_ok=True)
     if args.log_dir is None:
         exp_dir = exp_dir.joinpath(time_str)
@@ -206,10 +205,187 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
 
-    writer = SummaryWriter(log_dir='tensorboard_wypr_conv_3', filename_suffix='test')
+    writer = SummaryWriter(log_dir='tensorboard_wypr_conv_3', filename_suffix='test')  # 第二个地方
 
     """DATA LOADING"""
     log_string('Load dataset ...')
     data_path = '/data/dataset/scannet'
-    train_dataset = ScannetDataset
+    train_dataset = ScannetDataset(path=data_path, npoints=40000, split='train')
+    test_dataset = ScannetDataset(path=data_path, npoints=40000, split='val')
+    trainDataLoader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True,
+                                                  num_workers=4, drop_last=True)
+    testDataLoader = torch.utils.data.DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
+    """MODEL LOADING"""
+    num_class = args.num_category
+    model = importlib.import_module(args.model)
+    classifier = model.get_model(num_class)
+    criterion = model.get_loss()
+    accuracy = model.get_accuracy()
+
+    classifier.apply(inplace_relu)
+
+    if not args.use_cpu:
+        classifier = classifier.cuda()
+        criterion = criterion.cuda()
+        accuracy = accuracy.cuda()
+
+    try:
+        checkpoint = torch.load(str(exp_dir) + '/checkpoints/best_model.pth')
+        start_epoch = checkpoint['epoch']
+        classifier.load_state_dict(checkpoint['model_state_dict'])
+        log_string('Use pretrain model')
+    except:
+        log_string('No existing model, starting training from scratch...')
+        start_epoch = 0
+
+    if args.optimizer == 'Adam':
+        optimizer = torch.optim.Adam(
+            classifier.parameters(),
+            lr=args.learning_rate,
+            betas=(0.9, 0.999),
+            eps=1e-08,
+            weight_decay=args.decay_rate
+        )
+    else:
+        optimizer = torch.optim.SGD(classifier.parameters(), lr=0.01, momentum=0.9)
+    # 按固定的训练epoch数进行学习率衰减
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=20, gamma=0.7)
+    global_epoch = 0
+    global_step = 0
+    best_iou_acc = 0.0
+    num_batches = len(trainDataLoader)
+
+    """TRAIN"""
+    logger.info('Start training...')
+    iter_count = 0
+
+    test_dirs = './test_pred_wypr_conv_3'  # 第三个地方
+    if not os.path.exists(test_dirs):
+        os.makedirs(test_dirs)
+
+    for epoch in range(start_epoch, args.epoch):
+        log_string('Epoch %d (%d/%s):' % (global_epoch + 1, epoch + 1, args.epoch))
+        mean_correct = 0
+        loss_sum = 0
+        classifier = classifier.train()
+
+        scheduler.step()
+        with tqdm(enumerate(trainDataLoader, 0), total=len(trainDataLoader), smoothing=0.9) as pbar:
+
+            for batch_id, (points, cloud_labels_all, target, gt_label, mask, _) in pbar:
+                optimizer.zero_grad()
+
+                points = points.data.numpy()
+                points[:, :, :3] = provider.rotate_point_cloud_z(points[:, :, :3])
+                points = torch.Tensor(points)[:, :, :6]
+                points, target = points.float().cuda(), target.long().cuda()
+                # print("points shape:", points.shape, target.shape)
+                # points = points.transpose(2, 1)
+                target = target.transpose(2, 1).squeeze(-1)
+
+                if not args.use_cpu:
+                    points, cloud_labels_all, target = points.cuda(), cloud_labels_all.cuda(), target.cuda()
+                pred = classifier(points)
+                loss = criterion(pred, target.long())
+                acc = accuracy(pred, target)
+                pbar.set_postfix(Loss=loss.cpu().detach().numpy(), Accuracy=acc.cpu().detach().numpy())
+                mean_correct += acc
+                loss.backward()
+                optimizer.step()
+                global_step += 1
+                loss_sum += loss
+
+                writer.add_scalars('Loss', {'Train': loss.item()}, iter_count)
+                writer.add_scalars('Acc', {"Train": acc.item()}, iter_count)
+                iter_count += 1
+                # log_string('Training loss: %f' % (loss.cpu().detach().numpy()))
+
+        log_string('Training mean loss: %f' % (loss_sum / num_batches))
+        log_string('Train Accuracy: %f' % (mean_correct / num_batches))
+
+        with torch.no_grad():
+            num_batches = len(testDataLoader)
+            classifier = classifier.eval()
+            log_string('---- EPOCH %03d EVALUATION ----' % (global_epoch + 1))
+            predictions = []
+            targets = []
+            masks = []
+            loss_all = 0.0
+            total_files_name = []
+
+            for i, (points, cloud_labels_all, target, gt_label, mask, files_name) in tqdm(enumerate(testDataLoader, 0),
+                                                                                          total=len(testDataLoader),
+                                                                                          smoothing=0.9):
+                if not args.use_cpu:
+                    points, cloud_labels_all, target = points.cuda(), cloud_labels_all.cuda(), target.cuda()
+
+                gt_pred = classifier.forward_cam(points[:, :, :6])
+
+                loss = criterion(pred, target.long())
+                gt_pred = gt_pred.permute(0, 2, 1)
+                gt_pred = torch.mul(gt_pred, cloud_labels_all)
+                # print("gt_pred:", cloud_labels_all[0][0])
+                gt_pred = gt_pred.cpu().numpy()
+                gt_label = gt_label.cpu().numpy()
+                # print("gt_pred:", gt_pred[0][0])
+                gt_pred = np.argmax(gt_pred, axis=2)
+
+                masks.append(mask)
+                predictions.append(gt_pred)
+                targets.append(gt_label)
+                loss_all += loss.item()
+                total_files_name.append(files_name)
+
+            masks = np.concatenate(masks, axis=0)
+            total_files_name = np.concatenate(total_files_name, axis=0)
+            predictions = np.concatenate(predictions, axis=0).astype(np.int32)
+            targets = np.concatenate(targets, axis=0).astype(np.int32)
+
+            Confs = np.zeros((len(predictions), 21, 21), dtype=np.int32)
+
+            for i, (probs, truth, file_name, mask) in enumerate(zip(predictions, targets, total_files_name, masks)):
+
+                preds = test_dataset.label_values[probs + 1][mask]
+                truth = truth[mask]
+                np.save(os.path.join(test_dirs, file_name), preds)
+
+                Confs[i, :, :] = fast_confusion(truth, preds, test_dataset.label_values).astype(np.int32)
+
+            C = np.sum(Confs, axis=0).astype(np.float32)
+
+            # remove ignored labels from confusions
+            C = np.delete(C, 0, axis=0)
+            C = np.delete(C, 0, axis=1)
+
+            IoUs = IoU_from_confusions(C)
+            loss_mean_epoch = loss_all / num_batches
+
+            mIou = 100 * np.mean(IoUs)
+            log_string("Mean IoU = {:.1f}%".format(mIou))
+            log_string("Best Mean IoU = {:.1f}%".format(best_iou_acc))
+            log_string(IoUs)
+            writer.add_scalars("Loss", {"Valid": loss_mean_epoch}, iter_count)
+            writer.add_scalars("Miou", {"Valid": mIou}, iter_count)
+
+            if mIou > best_iou_acc:
+                best_iou_acc = mIou
+                logger.info('Save model...')
+                save_path = str(checkpoints_dir) + '/best_model.pth'
+                log_string('Saving at %s ' % save_path)
+                state = {
+                    'epoch': epoch,
+                    'miou': mIou,
+                    'model_state_dict': classifier.state_dict(),
+                    'optimizer_state_dict': optimizer.state_dict(),
+                }
+                torch.save(state, save_path)
+
+            global_epoch += 1
+        writer.close()
+        logger.info('End of training...')
+
+
+if __name__ == '__main__':
+    args = parse_args()
+    main(args)
