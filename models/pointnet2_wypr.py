@@ -127,16 +127,14 @@ class Pointnet2Backbone(nn.Module):
         end_points['sa4_features'] = features  # N x 256 x 256
 
         # --------- 2 FEATURE UPSAMPLING LAYERS --------
-        features = self.fp1(end_points['sa3_xyz'], end_points['sa4_xyz'], end_points['sa3_features'],
-                            end_points['sa4_features'])
+        features = self.fp1(end_points['sa3_xyz'], end_points['sa4_xyz'], end_points['sa3_features'], end_points['sa4_features'])
         features = self.fp2(end_points['sa2_xyz'], end_points['sa3_xyz'], end_points['sa2_features'], features)
 
         # use fp2 output as the backbone output
         end_points['backbone_feat'] = features
         end_points['backbone_feat_xyz'] = end_points['sa2_xyz']
         num_seed = end_points['sa2_xyz'].shape[1]
-        end_points['backbone_feat_inds'] = end_points['sa1_inds'][:,
-                                           :num_seed]  # indices among the entire input point clouds
+        end_points['backbone_feat_inds'] = end_points['sa1_inds'][:, :num_seed]  # indices among the entire input point clouds
         return end_points
 
 
@@ -158,21 +156,21 @@ class Pointnet2SegHead(nn.Module):
         #                     torch.nn.Conv1d(256, num_class, kernel_size=1))
         # self.conv1d = torch.nn.Conv1d(256, num_class, kernel_size=1)
 
-        def forward(self, end_points=None, classification=True):
-            """Forward pass of the network """
-            features_1 = self.seg_fp1(
-                end_points['sa1_xyz'], end_points['sa2_xyz'],
-                end_points['sa1_features'], end_points['backbone_feat'])
-            # print("feature_1 shape:", features_1.shape)
-            features_2 = self.seg_fp2(
-                end_points['input_xyz'], end_points['sa1_xyz'],
-                end_points['input_features'], features_1)
-            # print("feature_2 shape:", features_2.shape)
-            end_points['sem_seg_feat' + self.suffix] = self.norm(features_2)
-            # if classification:
-            #     end_points['sem_seg_pred'+self.suffix] = self.classifier(features_2)
-            #     end_points['sem_seg_pred_avg'] = end_points['sem_seg_pred'+self.suffix].mean(dim=-1)
-            return end_points
+    def forward(self, end_points=None, classification=True):
+        """Forward pass of the network """
+        features_1 = self.seg_fp1(
+            end_points['sa1_xyz'], end_points['sa2_xyz'],
+            end_points['sa1_features'], end_points['backbone_feat'])
+        # print("feature_1 shape:", features_1.shape)
+        features_2 = self.seg_fp2(
+            end_points['input_xyz'], end_points['sa1_xyz'],
+            end_points['input_features'], features_1)
+        # print("feature_2 shape:", features_2.shape)
+        end_points['sem_seg_feat' + self.suffix] = self.norm(features_2)
+        # if classification:
+        #     end_points['sem_seg_pred'+self.suffix] = self.classifier(features_2)
+        #     end_points['sem_seg_pred_avg'] = end_points['sem_seg_pred'+self.suffix].mean(dim=-1)
+        return end_points
 
 
 class get_model(nn.Module):

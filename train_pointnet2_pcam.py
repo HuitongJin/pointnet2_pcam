@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*- 
 """
 @File: train_pointnet2_pcam.py
 @Author:Huitong Jin
@@ -34,7 +35,7 @@ sys.path.append(os.path.join(ROOT_DIR, 'models'))  # reference models
 def parse_args():
     parser = argparse.ArgumentParser("training")
     parser.add_argument("--use_cpu", action="store_true", default=False, help="use cpu mode")
-    parser.add_argument("--gpu", type=str, default=2, help="specify gpu device")
+    parser.add_argument("--gpu", type=str, default='2', help="specify gpu device")
     parser.add_argument("--batch_size", type=int, default=30, help="batch size in training")
     parser.add_argument("--model", type=str, default="pointnet2_wypr", help="model name [default:pointnet2_wypr]")
     parser.add_argument("--num_category", type=int, default=20, help="number of category on dataset")
@@ -103,7 +104,7 @@ def fast_confusion(y_true, y_pred, label_values=None):
         # Ensure they are good if given
         if label_values.dtype not in [np.int32, np.int64]:
             raise ValueError('label values are {:s} instead of int32 or int64'.format(label_values.dtype))
-        if len(np.unique(label_values) < len(label_values)):
+        if len(np.unique(label_values)) < len(label_values):
             raise ValueError('Given labels are not unique')
 
     # Start labels
@@ -286,7 +287,7 @@ def main(args):
 
                 if not args.use_cpu:
                     points, cloud_labels_all, target = points.cuda(), cloud_labels_all.cuda(), target.cuda()
-                pred = classifier(points)
+                pred = classifier(points)[0]
                 loss = criterion(pred, target.long())
                 acc = accuracy(pred, target)
                 pbar.set_postfix(Loss=loss.cpu().detach().numpy(), Accuracy=acc.cpu().detach().numpy())

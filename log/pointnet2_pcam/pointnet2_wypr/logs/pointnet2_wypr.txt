@@ -1,0 +1,2516 @@
+2023-02-01 22:22:41,683 - Model - INFO - PARAMETER ...
+2023-02-01 22:22:41,683 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu=2, learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 22:22:41,685 - Model - INFO - Load dataset ...
+2023-02-01 22:23:22,149 - Model - INFO - PARAMETER ...
+2023-02-01 22:23:22,149 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 22:23:22,151 - Model - INFO - Load dataset ...
+2023-02-01 22:23:25,757 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 22:23:25,759 - Model - INFO - Start training...
+2023-02-01 22:23:25,759 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 22:46:39,133 - Model - INFO - PARAMETER ...
+2023-02-01 22:46:39,133 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 22:46:39,135 - Model - INFO - Load dataset ...
+2023-02-01 22:46:42,972 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 22:46:42,973 - Model - INFO - Start training...
+2023-02-01 22:46:42,974 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 22:51:28,251 - Model - INFO - PARAMETER ...
+2023-02-01 22:51:28,251 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 22:51:28,253 - Model - INFO - Load dataset ...
+2023-02-01 22:51:32,045 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 22:51:32,047 - Model - INFO - Start training...
+2023-02-01 22:51:32,047 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 22:53:52,315 - Model - INFO - PARAMETER ...
+2023-02-01 22:53:52,315 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 22:53:52,317 - Model - INFO - Load dataset ...
+2023-02-01 22:53:55,894 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 22:53:55,896 - Model - INFO - Start training...
+2023-02-01 22:53:55,896 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 23:04:14,916 - Model - INFO - PARAMETER ...
+2023-02-01 23:04:14,916 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 23:04:14,918 - Model - INFO - Load dataset ...
+2023-02-01 23:04:18,432 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 23:04:18,434 - Model - INFO - Start training...
+2023-02-01 23:04:18,434 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 23:25:11,318 - Model - INFO - PARAMETER ...
+2023-02-01 23:25:11,318 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 23:25:11,320 - Model - INFO - Load dataset ...
+2023-02-01 23:25:14,983 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 23:25:14,985 - Model - INFO - Start training...
+2023-02-01 23:25:14,985 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 23:43:30,985 - Model - INFO - PARAMETER ...
+2023-02-01 23:43:30,985 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2, 3', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 23:43:30,987 - Model - INFO - Load dataset ...
+2023-02-01 23:43:34,903 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 23:43:34,905 - Model - INFO - Start training...
+2023-02-01 23:43:34,905 - Model - INFO - Epoch 1 (1/200):
+2023-02-01 23:44:29,943 - Model - INFO - PARAMETER ...
+2023-02-01 23:44:29,943 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-01 23:44:29,945 - Model - INFO - Load dataset ...
+2023-02-01 23:44:33,721 - Model - INFO - No existing model, starting training from scratch...
+2023-02-01 23:44:33,722 - Model - INFO - Start training...
+2023-02-01 23:44:33,722 - Model - INFO - Epoch 1 (1/200):
+2023-02-02 11:03:56,386 - Model - INFO - PARAMETER ...
+2023-02-02 11:03:56,387 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-02 11:03:56,412 - Model - INFO - Load dataset ...
+2023-02-02 11:04:00,788 - Model - INFO - No existing model, starting training from scratch...
+2023-02-02 11:04:00,789 - Model - INFO - Start training...
+2023-02-02 11:04:00,789 - Model - INFO - Epoch 1 (1/200):
+2023-02-07 21:12:34,001 - Model - INFO - PARAMETER ...
+2023-02-07 21:12:34,010 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-07 21:12:34,073 - Model - INFO - Load dataset ...
+2023-02-07 21:13:09,992 - Model - INFO - No existing model, starting training from scratch...
+2023-02-07 21:13:09,995 - Model - INFO - Start training...
+2023-02-07 21:13:09,995 - Model - INFO - Epoch 1 (1/200):
+2023-02-07 23:01:13,452 - Model - INFO - PARAMETER ...
+2023-02-07 23:01:13,462 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-07 23:01:13,513 - Model - INFO - Load dataset ...
+2023-02-07 23:01:27,924 - Model - INFO - No existing model, starting training from scratch...
+2023-02-07 23:01:27,927 - Model - INFO - Start training...
+2023-02-07 23:01:27,927 - Model - INFO - Epoch 1 (1/200):
+2023-02-07 23:18:43,855 - Model - INFO - PARAMETER ...
+2023-02-07 23:18:43,855 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-07 23:18:43,857 - Model - INFO - Load dataset ...
+2023-02-07 23:34:43,365 - Model - INFO - PARAMETER ...
+2023-02-07 23:34:43,365 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-07 23:34:43,369 - Model - INFO - Load dataset ...
+2023-02-07 23:34:46,552 - Model - INFO - No existing model, starting training from scratch...
+2023-02-07 23:34:46,554 - Model - INFO - Start training...
+2023-02-07 23:34:46,554 - Model - INFO - Epoch 1 (1/200):
+2023-02-07 23:37:55,339 - Model - INFO - PARAMETER ...
+2023-02-07 23:37:55,340 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-07 23:37:55,342 - Model - INFO - Load dataset ...
+2023-02-07 23:37:58,647 - Model - INFO - No existing model, starting training from scratch...
+2023-02-07 23:37:58,661 - Model - INFO - Start training...
+2023-02-07 23:37:58,661 - Model - INFO - Epoch 1 (1/200):
+2023-02-07 23:45:41,299 - Model - INFO - PARAMETER ...
+2023-02-07 23:45:41,299 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-07 23:45:41,300 - Model - INFO - Load dataset ...
+2023-02-08 13:31:51,238 - Model - INFO - PARAMETER ...
+2023-02-08 13:31:51,240 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 13:31:51,243 - Model - INFO - Load dataset ...
+2023-02-08 13:46:06,966 - Model - INFO - PARAMETER ...
+2023-02-08 13:46:06,966 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 13:46:06,982 - Model - INFO - Load dataset ...
+2023-02-08 13:46:14,704 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 13:46:14,707 - Model - INFO - Start training...
+2023-02-08 13:46:14,707 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 13:53:36,966 - Model - INFO - PARAMETER ...
+2023-02-08 13:53:36,966 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 13:53:36,968 - Model - INFO - Load dataset ...
+2023-02-08 13:56:10,005 - Model - INFO - PARAMETER ...
+2023-02-08 13:56:10,005 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 13:56:10,007 - Model - INFO - Load dataset ...
+2023-02-08 14:01:30,578 - Model - INFO - PARAMETER ...
+2023-02-08 14:01:30,578 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 14:01:30,580 - Model - INFO - Load dataset ...
+2023-02-08 14:01:34,098 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 14:01:34,100 - Model - INFO - Start training...
+2023-02-08 14:01:34,100 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 14:16:17,503 - Model - INFO - PARAMETER ...
+2023-02-08 14:16:17,503 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 14:16:17,505 - Model - INFO - Load dataset ...
+2023-02-08 14:16:20,926 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 14:16:20,928 - Model - INFO - Start training...
+2023-02-08 14:16:20,928 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 14:19:39,379 - Model - INFO - PARAMETER ...
+2023-02-08 14:19:39,380 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 14:19:39,381 - Model - INFO - Load dataset ...
+2023-02-08 14:19:42,802 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 14:19:42,803 - Model - INFO - Start training...
+2023-02-08 14:19:42,803 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 14:30:08,290 - Model - INFO - PARAMETER ...
+2023-02-08 14:30:08,290 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 14:30:08,292 - Model - INFO - Load dataset ...
+2023-02-08 14:30:11,705 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 14:30:11,707 - Model - INFO - Start training...
+2023-02-08 14:30:11,707 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 14:54:32,379 - Model - INFO - PARAMETER ...
+2023-02-08 14:54:32,379 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 14:54:32,381 - Model - INFO - Load dataset ...
+2023-02-08 14:54:35,949 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 14:54:35,951 - Model - INFO - Start training...
+2023-02-08 14:54:35,951 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:31:45,908 - Model - INFO - PARAMETER ...
+2023-02-08 15:31:45,909 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:31:45,917 - Model - INFO - Load dataset ...
+2023-02-08 15:31:48,615 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:31:48,620 - Model - INFO - Start training...
+2023-02-08 15:31:48,621 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:33:15,662 - Model - INFO - PARAMETER ...
+2023-02-08 15:33:15,663 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:33:15,669 - Model - INFO - Load dataset ...
+2023-02-08 15:33:18,529 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:33:18,534 - Model - INFO - Start training...
+2023-02-08 15:33:18,534 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:38:17,680 - Model - INFO - PARAMETER ...
+2023-02-08 15:38:17,680 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:38:17,686 - Model - INFO - Load dataset ...
+2023-02-08 15:38:20,653 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:38:20,659 - Model - INFO - Start training...
+2023-02-08 15:38:20,659 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:40:49,520 - Model - INFO - PARAMETER ...
+2023-02-08 15:40:49,521 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:40:49,526 - Model - INFO - Load dataset ...
+2023-02-08 15:40:52,309 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:40:52,314 - Model - INFO - Start training...
+2023-02-08 15:40:52,314 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:43:22,557 - Model - INFO - PARAMETER ...
+2023-02-08 15:43:22,557 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:43:22,563 - Model - INFO - Load dataset ...
+2023-02-08 15:43:25,232 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:43:25,236 - Model - INFO - Start training...
+2023-02-08 15:43:25,236 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:45:09,909 - Model - INFO - PARAMETER ...
+2023-02-08 15:45:09,909 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:45:09,911 - Model - INFO - Load dataset ...
+2023-02-08 15:45:12,751 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:45:12,752 - Model - INFO - Start training...
+2023-02-08 15:45:12,752 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:45:40,416 - Model - INFO - PARAMETER ...
+2023-02-08 15:45:40,416 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:45:40,418 - Model - INFO - Load dataset ...
+2023-02-08 15:45:43,078 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:45:43,080 - Model - INFO - Start training...
+2023-02-08 15:45:43,080 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:57:34,140 - Model - INFO - PARAMETER ...
+2023-02-08 15:57:34,141 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:57:34,146 - Model - INFO - Load dataset ...
+2023-02-08 15:57:36,832 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:57:36,838 - Model - INFO - Start training...
+2023-02-08 15:57:36,838 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:58:45,073 - Model - INFO - PARAMETER ...
+2023-02-08 15:58:45,073 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:58:45,078 - Model - INFO - Load dataset ...
+2023-02-08 15:58:49,281 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:58:49,290 - Model - INFO - Start training...
+2023-02-08 15:58:49,290 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 15:59:28,515 - Model - INFO - PARAMETER ...
+2023-02-08 15:59:28,515 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 15:59:28,516 - Model - INFO - Load dataset ...
+2023-02-08 15:59:31,295 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 15:59:31,296 - Model - INFO - Start training...
+2023-02-08 15:59:31,296 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:02:14,635 - Model - INFO - PARAMETER ...
+2023-02-08 16:02:14,635 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:02:14,637 - Model - INFO - Load dataset ...
+2023-02-08 16:02:17,351 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:02:17,352 - Model - INFO - Start training...
+2023-02-08 16:02:17,352 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:02:47,262 - Model - INFO - PARAMETER ...
+2023-02-08 16:02:47,262 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:02:47,264 - Model - INFO - Load dataset ...
+2023-02-08 16:02:49,707 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:02:49,708 - Model - INFO - Start training...
+2023-02-08 16:02:49,708 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:04:11,951 - Model - INFO - PARAMETER ...
+2023-02-08 16:04:11,951 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:04:11,953 - Model - INFO - Load dataset ...
+2023-02-08 16:04:14,935 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:04:14,936 - Model - INFO - Start training...
+2023-02-08 16:04:14,936 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:04:46,701 - Model - INFO - PARAMETER ...
+2023-02-08 16:04:46,701 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:04:46,703 - Model - INFO - Load dataset ...
+2023-02-08 16:04:49,268 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:04:49,269 - Model - INFO - Start training...
+2023-02-08 16:04:49,269 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:10:25,034 - Model - INFO - PARAMETER ...
+2023-02-08 16:10:25,034 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:10:25,036 - Model - INFO - Load dataset ...
+2023-02-08 16:10:27,842 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:10:27,843 - Model - INFO - Start training...
+2023-02-08 16:10:27,843 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:10:42,089 - Model - INFO - PARAMETER ...
+2023-02-08 16:10:42,090 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:10:42,091 - Model - INFO - Load dataset ...
+2023-02-08 16:10:44,771 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:10:44,772 - Model - INFO - Start training...
+2023-02-08 16:10:44,772 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:11:23,208 - Model - INFO - Training mean loss: 0.425019
+2023-02-08 16:11:23,209 - Model - INFO - Train Accuracy: 0.802167
+2023-02-08 16:11:23,209 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2023-02-08 16:17:00,481 - Model - INFO - PARAMETER ...
+2023-02-08 16:17:00,481 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:17:00,483 - Model - INFO - Load dataset ...
+2023-02-08 16:17:03,254 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:17:03,255 - Model - INFO - Start training...
+2023-02-08 16:17:03,255 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:17:41,765 - Model - INFO - Training mean loss: 0.423400
+2023-02-08 16:17:41,765 - Model - INFO - Train Accuracy: 0.802292
+2023-02-08 16:17:41,766 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2023-02-08 16:20:01,758 - Model - INFO - PARAMETER ...
+2023-02-08 16:20:01,758 - Model - INFO - Namespace(batch_size=30, decay_rate=0.0001, epoch=200, gpu='2', learning_rate=0.003, log_dir='pointnet2_wypr', model='pointnet2_wypr', num_category=20, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-02-08 16:20:01,759 - Model - INFO - Load dataset ...
+2023-02-08 16:20:04,581 - Model - INFO - No existing model, starting training from scratch...
+2023-02-08 16:20:04,582 - Model - INFO - Start training...
+2023-02-08 16:20:04,582 - Model - INFO - Epoch 1 (1/200):
+2023-02-08 16:20:43,093 - Model - INFO - Training mean loss: 0.423514
+2023-02-08 16:20:43,094 - Model - INFO - Train Accuracy: 0.805750
+2023-02-08 16:20:43,094 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2023-02-08 16:20:51,620 - Model - INFO - Mean IoU = 2.7%
+2023-02-08 16:20:51,621 - Model - INFO - Best Mean IoU = 0.0%
+2023-02-08 16:20:51,621 - Model - INFO - [0.23709466 0.3037592  0.         0.         0.00184706 0.
+ 0.         0.00062899 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:20:51,625 - Model - INFO - Save model...
+2023-02-08 16:20:51,625 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:20:51,685 - Model - INFO - End of training...
+2023-02-08 16:20:51,685 - Model - INFO - Epoch 2 (2/200):
+2023-02-08 16:21:29,864 - Model - INFO - Training mean loss: 1.325591
+2023-02-08 16:21:29,865 - Model - INFO - Train Accuracy: 3.023485
+2023-02-08 16:21:29,866 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2023-02-08 16:21:39,321 - Model - INFO - Mean IoU = 3.8%
+2023-02-08 16:21:39,321 - Model - INFO - Best Mean IoU = 2.7%
+2023-02-08 16:21:39,321 - Model - INFO - [0.43091273 0.33105287 0.         0.         0.00087652 0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:21:39,326 - Model - INFO - Save model...
+2023-02-08 16:21:39,326 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:21:39,370 - Model - INFO - End of training...
+2023-02-08 16:21:39,371 - Model - INFO - Epoch 3 (3/200):
+2023-02-08 16:22:17,800 - Model - INFO - Training mean loss: 1.271590
+2023-02-08 16:22:17,800 - Model - INFO - Train Accuracy: 3.051818
+2023-02-08 16:22:17,801 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2023-02-08 16:22:26,214 - Model - INFO - Mean IoU = 4.9%
+2023-02-08 16:22:26,214 - Model - INFO - Best Mean IoU = 3.8%
+2023-02-08 16:22:26,214 - Model - INFO - [0.48451182 0.44691968 0.         0.         0.05162423 0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:22:26,218 - Model - INFO - Save model...
+2023-02-08 16:22:26,219 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:22:26,256 - Model - INFO - End of training...
+2023-02-08 16:22:26,256 - Model - INFO - Epoch 4 (4/200):
+2023-02-08 16:23:04,637 - Model - INFO - Training mean loss: 1.260204
+2023-02-08 16:23:04,637 - Model - INFO - Train Accuracy: 3.059394
+2023-02-08 16:23:04,638 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2023-02-08 16:23:14,438 - Model - INFO - Mean IoU = 3.3%
+2023-02-08 16:23:14,438 - Model - INFO - Best Mean IoU = 4.9%
+2023-02-08 16:23:14,438 - Model - INFO - [3.9730963e-01 1.4736506e-01 0.0000000e+00 0.0000000e+00 4.6829276e-02
+ 1.4924927e-05 6.7477323e-02 0.0000000e+00 0.0000000e+00 0.0000000e+00
+ 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+ 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00]
+2023-02-08 16:23:14,445 - Model - INFO - End of training...
+2023-02-08 16:23:14,445 - Model - INFO - Epoch 5 (5/200):
+2023-02-08 16:23:52,760 - Model - INFO - Training mean loss: 1.172545
+2023-02-08 16:23:52,761 - Model - INFO - Train Accuracy: 3.106364
+2023-02-08 16:23:52,761 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2023-02-08 16:24:01,623 - Model - INFO - Mean IoU = 4.6%
+2023-02-08 16:24:01,623 - Model - INFO - Best Mean IoU = 4.9%
+2023-02-08 16:24:01,623 - Model - INFO - [4.4794962e-01 2.6066023e-01 0.0000000e+00 0.0000000e+00 8.8865221e-02
+ 9.6757403e-03 4.8966195e-02 0.0000000e+00 0.0000000e+00 5.5398248e-02
+ 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+ 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 2.2930959e-04]
+2023-02-08 16:24:01,631 - Model - INFO - End of training...
+2023-02-08 16:24:01,631 - Model - INFO - Epoch 6 (6/200):
+2023-02-08 16:24:39,941 - Model - INFO - Training mean loss: 1.214926
+2023-02-08 16:24:39,941 - Model - INFO - Train Accuracy: 3.086061
+2023-02-08 16:24:39,942 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2023-02-08 16:24:48,455 - Model - INFO - Mean IoU = 3.6%
+2023-02-08 16:24:48,456 - Model - INFO - Best Mean IoU = 4.9%
+2023-02-08 16:24:48,456 - Model - INFO - [0.42681596 0.1483166  0.         0.00392795 0.01535037 0.00763427
+ 0.08276527 0.         0.         0.02528022 0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:24:48,466 - Model - INFO - End of training...
+2023-02-08 16:24:48,466 - Model - INFO - Epoch 7 (7/200):
+2023-02-08 16:25:26,520 - Model - INFO - Training mean loss: 1.153134
+2023-02-08 16:25:26,520 - Model - INFO - Train Accuracy: 3.123030
+2023-02-08 16:25:26,521 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2023-02-08 16:25:34,707 - Model - INFO - Mean IoU = 5.6%
+2023-02-08 16:25:34,707 - Model - INFO - Best Mean IoU = 4.9%
+2023-02-08 16:25:34,707 - Model - INFO - [0.42691696 0.16818815 0.         0.17132306 0.02749557 0.00430508
+ 0.0333786  0.         0.         0.2297358  0.         0.
+ 0.05015102 0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:25:34,711 - Model - INFO - Save model...
+2023-02-08 16:25:34,711 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:25:34,750 - Model - INFO - End of training...
+2023-02-08 16:25:34,750 - Model - INFO - Epoch 8 (8/200):
+2023-02-08 16:26:12,925 - Model - INFO - Training mean loss: 1.112355
+2023-02-08 16:26:12,926 - Model - INFO - Train Accuracy: 3.141667
+2023-02-08 16:26:12,927 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2023-02-08 16:26:21,609 - Model - INFO - Mean IoU = 5.6%
+2023-02-08 16:26:21,609 - Model - INFO - Best Mean IoU = 5.6%
+2023-02-08 16:26:21,609 - Model - INFO - [0.41383308 0.13028383 0.         0.17509119 0.04338652 0.01445349
+ 0.05434528 0.         0.         0.19344127 0.         0.
+ 0.09290997 0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:26:21,613 - Model - INFO - Save model...
+2023-02-08 16:26:21,613 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:26:21,703 - Model - INFO - End of training...
+2023-02-08 16:26:21,704 - Model - INFO - Epoch 9 (9/200):
+2023-02-08 16:26:59,600 - Model - INFO - Training mean loss: 1.080505
+2023-02-08 16:26:59,600 - Model - INFO - Train Accuracy: 3.160303
+2023-02-08 16:26:59,601 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2023-02-08 16:27:07,903 - Model - INFO - Mean IoU = 7.3%
+2023-02-08 16:27:07,903 - Model - INFO - Best Mean IoU = 5.6%
+2023-02-08 16:27:07,904 - Model - INFO - [0.41752017 0.23347722 0.         0.06889721 0.19358815 0.14728557
+ 0.0262261  0.         0.         0.12474182 0.         0.24182007
+ 0.00534294 0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:27:07,908 - Model - INFO - Save model...
+2023-02-08 16:27:07,908 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:27:07,950 - Model - INFO - End of training...
+2023-02-08 16:27:07,950 - Model - INFO - Epoch 10 (10/200):
+2023-02-08 16:27:46,239 - Model - INFO - Training mean loss: 1.101830
+2023-02-08 16:27:46,239 - Model - INFO - Train Accuracy: 3.146213
+2023-02-08 16:27:46,240 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2023-02-08 16:27:56,055 - Model - INFO - Mean IoU = 7.8%
+2023-02-08 16:27:56,055 - Model - INFO - Best Mean IoU = 7.3%
+2023-02-08 16:27:56,055 - Model - INFO - [0.50268143 0.26679635 0.         0.02318323 0.11133446 0.08274599
+ 0.00938985 0.         0.         0.31489274 0.         0.182925
+ 0.0565362  0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:27:56,059 - Model - INFO - Save model...
+2023-02-08 16:27:56,059 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:27:56,097 - Model - INFO - End of training...
+2023-02-08 16:27:56,097 - Model - INFO - Epoch 11 (11/200):
+2023-02-08 16:28:34,084 - Model - INFO - Training mean loss: 1.052283
+2023-02-08 16:28:34,084 - Model - INFO - Train Accuracy: 3.172576
+2023-02-08 16:28:34,085 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2023-02-08 16:28:43,321 - Model - INFO - Mean IoU = 11.1%
+2023-02-08 16:28:43,321 - Model - INFO - Best Mean IoU = 7.8%
+2023-02-08 16:28:43,322 - Model - INFO - [0.47436184 0.17223491 0.00381176 0.4106127  0.11233118 0.26976305
+ 0.01604658 0.         0.         0.34844738 0.         0.19228491
+ 0.21626447 0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:28:43,326 - Model - INFO - Save model...
+2023-02-08 16:28:43,326 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:28:43,467 - Model - INFO - End of training...
+2023-02-08 16:28:43,468 - Model - INFO - Epoch 12 (12/200):
+2023-02-08 16:29:21,585 - Model - INFO - Training mean loss: 1.056090
+2023-02-08 16:29:21,585 - Model - INFO - Train Accuracy: 3.175000
+2023-02-08 16:29:21,586 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2023-02-08 16:29:29,763 - Model - INFO - Mean IoU = 8.1%
+2023-02-08 16:29:29,763 - Model - INFO - Best Mean IoU = 11.1%
+2023-02-08 16:29:29,763 - Model - INFO - [0.4362658  0.16189624 0.00921722 0.21987864 0.08877262 0.09491286
+ 0.0225555  0.         0.         0.29050827 0.         0.2556483
+ 0.03936781 0.         0.         0.         0.         0.
+ 0.         0.        ]
+2023-02-08 16:29:29,771 - Model - INFO - End of training...
+2023-02-08 16:29:29,771 - Model - INFO - Epoch 13 (13/200):
+2023-02-08 16:30:07,760 - Model - INFO - Training mean loss: 1.071871
+2023-02-08 16:30:07,760 - Model - INFO - Train Accuracy: 3.166515
+2023-02-08 16:30:07,761 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2023-02-08 16:30:15,943 - Model - INFO - Mean IoU = 6.3%
+2023-02-08 16:30:15,943 - Model - INFO - Best Mean IoU = 11.1%
+2023-02-08 16:30:15,943 - Model - INFO - [0.45210856 0.15870826 0.07094926 0.06260911 0.03782055 0.02730187
+ 0.00193433 0.         0.         0.13738419 0.         0.18183923
+ 0.05145128 0.         0.         0.         0.07545962 0.
+ 0.         0.        ]
+2023-02-08 16:30:15,951 - Model - INFO - End of training...
+2023-02-08 16:30:15,952 - Model - INFO - Epoch 14 (14/200):
+2023-02-08 16:30:54,168 - Model - INFO - Training mean loss: 1.062719
+2023-02-08 16:30:54,168 - Model - INFO - Train Accuracy: 3.160758
+2023-02-08 16:30:54,169 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2023-02-08 16:31:02,465 - Model - INFO - Mean IoU = 8.6%
+2023-02-08 16:31:02,465 - Model - INFO - Best Mean IoU = 11.1%
+2023-02-08 16:31:02,465 - Model - INFO - [0.4858194  0.26024723 0.00092491 0.26517218 0.03817918 0.20624399
+ 0.02157065 0.         0.         0.29320383 0.         0.10756647
+ 0.00892155 0.         0.         0.         0.02479577 0.
+ 0.         0.        ]
+2023-02-08 16:31:02,474 - Model - INFO - End of training...
+2023-02-08 16:31:02,474 - Model - INFO - Epoch 15 (15/200):
+2023-02-08 16:31:40,361 - Model - INFO - Training mean loss: 1.014791
+2023-02-08 16:31:40,361 - Model - INFO - Train Accuracy: 3.196061
+2023-02-08 16:31:40,362 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2023-02-08 16:31:49,258 - Model - INFO - Mean IoU = 10.7%
+2023-02-08 16:31:49,258 - Model - INFO - Best Mean IoU = 11.1%
+2023-02-08 16:31:49,258 - Model - INFO - [0.4553712  0.16062899 0.03141019 0.37739846 0.11896692 0.26390815
+ 0.02192402 0.         0.         0.28233734 0.         0.2532463
+ 0.17011979 0.         0.00287324 0.         0.00612988 0.
+ 0.         0.00048799]
+2023-02-08 16:31:49,266 - Model - INFO - End of training...
+2023-02-08 16:31:49,267 - Model - INFO - Epoch 16 (16/200):
+2023-02-08 16:32:27,750 - Model - INFO - Training mean loss: 1.002075
+2023-02-08 16:32:27,750 - Model - INFO - Train Accuracy: 3.195910
+2023-02-08 16:32:27,750 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2023-02-08 16:32:37,133 - Model - INFO - Mean IoU = 11.7%
+2023-02-08 16:32:37,133 - Model - INFO - Best Mean IoU = 11.1%
+2023-02-08 16:32:37,133 - Model - INFO - [4.6850836e-01 3.5645142e-01 2.3154594e-02 2.8941315e-01 1.0976279e-01
+ 2.6713893e-01 1.6069667e-02 0.0000000e+00 0.0000000e+00 4.5082131e-01
+ 0.0000000e+00 2.6181722e-01 1.0325146e-01 0.0000000e+00 0.0000000e+00
+ 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 2.5792481e-04]
+2023-02-08 16:32:37,136 - Model - INFO - Save model...
+2023-02-08 16:32:37,137 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:32:37,178 - Model - INFO - End of training...
+2023-02-08 16:32:37,178 - Model - INFO - Epoch 17 (17/200):
+2023-02-08 16:33:15,357 - Model - INFO - Training mean loss: 1.015451
+2023-02-08 16:33:15,357 - Model - INFO - Train Accuracy: 3.185607
+2023-02-08 16:33:15,358 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2023-02-08 16:33:23,668 - Model - INFO - Mean IoU = 11.7%
+2023-02-08 16:33:23,668 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:33:23,668 - Model - INFO - [4.6756062e-01 3.0941167e-01 4.5828777e-03 3.1754830e-01 8.1363820e-02
+ 3.2994923e-01 3.2603007e-02 0.0000000e+00 0.0000000e+00 4.4623774e-01
+ 0.0000000e+00 2.2701953e-01 1.2933896e-01 0.0000000e+00 0.0000000e+00
+ 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 6.3657976e-06]
+2023-02-08 16:33:23,676 - Model - INFO - End of training...
+2023-02-08 16:33:23,676 - Model - INFO - Epoch 18 (18/200):
+2023-02-08 16:34:01,717 - Model - INFO - Training mean loss: 1.011236
+2023-02-08 16:34:01,718 - Model - INFO - Train Accuracy: 3.197575
+2023-02-08 16:34:01,718 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2023-02-08 16:34:10,171 - Model - INFO - Mean IoU = 10.0%
+2023-02-08 16:34:10,171 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:34:10,171 - Model - INFO - [4.36908454e-01 1.69603199e-01 3.50690074e-02 2.58059084e-01
+ 6.86407089e-02 2.78047949e-01 5.85998930e-02 0.00000000e+00
+ 0.00000000e+00 3.29330415e-01 0.00000000e+00 2.34373838e-01
+ 1.11500137e-01 0.00000000e+00 1.92878906e-05 0.00000000e+00
+ 0.00000000e+00 3.74083502e-05 0.00000000e+00 1.14199575e-02]
+2023-02-08 16:34:10,178 - Model - INFO - End of training...
+2023-02-08 16:34:10,178 - Model - INFO - Epoch 19 (19/200):
+2023-02-08 16:34:48,319 - Model - INFO - Training mean loss: 0.978483
+2023-02-08 16:34:48,319 - Model - INFO - Train Accuracy: 3.209849
+2023-02-08 16:34:48,320 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2023-02-08 16:34:56,592 - Model - INFO - Mean IoU = 11.2%
+2023-02-08 16:34:56,592 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:34:56,592 - Model - INFO - [0.440629   0.33200532 0.05306451 0.40428182 0.05459234 0.22529548
+ 0.01277486 0.         0.         0.23763244 0.         0.24867387
+ 0.23152515 0.         0.00213624 0.         0.         0.
+ 0.         0.0053337 ]
+2023-02-08 16:34:56,599 - Model - INFO - End of training...
+2023-02-08 16:34:56,599 - Model - INFO - Epoch 20 (20/200):
+2023-02-08 16:35:34,552 - Model - INFO - Training mean loss: 0.924294
+2023-02-08 16:35:34,552 - Model - INFO - Train Accuracy: 3.234848
+2023-02-08 16:35:34,553 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2023-02-08 16:35:42,866 - Model - INFO - Mean IoU = 11.4%
+2023-02-08 16:35:42,866 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:35:42,866 - Model - INFO - [4.6789190e-01 1.7640738e-01 3.6374066e-02 2.7502012e-01 1.3689652e-01
+ 2.1262403e-01 1.9240195e-02 0.0000000e+00 1.2756257e-04 4.0274101e-01
+ 0.0000000e+00 2.7923301e-01 2.3156713e-01 0.0000000e+00 7.6548639e-04
+ 0.0000000e+00 4.6091568e-02 2.6284170e-04 0.0000000e+00 2.6842440e-03]
+2023-02-08 16:35:42,873 - Model - INFO - End of training...
+2023-02-08 16:35:42,873 - Model - INFO - Epoch 21 (21/200):
+2023-02-08 16:36:20,885 - Model - INFO - Training mean loss: 0.917973
+2023-02-08 16:36:20,885 - Model - INFO - Train Accuracy: 3.246364
+2023-02-08 16:36:20,885 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2023-02-08 16:36:29,170 - Model - INFO - Mean IoU = 10.4%
+2023-02-08 16:36:29,170 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:36:29,171 - Model - INFO - [0.46456817 0.26393908 0.02064431 0.2714134  0.09023842 0.37464842
+ 0.0278686  0.         0.         0.26324418 0.         0.07052441
+ 0.22352628 0.         0.         0.         0.00950158 0.
+ 0.         0.00235717]
+2023-02-08 16:36:29,178 - Model - INFO - End of training...
+2023-02-08 16:36:29,178 - Model - INFO - Epoch 22 (22/200):
+2023-02-08 16:37:07,219 - Model - INFO - Training mean loss: 0.908219
+2023-02-08 16:37:07,219 - Model - INFO - Train Accuracy: 3.236970
+2023-02-08 16:37:07,220 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2023-02-08 16:37:15,533 - Model - INFO - Mean IoU = 11.6%
+2023-02-08 16:37:15,533 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:37:15,533 - Model - INFO - [0.4468918  0.15596297 0.07751922 0.3131148  0.14638151 0.30615053
+ 0.02576818 0.         0.         0.3310536  0.         0.16188714
+ 0.2584693  0.         0.00207089 0.         0.0901867  0.00310874
+ 0.         0.00904151]
+2023-02-08 16:37:15,541 - Model - INFO - End of training...
+2023-02-08 16:37:15,541 - Model - INFO - Epoch 23 (23/200):
+2023-02-08 16:37:53,550 - Model - INFO - Training mean loss: 0.897919
+2023-02-08 16:37:53,551 - Model - INFO - Train Accuracy: 3.249848
+2023-02-08 16:37:53,551 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2023-02-08 16:38:02,057 - Model - INFO - Mean IoU = 12.1%
+2023-02-08 16:38:02,058 - Model - INFO - Best Mean IoU = 11.7%
+2023-02-08 16:38:02,058 - Model - INFO - [4.0674624e-01 2.6611456e-01 9.1871679e-02 3.4891969e-01 5.5258133e-02
+ 3.2671821e-01 4.9399946e-02 0.0000000e+00 2.9413000e-05 4.4980329e-01
+ 0.0000000e+00 1.5224200e-01 1.5952714e-01 2.9943269e-04 1.4500599e-03
+ 0.0000000e+00 1.1326264e-01 3.0115992e-03 0.0000000e+00 5.3228191e-03]
+2023-02-08 16:38:02,061 - Model - INFO - Save model...
+2023-02-08 16:38:02,061 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:38:02,099 - Model - INFO - End of training...
+2023-02-08 16:38:02,099 - Model - INFO - Epoch 24 (24/200):
+2023-02-08 16:38:40,063 - Model - INFO - Training mean loss: 0.918057
+2023-02-08 16:38:40,063 - Model - INFO - Train Accuracy: 3.241060
+2023-02-08 16:38:40,063 - Model - INFO - ---- EPOCH 024 EVALUATION ----
+2023-02-08 16:38:49,308 - Model - INFO - Mean IoU = 12.5%
+2023-02-08 16:38:49,309 - Model - INFO - Best Mean IoU = 12.1%
+2023-02-08 16:38:49,309 - Model - INFO - [4.84383762e-01 1.28572240e-01 6.90701678e-02 3.72918457e-01
+ 1.12352133e-01 4.45593774e-01 2.97594387e-02 0.00000000e+00
+ 1.11859605e-04 4.40704316e-01 0.00000000e+00 8.87208432e-02
+ 2.01904744e-01 8.22172369e-05 0.00000000e+00 0.00000000e+00
+ 1.28982380e-01 0.00000000e+00 0.00000000e+00 5.42589463e-03]
+2023-02-08 16:38:49,313 - Model - INFO - Save model...
+2023-02-08 16:38:49,313 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:38:49,355 - Model - INFO - End of training...
+2023-02-08 16:38:49,355 - Model - INFO - Epoch 25 (25/200):
+2023-02-08 16:39:27,333 - Model - INFO - Training mean loss: 0.888040
+2023-02-08 16:39:27,333 - Model - INFO - Train Accuracy: 3.263182
+2023-02-08 16:39:27,334 - Model - INFO - ---- EPOCH 025 EVALUATION ----
+2023-02-08 16:39:35,668 - Model - INFO - Mean IoU = 11.7%
+2023-02-08 16:39:35,668 - Model - INFO - Best Mean IoU = 12.5%
+2023-02-08 16:39:35,668 - Model - INFO - [4.3512782e-01 2.6371330e-01 5.2551161e-02 3.6570379e-01 7.7268742e-02
+ 3.5856608e-01 2.7464593e-02 0.0000000e+00 0.0000000e+00 3.4105843e-01
+ 1.9324792e-05 2.1719296e-02 2.4260795e-01 9.2769954e-03 1.9806686e-05
+ 0.0000000e+00 1.4772052e-01 4.1847370e-04 0.0000000e+00 5.9613036e-03]
+2023-02-08 16:39:35,676 - Model - INFO - End of training...
+2023-02-08 16:39:35,676 - Model - INFO - Epoch 26 (26/200):
+2023-02-08 16:40:13,704 - Model - INFO - Training mean loss: 0.901351
+2023-02-08 16:40:13,705 - Model - INFO - Train Accuracy: 3.246212
+2023-02-08 16:40:13,705 - Model - INFO - ---- EPOCH 026 EVALUATION ----
+2023-02-08 16:40:22,110 - Model - INFO - Mean IoU = 12.5%
+2023-02-08 16:40:22,110 - Model - INFO - Best Mean IoU = 12.5%
+2023-02-08 16:40:22,110 - Model - INFO - [4.67088193e-01 3.34080696e-01 4.67663184e-02 3.41940343e-01
+ 5.51681519e-02 3.68017256e-01 1.40090985e-02 0.00000000e+00
+ 0.00000000e+00 4.04324055e-01 0.00000000e+00 1.17777109e-01
+ 2.47038782e-01 9.93024005e-05 5.81361564e-05 0.00000000e+00
+ 9.64507684e-02 2.32251594e-03 0.00000000e+00 3.84114357e-03]
+2023-02-08 16:40:22,117 - Model - INFO - End of training...
+2023-02-08 16:40:22,117 - Model - INFO - Epoch 27 (27/200):
+2023-02-08 16:41:00,170 - Model - INFO - Training mean loss: 0.893149
+2023-02-08 16:41:00,170 - Model - INFO - Train Accuracy: 3.250757
+2023-02-08 16:41:00,171 - Model - INFO - ---- EPOCH 027 EVALUATION ----
+2023-02-08 16:41:08,690 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 16:41:08,690 - Model - INFO - Best Mean IoU = 12.5%
+2023-02-08 16:41:08,690 - Model - INFO - [0.49521452 0.22867167 0.12052456 0.31367287 0.16514719 0.4523837
+ 0.09294949 0.         0.         0.29312584 0.         0.09099007
+ 0.24548373 0.         0.00132448 0.         0.09246581 0.00177598
+ 0.         0.00944543]
+2023-02-08 16:41:08,693 - Model - INFO - Save model...
+2023-02-08 16:41:08,694 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:41:08,730 - Model - INFO - End of training...
+2023-02-08 16:41:08,730 - Model - INFO - Epoch 28 (28/200):
+2023-02-08 16:41:46,662 - Model - INFO - Training mean loss: 0.874428
+2023-02-08 16:41:46,662 - Model - INFO - Train Accuracy: 3.260152
+2023-02-08 16:41:46,663 - Model - INFO - ---- EPOCH 028 EVALUATION ----
+2023-02-08 16:41:54,925 - Model - INFO - Mean IoU = 12.3%
+2023-02-08 16:41:54,925 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:41:54,925 - Model - INFO - [4.4447389e-01 2.1498732e-01 1.7928120e-02 2.8922939e-01 1.6011849e-01
+ 3.6974719e-01 4.7399241e-02 0.0000000e+00 0.0000000e+00 4.2497081e-01
+ 0.0000000e+00 2.2653437e-01 1.8099627e-01 1.3401366e-03 0.0000000e+00
+ 0.0000000e+00 6.9383010e-02 1.3115614e-04 0.0000000e+00 4.6156053e-03]
+2023-02-08 16:41:54,933 - Model - INFO - End of training...
+2023-02-08 16:41:54,933 - Model - INFO - Epoch 29 (29/200):
+2023-02-08 16:42:32,833 - Model - INFO - Training mean loss: 0.873160
+2023-02-08 16:42:32,833 - Model - INFO - Train Accuracy: 3.264091
+2023-02-08 16:42:32,834 - Model - INFO - ---- EPOCH 029 EVALUATION ----
+2023-02-08 16:42:41,162 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 16:42:41,162 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:42:41,163 - Model - INFO - [4.9094903e-01 3.3628547e-01 8.4595807e-02 3.4196123e-01 1.6901171e-01
+ 3.7911594e-01 5.5592768e-02 0.0000000e+00 1.0240966e-03 4.0994129e-01
+ 2.1249469e-05 1.8124938e-02 2.2286716e-01 6.9840532e-04 2.5406403e-03
+ 0.0000000e+00 5.6703702e-02 1.0299947e-03 0.0000000e+00 3.3624363e-03]
+2023-02-08 16:42:41,170 - Model - INFO - End of training...
+2023-02-08 16:42:41,170 - Model - INFO - Epoch 30 (30/200):
+2023-02-08 16:43:19,292 - Model - INFO - Training mean loss: 0.856156
+2023-02-08 16:43:19,293 - Model - INFO - Train Accuracy: 3.261818
+2023-02-08 16:43:19,294 - Model - INFO - ---- EPOCH 030 EVALUATION ----
+2023-02-08 16:43:27,599 - Model - INFO - Mean IoU = 12.7%
+2023-02-08 16:43:27,599 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:43:27,599 - Model - INFO - [4.78464931e-01 3.98929894e-01 4.79259454e-02 3.28429788e-01
+ 1.67894304e-01 2.65449733e-01 1.98352337e-02 0.00000000e+00
+ 1.54630558e-04 3.92465323e-01 0.00000000e+00 7.74385408e-02
+ 2.49051005e-01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 1.16013445e-01 3.29869712e-04 0.00000000e+00 2.64642714e-03]
+2023-02-08 16:43:27,606 - Model - INFO - End of training...
+2023-02-08 16:43:27,606 - Model - INFO - Epoch 31 (31/200):
+2023-02-08 16:44:05,644 - Model - INFO - Training mean loss: 0.852603
+2023-02-08 16:44:05,644 - Model - INFO - Train Accuracy: 3.270454
+2023-02-08 16:44:05,645 - Model - INFO - ---- EPOCH 031 EVALUATION ----
+2023-02-08 16:44:14,381 - Model - INFO - Mean IoU = 12.3%
+2023-02-08 16:44:14,381 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:44:14,381 - Model - INFO - [4.3706191e-01 2.0519541e-01 6.7356773e-02 3.1430793e-01 1.1229411e-01
+ 4.0380606e-01 9.9538527e-02 0.0000000e+00 6.6766537e-05 2.5812393e-01
+ 0.0000000e+00 1.3116314e-01 2.9682848e-01 3.2028183e-05 2.9602079e-03
+ 0.0000000e+00 1.1332806e-01 4.0732953e-03 0.0000000e+00 7.9221223e-03]
+2023-02-08 16:44:14,389 - Model - INFO - End of training...
+2023-02-08 16:44:14,389 - Model - INFO - Epoch 32 (32/200):
+2023-02-08 16:44:52,348 - Model - INFO - Training mean loss: 0.872685
+2023-02-08 16:44:52,348 - Model - INFO - Train Accuracy: 3.259243
+2023-02-08 16:44:52,349 - Model - INFO - ---- EPOCH 032 EVALUATION ----
+2023-02-08 16:45:00,786 - Model - INFO - Mean IoU = 11.7%
+2023-02-08 16:45:00,787 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:45:00,787 - Model - INFO - [4.8894337e-01 1.4834671e-01 8.2741968e-02 3.1790200e-01 1.3969001e-01
+ 4.1681701e-01 4.8482250e-02 0.0000000e+00 4.0457821e-06 3.7479123e-01
+ 4.6420144e-03 6.8408571e-02 1.7518210e-01 1.2554984e-02 0.0000000e+00
+ 0.0000000e+00 5.7707265e-02 5.6624075e-04 0.0000000e+00 1.9555176e-03]
+2023-02-08 16:45:00,794 - Model - INFO - End of training...
+2023-02-08 16:45:00,794 - Model - INFO - Epoch 33 (33/200):
+2023-02-08 16:45:38,628 - Model - INFO - Training mean loss: 0.866673
+2023-02-08 16:45:38,628 - Model - INFO - Train Accuracy: 3.260455
+2023-02-08 16:45:38,628 - Model - INFO - ---- EPOCH 033 EVALUATION ----
+2023-02-08 16:45:47,101 - Model - INFO - Mean IoU = 12.3%
+2023-02-08 16:45:47,101 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:45:47,101 - Model - INFO - [4.2874828e-01 1.8824840e-01 1.0168661e-01 3.5607719e-01 1.6982204e-01
+ 4.3537262e-01 5.6852311e-02 0.0000000e+00 3.5879840e-04 2.7192089e-01
+ 3.9429844e-05 1.3987029e-01 1.8369353e-01 6.3476912e-03 1.0643365e-02
+ 0.0000000e+00 9.4926067e-02 8.7393681e-03 0.0000000e+00 4.8549543e-03]
+2023-02-08 16:45:47,109 - Model - INFO - End of training...
+2023-02-08 16:45:47,109 - Model - INFO - Epoch 34 (34/200):
+2023-02-08 16:46:25,170 - Model - INFO - Training mean loss: 0.835238
+2023-02-08 16:46:25,170 - Model - INFO - Train Accuracy: 3.274242
+2023-02-08 16:46:25,171 - Model - INFO - ---- EPOCH 034 EVALUATION ----
+2023-02-08 16:46:33,486 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 16:46:33,487 - Model - INFO - Best Mean IoU = 13.0%
+2023-02-08 16:46:33,487 - Model - INFO - [4.5756212e-01 2.7359304e-01 1.3715123e-01 3.5877723e-01 1.3022894e-01
+ 3.8340959e-01 7.3807418e-02 0.0000000e+00 2.9074718e-04 3.5996661e-01
+ 1.2412228e-03 1.6405165e-01 2.4079147e-01 6.4186454e-03 9.2468206e-03
+ 0.0000000e+00 1.3446021e-01 1.9244030e-03 0.0000000e+00 4.5196274e-03]
+2023-02-08 16:46:33,490 - Model - INFO - Save model...
+2023-02-08 16:46:33,490 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:46:33,530 - Model - INFO - End of training...
+2023-02-08 16:46:33,530 - Model - INFO - Epoch 35 (35/200):
+2023-02-08 16:47:11,490 - Model - INFO - Training mean loss: 0.828271
+2023-02-08 16:47:11,490 - Model - INFO - Train Accuracy: 3.282727
+2023-02-08 16:47:11,491 - Model - INFO - ---- EPOCH 035 EVALUATION ----
+2023-02-08 16:47:19,820 - Model - INFO - Mean IoU = 12.5%
+2023-02-08 16:47:19,820 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:47:19,820 - Model - INFO - [0.48082983 0.26663926 0.09546622 0.23335738 0.12591985 0.39462268
+ 0.09532067 0.         0.         0.35677215 0.         0.11893445
+ 0.22073452 0.         0.00393686 0.         0.10278817 0.00343502
+ 0.         0.00210601]
+2023-02-08 16:47:19,829 - Model - INFO - End of training...
+2023-02-08 16:47:19,829 - Model - INFO - Epoch 36 (36/200):
+2023-02-08 16:47:57,805 - Model - INFO - Training mean loss: 0.819474
+2023-02-08 16:47:57,805 - Model - INFO - Train Accuracy: 3.283637
+2023-02-08 16:47:57,805 - Model - INFO - ---- EPOCH 036 EVALUATION ----
+2023-02-08 16:48:06,018 - Model - INFO - Mean IoU = 12.3%
+2023-02-08 16:48:06,018 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:48:06,018 - Model - INFO - [4.5009506e-01 3.3854106e-01 8.0881812e-02 2.8692046e-01 1.5670191e-01
+ 2.7887660e-01 3.6294218e-02 1.1659870e-05 3.8697971e-03 3.8832676e-01
+ 0.0000000e+00 5.2147668e-02 2.5619727e-01 1.1528572e-03 0.0000000e+00
+ 0.0000000e+00 1.2938057e-01 1.2277041e-04 0.0000000e+00 1.0396929e-02]
+2023-02-08 16:48:06,026 - Model - INFO - End of training...
+2023-02-08 16:48:06,026 - Model - INFO - Epoch 37 (37/200):
+2023-02-08 16:48:43,970 - Model - INFO - Training mean loss: 0.802039
+2023-02-08 16:48:43,971 - Model - INFO - Train Accuracy: 3.291364
+2023-02-08 16:48:43,971 - Model - INFO - ---- EPOCH 037 EVALUATION ----
+2023-02-08 16:48:52,460 - Model - INFO - Mean IoU = 12.8%
+2023-02-08 16:48:52,460 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:48:52,460 - Model - INFO - [4.65795904e-01 2.03211099e-01 1.19358145e-01 3.21695685e-01
+ 1.35715514e-01 3.78276527e-01 1.20005190e-01 0.00000000e+00
+ 1.08358712e-04 4.38739210e-01 2.67301430e-03 5.89915551e-02
+ 1.95474774e-01 4.69748536e-03 0.00000000e+00 0.00000000e+00
+ 1.17540658e-01 1.49997417e-03 0.00000000e+00 3.77659075e-04]
+2023-02-08 16:48:52,469 - Model - INFO - End of training...
+2023-02-08 16:48:52,469 - Model - INFO - Epoch 38 (38/200):
+2023-02-08 16:49:30,567 - Model - INFO - Training mean loss: 0.796951
+2023-02-08 16:49:30,567 - Model - INFO - Train Accuracy: 3.298333
+2023-02-08 16:49:30,568 - Model - INFO - ---- EPOCH 038 EVALUATION ----
+2023-02-08 16:49:38,857 - Model - INFO - Mean IoU = 12.7%
+2023-02-08 16:49:38,857 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:49:38,857 - Model - INFO - [4.3724763e-01 1.4546004e-01 1.2716104e-01 3.3225948e-01 1.7354383e-01
+ 4.4241548e-01 5.2458428e-02 0.0000000e+00 1.8272264e-04 3.8327035e-01
+ 0.0000000e+00 6.4155936e-02 2.4234472e-01 2.8725027e-03 6.1199511e-04
+ 0.0000000e+00 1.3445725e-01 2.4910842e-03 0.0000000e+00 1.7497673e-03]
+2023-02-08 16:49:38,865 - Model - INFO - End of training...
+2023-02-08 16:49:38,865 - Model - INFO - Epoch 39 (39/200):
+2023-02-08 16:50:16,698 - Model - INFO - Training mean loss: 0.846822
+2023-02-08 16:50:16,698 - Model - INFO - Train Accuracy: 3.271667
+2023-02-08 16:50:16,699 - Model - INFO - ---- EPOCH 039 EVALUATION ----
+2023-02-08 16:50:25,373 - Model - INFO - Mean IoU = 11.3%
+2023-02-08 16:50:25,373 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:50:25,373 - Model - INFO - [4.71149683e-01 1.32470921e-01 1.02110445e-01 2.18280524e-01
+ 1.53624177e-01 3.92054975e-01 7.17608184e-02 6.70538284e-05
+ 5.28525270e-04 3.54333252e-01 6.19693892e-05 4.12567481e-02
+ 1.89591542e-01 5.38986130e-03 1.42787362e-03 0.00000000e+00
+ 1.23886012e-01 1.75813795e-03 0.00000000e+00 2.15382362e-03]
+2023-02-08 16:50:25,380 - Model - INFO - End of training...
+2023-02-08 16:50:25,380 - Model - INFO - Epoch 40 (40/200):
+2023-02-08 16:51:03,451 - Model - INFO - Training mean loss: 0.797949
+2023-02-08 16:51:03,451 - Model - INFO - Train Accuracy: 3.295909
+2023-02-08 16:51:03,452 - Model - INFO - ---- EPOCH 040 EVALUATION ----
+2023-02-08 16:51:12,194 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 16:51:12,194 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:51:12,194 - Model - INFO - [4.5443425e-01 2.2589765e-01 1.0194904e-01 3.2744282e-01 1.5778197e-01
+ 4.4946578e-01 4.0625226e-02 1.3407599e-04 1.1693708e-03 4.3449900e-01
+ 5.3602457e-04 8.0378905e-02 2.5827679e-01 6.2552455e-04 4.7898213e-03
+ 0.0000000e+00 1.1942829e-01 1.7504742e-03 0.0000000e+00 1.9261789e-03]
+2023-02-08 16:51:12,202 - Model - INFO - End of training...
+2023-02-08 16:51:12,202 - Model - INFO - Epoch 41 (41/200):
+2023-02-08 16:51:50,268 - Model - INFO - Training mean loss: 0.748765
+2023-02-08 16:51:50,269 - Model - INFO - Train Accuracy: 3.316667
+2023-02-08 16:51:50,269 - Model - INFO - ---- EPOCH 041 EVALUATION ----
+2023-02-08 16:51:58,680 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 16:51:58,680 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:51:58,680 - Model - INFO - [4.5800179e-01 3.0170920e-01 1.0820705e-01 3.4076929e-01 1.8131094e-01
+ 4.0261427e-01 6.2428631e-02 2.9145513e-06 2.4631128e-04 4.3699756e-01
+ 0.0000000e+00 3.5435323e-02 2.6109275e-01 2.7452162e-03 1.1855871e-02
+ 0.0000000e+00 1.2767966e-01 1.7788741e-04 0.0000000e+00 8.0446871e-03]
+2023-02-08 16:51:58,684 - Model - INFO - Save model...
+2023-02-08 16:51:58,684 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:51:58,764 - Model - INFO - End of training...
+2023-02-08 16:51:58,764 - Model - INFO - Epoch 42 (42/200):
+2023-02-08 16:52:36,683 - Model - INFO - Training mean loss: 0.730920
+2023-02-08 16:52:36,683 - Model - INFO - Train Accuracy: 3.326061
+2023-02-08 16:52:36,684 - Model - INFO - ---- EPOCH 042 EVALUATION ----
+2023-02-08 16:52:46,008 - Model - INFO - Mean IoU = 14.3%
+2023-02-08 16:52:46,008 - Model - INFO - Best Mean IoU = 13.7%
+2023-02-08 16:52:46,008 - Model - INFO - [4.6153399e-01 2.3374318e-01 1.4134797e-01 3.4613398e-01 2.0164268e-01
+ 4.2144755e-01 7.6606944e-02 2.9172550e-06 3.5026131e-04 4.5750597e-01
+ 0.0000000e+00 1.5635186e-01 2.5176466e-01 1.1798830e-03 1.4832235e-02
+ 0.0000000e+00 9.5136225e-02 4.4264523e-03 0.0000000e+00 4.8608622e-03]
+2023-02-08 16:52:46,012 - Model - INFO - Save model...
+2023-02-08 16:52:46,013 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:52:46,055 - Model - INFO - End of training...
+2023-02-08 16:52:46,055 - Model - INFO - Epoch 43 (43/200):
+2023-02-08 16:53:24,066 - Model - INFO - Training mean loss: 0.746727
+2023-02-08 16:53:24,067 - Model - INFO - Train Accuracy: 3.318940
+2023-02-08 16:53:24,068 - Model - INFO - ---- EPOCH 043 EVALUATION ----
+2023-02-08 16:53:32,462 - Model - INFO - Mean IoU = 14.3%
+2023-02-08 16:53:32,462 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:53:32,462 - Model - INFO - [4.5104530e-01 2.6616421e-01 7.7709943e-02 3.9506927e-01 1.7616704e-01
+ 4.2209002e-01 7.5556561e-02 0.0000000e+00 4.6046331e-04 5.0183290e-01
+ 1.7592212e-04 1.3737679e-01 2.5974470e-01 4.6251179e-03 2.6309854e-04
+ 0.0000000e+00 9.1066055e-02 7.1758183e-04 0.0000000e+00 6.1516357e-03]
+2023-02-08 16:53:32,470 - Model - INFO - End of training...
+2023-02-08 16:53:32,471 - Model - INFO - Epoch 44 (44/200):
+2023-02-08 16:54:10,535 - Model - INFO - Training mean loss: 0.741764
+2023-02-08 16:54:10,536 - Model - INFO - Train Accuracy: 3.318788
+2023-02-08 16:54:10,536 - Model - INFO - ---- EPOCH 044 EVALUATION ----
+2023-02-08 16:54:18,846 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 16:54:18,846 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:54:18,846 - Model - INFO - [0.42631558 0.2624941  0.090819   0.3138219  0.16461667 0.36117223
+ 0.04372588 0.         0.00293201 0.4193392  0.00146533 0.17586689
+ 0.23249592 0.03067726 0.00378365 0.         0.1335548  0.00659135
+ 0.         0.00856517]
+2023-02-08 16:54:18,854 - Model - INFO - End of training...
+2023-02-08 16:54:18,854 - Model - INFO - Epoch 45 (45/200):
+2023-02-08 16:54:56,735 - Model - INFO - Training mean loss: 0.733477
+2023-02-08 16:54:56,735 - Model - INFO - Train Accuracy: 3.324848
+2023-02-08 16:54:56,736 - Model - INFO - ---- EPOCH 045 EVALUATION ----
+2023-02-08 16:55:05,039 - Model - INFO - Mean IoU = 14.0%
+2023-02-08 16:55:05,039 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:55:05,039 - Model - INFO - [4.6220642e-01 2.9075316e-01 7.1775831e-02 3.6876526e-01 2.0317443e-01
+ 4.1939244e-01 7.0782185e-02 1.1666297e-05 1.2527279e-03 4.2807913e-01
+ 2.0635151e-05 1.1302894e-01 2.7346033e-01 1.8540918e-03 4.3939363e-04
+ 0.0000000e+00 8.3709382e-02 4.6540078e-04 0.0000000e+00 1.3097092e-02]
+2023-02-08 16:55:05,048 - Model - INFO - End of training...
+2023-02-08 16:55:05,049 - Model - INFO - Epoch 46 (46/200):
+2023-02-08 16:55:42,984 - Model - INFO - Training mean loss: 0.742648
+2023-02-08 16:55:42,984 - Model - INFO - Train Accuracy: 3.325151
+2023-02-08 16:55:42,985 - Model - INFO - ---- EPOCH 046 EVALUATION ----
+2023-02-08 16:55:51,211 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 16:55:51,211 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:55:51,211 - Model - INFO - [4.69048619e-01 1.78221658e-01 1.42769560e-01 2.89469451e-01
+ 1.53438672e-01 4.18732345e-01 8.06595832e-02 9.61672995e-05
+ 1.03809056e-03 5.16000926e-01 1.02946324e-04 1.29781011e-02
+ 2.48721421e-01 1.03310673e-02 3.19104316e-03 0.00000000e+00
+ 7.87898675e-02 1.04470282e-05 0.00000000e+00 1.56659149e-02]
+2023-02-08 16:55:51,220 - Model - INFO - End of training...
+2023-02-08 16:55:51,221 - Model - INFO - Epoch 47 (47/200):
+2023-02-08 16:56:29,361 - Model - INFO - Training mean loss: 0.735387
+2023-02-08 16:56:29,361 - Model - INFO - Train Accuracy: 3.318788
+2023-02-08 16:56:29,362 - Model - INFO - ---- EPOCH 047 EVALUATION ----
+2023-02-08 16:56:38,446 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 16:56:38,446 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:56:38,446 - Model - INFO - [4.81571943e-01 3.01889002e-01 1.14970006e-01 2.99444586e-01
+ 1.75591111e-01 4.27847356e-01 3.20453793e-02 1.83614044e-04
+ 1.76062505e-03 2.72044390e-01 5.87843388e-05 1.02255739e-01
+ 2.89896369e-01 7.31328363e-03 1.00683821e-02 0.00000000e+00
+ 6.94178119e-02 2.18985230e-03 0.00000000e+00 1.76835768e-02]
+2023-02-08 16:56:38,453 - Model - INFO - End of training...
+2023-02-08 16:56:38,454 - Model - INFO - Epoch 48 (48/200):
+2023-02-08 16:57:16,332 - Model - INFO - Training mean loss: 0.741058
+2023-02-08 16:57:16,332 - Model - INFO - Train Accuracy: 3.326212
+2023-02-08 16:57:16,333 - Model - INFO - ---- EPOCH 048 EVALUATION ----
+2023-02-08 16:57:24,507 - Model - INFO - Mean IoU = 11.8%
+2023-02-08 16:57:24,507 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:57:24,507 - Model - INFO - [4.6122542e-01 1.0906535e-01 1.1231306e-01 3.0589497e-01 1.7232482e-01
+ 3.6819217e-01 3.0004859e-02 1.1647409e-05 7.7092682e-04 3.5296497e-01
+ 0.0000000e+00 8.9569598e-02 2.3047996e-01 1.4426133e-02 2.2277089e-03
+ 0.0000000e+00 8.3213367e-02 1.0888528e-03 0.0000000e+00 2.7152307e-02]
+2023-02-08 16:57:24,515 - Model - INFO - End of training...
+2023-02-08 16:57:24,515 - Model - INFO - Epoch 49 (49/200):
+2023-02-08 16:58:02,537 - Model - INFO - Training mean loss: 0.732700
+2023-02-08 16:58:02,537 - Model - INFO - Train Accuracy: 3.321212
+2023-02-08 16:58:02,538 - Model - INFO - ---- EPOCH 049 EVALUATION ----
+2023-02-08 16:58:10,839 - Model - INFO - Mean IoU = 12.1%
+2023-02-08 16:58:10,839 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:58:10,839 - Model - INFO - [4.61394966e-01 1.99087471e-01 1.20614536e-01 2.57703096e-01
+ 1.46713957e-01 3.73872340e-01 9.37161669e-02 0.00000000e+00
+ 5.40801375e-05 2.82937020e-01 4.63383767e-04 1.04139581e-01
+ 2.37281293e-01 1.75146013e-02 5.98342204e-03 0.00000000e+00
+ 1.08556047e-01 5.50413097e-04 0.00000000e+00 1.08565874e-02]
+2023-02-08 16:58:10,847 - Model - INFO - End of training...
+2023-02-08 16:58:10,847 - Model - INFO - Epoch 50 (50/200):
+2023-02-08 16:58:48,820 - Model - INFO - Training mean loss: 0.696307
+2023-02-08 16:58:48,820 - Model - INFO - Train Accuracy: 3.342879
+2023-02-08 16:58:48,821 - Model - INFO - ---- EPOCH 050 EVALUATION ----
+2023-02-08 16:58:57,115 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 16:58:57,116 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:58:57,116 - Model - INFO - [4.4851133e-01 1.8423349e-01 1.0968068e-01 3.3895791e-01 1.8972437e-01
+ 3.5951751e-01 2.9052516e-02 1.1664222e-05 2.7011945e-03 4.4127497e-01
+ 2.2241264e-03 9.5843539e-02 2.7280346e-01 2.7053973e-02 3.6850737e-03
+ 0.0000000e+00 5.6864761e-02 2.3105126e-03 0.0000000e+00 1.8463043e-02]
+2023-02-08 16:58:57,124 - Model - INFO - End of training...
+2023-02-08 16:58:57,124 - Model - INFO - Epoch 51 (51/200):
+2023-02-08 16:59:34,857 - Model - INFO - Training mean loss: 0.701515
+2023-02-08 16:59:34,858 - Model - INFO - Train Accuracy: 3.338789
+2023-02-08 16:59:34,858 - Model - INFO - ---- EPOCH 051 EVALUATION ----
+2023-02-08 16:59:43,592 - Model - INFO - Mean IoU = 14.3%
+2023-02-08 16:59:43,592 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 16:59:43,593 - Model - INFO - [4.43965733e-01 3.15410644e-01 1.10053234e-01 3.10475856e-01
+ 1.94234818e-01 4.34650123e-01 5.17241731e-02 5.21922193e-04
+ 3.19745578e-03 4.65078175e-01 4.33497538e-04 1.48135185e-01
+ 2.57060021e-01 9.66953300e-03 1.63407123e-03 0.00000000e+00
+ 8.20597038e-02 1.78060669e-03 0.00000000e+00 3.95280123e-02]
+2023-02-08 16:59:43,596 - Model - INFO - Save model...
+2023-02-08 16:59:43,596 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 16:59:43,632 - Model - INFO - End of training...
+2023-02-08 16:59:43,632 - Model - INFO - Epoch 52 (52/200):
+2023-02-08 17:00:21,578 - Model - INFO - Training mean loss: 0.682046
+2023-02-08 17:00:21,579 - Model - INFO - Train Accuracy: 3.354091
+2023-02-08 17:00:21,579 - Model - INFO - ---- EPOCH 052 EVALUATION ----
+2023-02-08 17:00:29,758 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:00:29,758 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 17:00:29,758 - Model - INFO - [0.4551979  0.17920378 0.1114943  0.35590157 0.19706625 0.4253807
+ 0.06821585 0.         0.00615987 0.41659644 0.00134745 0.1724538
+ 0.24595657 0.01338149 0.01317972 0.         0.08833494 0.00106901
+ 0.         0.02275474]
+2023-02-08 17:00:29,765 - Model - INFO - End of training...
+2023-02-08 17:00:29,765 - Model - INFO - Epoch 53 (53/200):
+2023-02-08 17:01:07,802 - Model - INFO - Training mean loss: 0.676581
+2023-02-08 17:01:07,802 - Model - INFO - Train Accuracy: 3.350909
+2023-02-08 17:01:07,803 - Model - INFO - ---- EPOCH 053 EVALUATION ----
+2023-02-08 17:01:16,280 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:01:16,280 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 17:01:16,280 - Model - INFO - [4.43983048e-01 3.18525761e-01 8.91048759e-02 3.81428868e-01
+ 1.75783768e-01 4.35851067e-01 6.78916499e-02 7.28603845e-05
+ 3.88057902e-03 3.74338925e-01 0.00000000e+00 5.55604398e-02
+ 2.88329363e-01 7.65588321e-03 7.77921814e-04 0.00000000e+00
+ 8.50393623e-02 1.50290236e-03 0.00000000e+00 1.32755255e-02]
+2023-02-08 17:01:16,287 - Model - INFO - End of training...
+2023-02-08 17:01:16,287 - Model - INFO - Epoch 54 (54/200):
+2023-02-08 17:01:54,285 - Model - INFO - Training mean loss: 0.659948
+2023-02-08 17:01:54,286 - Model - INFO - Train Accuracy: 3.358334
+2023-02-08 17:01:54,287 - Model - INFO - ---- EPOCH 054 EVALUATION ----
+2023-02-08 17:02:02,831 - Model - INFO - Mean IoU = 13.6%
+2023-02-08 17:02:02,831 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 17:02:02,832 - Model - INFO - [4.3757266e-01 1.6716011e-01 8.9143284e-02 3.3192283e-01 1.9065596e-01
+ 4.4211087e-01 3.9259326e-02 5.8231621e-05 1.7994617e-03 4.0175623e-01
+ 7.8330850e-03 1.7907526e-01 2.8774470e-01 3.0727893e-02 5.2488786e-03
+ 0.0000000e+00 8.3265297e-02 5.7947380e-03 0.0000000e+00 1.4743392e-02]
+2023-02-08 17:02:02,838 - Model - INFO - End of training...
+2023-02-08 17:02:02,838 - Model - INFO - Epoch 55 (55/200):
+2023-02-08 17:02:40,742 - Model - INFO - Training mean loss: 0.700324
+2023-02-08 17:02:40,743 - Model - INFO - Train Accuracy: 3.341364
+2023-02-08 17:02:40,744 - Model - INFO - ---- EPOCH 055 EVALUATION ----
+2023-02-08 17:02:49,315 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:02:49,315 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 17:02:49,315 - Model - INFO - [4.3101963e-01 1.9917463e-01 1.0389652e-01 3.2442945e-01 1.6281198e-01
+ 3.7812299e-01 5.8614511e-02 1.4572586e-05 9.0064824e-04 3.9710492e-01
+ 6.2746281e-04 1.9803828e-01 2.5412232e-01 1.0549722e-02 7.4445801e-03
+ 0.0000000e+00 8.4094122e-02 1.7596908e-03 0.0000000e+00 3.2697495e-02]
+2023-02-08 17:02:49,323 - Model - INFO - End of training...
+2023-02-08 17:02:49,323 - Model - INFO - Epoch 56 (56/200):
+2023-02-08 17:03:27,235 - Model - INFO - Training mean loss: 0.707035
+2023-02-08 17:03:27,235 - Model - INFO - Train Accuracy: 3.329697
+2023-02-08 17:03:27,236 - Model - INFO - ---- EPOCH 056 EVALUATION ----
+2023-02-08 17:03:35,485 - Model - INFO - Mean IoU = 14.6%
+2023-02-08 17:03:35,485 - Model - INFO - Best Mean IoU = 14.3%
+2023-02-08 17:03:35,485 - Model - INFO - [0.4606912  0.33998352 0.08313896 0.31771648 0.1729783  0.43133688
+ 0.06325639 0.00054363 0.00501257 0.46432716 0.00095338 0.22764115
+ 0.23619968 0.00433881 0.00634971 0.         0.08760868 0.00423317
+ 0.         0.01685787]
+2023-02-08 17:03:35,489 - Model - INFO - Save model...
+2023-02-08 17:03:35,490 - Model - INFO - Saving at log/pointnet2_pcam/pointnet2_wypr/checkpoints/best_model.pth 
+2023-02-08 17:03:35,704 - Model - INFO - End of training...
+2023-02-08 17:03:35,704 - Model - INFO - Epoch 57 (57/200):
+2023-02-08 17:04:13,679 - Model - INFO - Training mean loss: 0.655750
+2023-02-08 17:04:13,680 - Model - INFO - Train Accuracy: 3.362576
+2023-02-08 17:04:13,680 - Model - INFO - ---- EPOCH 057 EVALUATION ----
+2023-02-08 17:04:22,444 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:04:22,444 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:04:22,444 - Model - INFO - [0.44621003 0.1871896  0.10775635 0.33884037 0.16167969 0.45478877
+ 0.05509755 0.00076253 0.01431668 0.47517052 0.00238454 0.14104477
+ 0.25214413 0.01383847 0.00361299 0.         0.09415185 0.00182628
+ 0.         0.02191069]
+2023-02-08 17:04:22,451 - Model - INFO - End of training...
+2023-02-08 17:04:22,451 - Model - INFO - Epoch 58 (58/200):
+2023-02-08 17:05:00,296 - Model - INFO - Training mean loss: 0.654023
+2023-02-08 17:05:00,296 - Model - INFO - Train Accuracy: 3.361061
+2023-02-08 17:05:00,297 - Model - INFO - ---- EPOCH 058 EVALUATION ----
+2023-02-08 17:05:08,723 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 17:05:08,723 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:05:08,723 - Model - INFO - [0.41558933 0.21399419 0.14639921 0.25478926 0.14552441 0.3908493
+ 0.05634742 0.00085299 0.00428208 0.40355432 0.0009901  0.17689438
+ 0.24915192 0.01180463 0.0125888  0.         0.06475335 0.00521451
+ 0.         0.03245706]
+2023-02-08 17:05:08,731 - Model - INFO - End of training...
+2023-02-08 17:05:08,731 - Model - INFO - Epoch 59 (59/200):
+2023-02-08 17:05:46,706 - Model - INFO - Training mean loss: 0.686921
+2023-02-08 17:05:46,706 - Model - INFO - Train Accuracy: 3.350000
+2023-02-08 17:05:46,706 - Model - INFO - ---- EPOCH 059 EVALUATION ----
+2023-02-08 17:05:55,122 - Model - INFO - Mean IoU = 12.8%
+2023-02-08 17:05:55,122 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:05:55,122 - Model - INFO - [4.3029159e-01 2.5478208e-01 1.4830868e-01 2.9604658e-01 1.2741020e-01
+ 3.6391777e-01 8.2127862e-02 6.0364918e-04 4.0201107e-03 3.4358841e-01
+ 3.2900600e-04 1.0016500e-01 2.4698423e-01 1.3456821e-02 2.4820475e-02
+ 0.0000000e+00 8.3980292e-02 3.3810046e-03 0.0000000e+00 3.4521218e-02]
+2023-02-08 17:05:55,131 - Model - INFO - End of training...
+2023-02-08 17:05:55,131 - Model - INFO - Epoch 60 (60/200):
+2023-02-08 17:06:33,365 - Model - INFO - Training mean loss: 0.659082
+2023-02-08 17:06:33,366 - Model - INFO - Train Accuracy: 3.361819
+2023-02-08 17:06:33,366 - Model - INFO - ---- EPOCH 060 EVALUATION ----
+2023-02-08 17:06:41,677 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:06:41,678 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:06:41,678 - Model - INFO - [4.54844564e-01 2.37752169e-01 1.41206115e-01 2.99086720e-01
+ 1.87564343e-01 4.17057455e-01 6.14471212e-02 1.89224127e-04
+ 1.72370430e-02 4.22684729e-01 8.62338115e-03 1.01009421e-01
+ 2.51287699e-01 1.88610014e-02 1.61409285e-02 0.00000000e+00
+ 1.04470335e-01 2.32334272e-03 0.00000000e+00 4.12148982e-02]
+2023-02-08 17:06:41,687 - Model - INFO - End of training...
+2023-02-08 17:06:41,687 - Model - INFO - Epoch 61 (61/200):
+2023-02-08 17:07:19,756 - Model - INFO - Training mean loss: 0.622995
+2023-02-08 17:07:19,757 - Model - INFO - Train Accuracy: 3.375303
+2023-02-08 17:07:19,757 - Model - INFO - ---- EPOCH 061 EVALUATION ----
+2023-02-08 17:07:27,994 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:07:27,994 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:07:27,994 - Model - INFO - [4.3631077e-01 1.8436141e-01 1.4852376e-01 3.3251575e-01 1.9757065e-01
+ 4.4344583e-01 5.1268339e-02 3.4968500e-05 8.7329764e-03 3.5868385e-01
+ 1.7258116e-03 9.5901616e-02 2.4715632e-01 1.4977926e-02 1.0367031e-02
+ 0.0000000e+00 8.0932364e-02 2.5873000e-03 0.0000000e+00 2.8586524e-02]
+2023-02-08 17:07:28,001 - Model - INFO - End of training...
+2023-02-08 17:07:28,001 - Model - INFO - Epoch 62 (62/200):
+2023-02-08 17:08:06,043 - Model - INFO - Training mean loss: 0.608716
+2023-02-08 17:08:06,043 - Model - INFO - Train Accuracy: 3.390000
+2023-02-08 17:08:06,044 - Model - INFO - ---- EPOCH 062 EVALUATION ----
+2023-02-08 17:08:14,444 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 17:08:14,444 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:08:14,444 - Model - INFO - [4.4150931e-01 2.2236161e-01 1.2048083e-01 3.5505271e-01 1.8864539e-01
+ 4.1240385e-01 6.2455557e-02 2.0417389e-04 1.2055852e-02 3.6845085e-01
+ 5.6050280e-03 5.1342376e-02 2.0993337e-01 2.7880473e-02 5.4093841e-03
+ 0.0000000e+00 7.3512740e-02 7.9128263e-04 0.0000000e+00 1.8991470e-02]
+2023-02-08 17:08:14,454 - Model - INFO - End of training...
+2023-02-08 17:08:14,454 - Model - INFO - Epoch 63 (63/200):
+2023-02-08 17:08:52,420 - Model - INFO - Training mean loss: 0.590757
+2023-02-08 17:08:52,421 - Model - INFO - Train Accuracy: 3.400606
+2023-02-08 17:08:52,421 - Model - INFO - ---- EPOCH 063 EVALUATION ----
+2023-02-08 17:09:00,737 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 17:09:00,738 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:09:00,738 - Model - INFO - [4.18105096e-01 1.85856804e-01 1.51808813e-01 3.16205263e-01
+ 1.68439925e-01 3.97515178e-01 5.62885702e-02 1.25130216e-04
+ 1.44431172e-02 3.49903166e-01 3.39404377e-03 1.25078693e-01
+ 2.60394961e-01 9.66077577e-03 1.08529115e-02 0.00000000e+00
+ 9.17658880e-02 1.89209357e-03 0.00000000e+00 4.33894359e-02]
+2023-02-08 17:09:00,748 - Model - INFO - End of training...
+2023-02-08 17:09:00,748 - Model - INFO - Epoch 64 (64/200):
+2023-02-08 17:09:38,786 - Model - INFO - Training mean loss: 0.588868
+2023-02-08 17:09:38,787 - Model - INFO - Train Accuracy: 3.394697
+2023-02-08 17:09:38,787 - Model - INFO - ---- EPOCH 064 EVALUATION ----
+2023-02-08 17:09:47,213 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:09:47,213 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:09:47,213 - Model - INFO - [4.34104741e-01 2.50817150e-01 1.15375690e-01 3.77523899e-01
+ 1.97194859e-01 4.12255138e-01 5.86956628e-02 3.71788250e-04
+ 2.22442877e-02 4.44673419e-01 1.52840442e-03 3.82984467e-02
+ 2.53626972e-01 1.03447735e-02 6.78852154e-03 0.00000000e+00
+ 8.11523646e-02 4.37043345e-04 0.00000000e+00 3.20380144e-02]
+2023-02-08 17:09:47,220 - Model - INFO - End of training...
+2023-02-08 17:09:47,220 - Model - INFO - Epoch 65 (65/200):
+2023-02-08 17:10:25,168 - Model - INFO - Training mean loss: 0.587146
+2023-02-08 17:10:25,169 - Model - INFO - Train Accuracy: 3.389697
+2023-02-08 17:10:25,169 - Model - INFO - ---- EPOCH 065 EVALUATION ----
+2023-02-08 17:10:33,461 - Model - INFO - Mean IoU = 12.3%
+2023-02-08 17:10:33,461 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:10:33,461 - Model - INFO - [4.2999795e-01 1.8381622e-01 1.4603011e-01 2.9841888e-01 1.5872109e-01
+ 4.0648499e-01 8.5242435e-02 2.0049805e-04 2.4840325e-02 3.2325673e-01
+ 3.4730174e-03 3.5565723e-02 2.1478976e-01 4.0887672e-02 3.1453285e-03
+ 0.0000000e+00 6.2336087e-02 1.0062623e-03 0.0000000e+00 3.2544158e-02]
+2023-02-08 17:10:33,472 - Model - INFO - End of training...
+2023-02-08 17:10:33,472 - Model - INFO - Epoch 66 (66/200):
+2023-02-08 17:11:11,292 - Model - INFO - Training mean loss: 0.577169
+2023-02-08 17:11:11,292 - Model - INFO - Train Accuracy: 3.399546
+2023-02-08 17:11:11,293 - Model - INFO - ---- EPOCH 066 EVALUATION ----
+2023-02-08 17:11:19,681 - Model - INFO - Mean IoU = 12.6%
+2023-02-08 17:11:19,682 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:11:19,682 - Model - INFO - [4.2286724e-01 1.7526670e-01 1.5752690e-01 3.5303369e-01 1.5940350e-01
+ 3.5764608e-01 4.0281657e-02 1.2826007e-04 1.8812615e-02 3.4934837e-01
+ 2.8845011e-03 1.0617997e-01 2.2630116e-01 1.3706428e-02 9.3325078e-03
+ 0.0000000e+00 7.6598935e-02 1.8601830e-03 0.0000000e+00 4.9347918e-02]
+2023-02-08 17:11:19,688 - Model - INFO - End of training...
+2023-02-08 17:11:19,688 - Model - INFO - Epoch 67 (67/200):
+2023-02-08 17:11:57,750 - Model - INFO - Training mean loss: 0.572039
+2023-02-08 17:11:57,750 - Model - INFO - Train Accuracy: 3.405152
+2023-02-08 17:11:57,751 - Model - INFO - ---- EPOCH 067 EVALUATION ----
+2023-02-08 17:12:05,939 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:12:05,939 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:12:05,939 - Model - INFO - [0.4091349  0.17507063 0.13737331 0.3230373  0.12960169 0.41086912
+ 0.07670446 0.00318159 0.03260764 0.4009481  0.00999976 0.13318995
+ 0.23419112 0.04503922 0.01436411 0.         0.08192307 0.00582778
+ 0.         0.02360606]
+2023-02-08 17:12:05,947 - Model - INFO - End of training...
+2023-02-08 17:12:05,948 - Model - INFO - Epoch 68 (68/200):
+2023-02-08 17:12:43,718 - Model - INFO - Training mean loss: 0.567547
+2023-02-08 17:12:43,719 - Model - INFO - Train Accuracy: 3.404848
+2023-02-08 17:12:43,719 - Model - INFO - ---- EPOCH 068 EVALUATION ----
+2023-02-08 17:12:52,025 - Model - INFO - Mean IoU = 12.6%
+2023-02-08 17:12:52,026 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:12:52,026 - Model - INFO - [3.9335728e-01 1.6780294e-01 1.5198287e-01 3.4469622e-01 1.5592729e-01
+ 2.9770604e-01 3.6991131e-02 3.4703746e-05 1.3785762e-02 4.0767872e-01
+ 1.0224252e-03 1.6058673e-01 2.3750190e-01 1.1877221e-02 1.0901697e-02
+ 0.0000000e+00 8.8656820e-02 6.5249871e-03 0.0000000e+00 3.8477674e-02]
+2023-02-08 17:12:52,033 - Model - INFO - End of training...
+2023-02-08 17:12:52,033 - Model - INFO - Epoch 69 (69/200):
+2023-02-08 17:13:30,064 - Model - INFO - Training mean loss: 0.582298
+2023-02-08 17:13:30,064 - Model - INFO - Train Accuracy: 3.397425
+2023-02-08 17:13:30,065 - Model - INFO - ---- EPOCH 069 EVALUATION ----
+2023-02-08 17:13:38,272 - Model - INFO - Mean IoU = 14.0%
+2023-02-08 17:13:38,272 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:13:38,272 - Model - INFO - [0.44143826 0.20339696 0.10907691 0.36096606 0.1997426  0.42640314
+ 0.0607301  0.00083462 0.0368708  0.43414825 0.00658297 0.20390017
+ 0.23634797 0.00705886 0.00409761 0.         0.05312398 0.00297771
+ 0.         0.01860571]
+2023-02-08 17:13:38,279 - Model - INFO - End of training...
+2023-02-08 17:13:38,279 - Model - INFO - Epoch 70 (70/200):
+2023-02-08 17:14:16,119 - Model - INFO - Training mean loss: 0.565391
+2023-02-08 17:14:16,120 - Model - INFO - Train Accuracy: 3.406667
+2023-02-08 17:14:16,120 - Model - INFO - ---- EPOCH 070 EVALUATION ----
+2023-02-08 17:14:24,414 - Model - INFO - Mean IoU = 13.8%
+2023-02-08 17:14:24,414 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:14:24,414 - Model - INFO - [0.4664555  0.27930313 0.1441654  0.31917524 0.1446433  0.3868341
+ 0.09681389 0.00169943 0.04532047 0.37587383 0.01061895 0.08275744
+ 0.25070736 0.03204492 0.01535693 0.         0.08182542 0.0023846
+ 0.         0.02755602]
+2023-02-08 17:14:24,422 - Model - INFO - End of training...
+2023-02-08 17:14:24,422 - Model - INFO - Epoch 71 (71/200):
+2023-02-08 17:15:02,309 - Model - INFO - Training mean loss: 0.562551
+2023-02-08 17:15:02,310 - Model - INFO - Train Accuracy: 3.411667
+2023-02-08 17:15:02,310 - Model - INFO - ---- EPOCH 071 EVALUATION ----
+2023-02-08 17:15:10,656 - Model - INFO - Mean IoU = 14.0%
+2023-02-08 17:15:10,656 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:15:10,656 - Model - INFO - [0.43389097 0.2061032  0.1611381  0.3262171  0.17695841 0.36505058
+ 0.07247997 0.00625144 0.04310015 0.51775086 0.00676123 0.1156107
+ 0.20361409 0.02623421 0.01228695 0.         0.07586376 0.00800278
+ 0.         0.032756  ]
+2023-02-08 17:15:10,664 - Model - INFO - End of training...
+2023-02-08 17:15:10,665 - Model - INFO - Epoch 72 (72/200):
+2023-02-08 17:15:48,373 - Model - INFO - Training mean loss: 0.556259
+2023-02-08 17:15:48,374 - Model - INFO - Train Accuracy: 3.407425
+2023-02-08 17:15:48,374 - Model - INFO - ---- EPOCH 072 EVALUATION ----
+2023-02-08 17:15:56,612 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:15:56,612 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:15:56,612 - Model - INFO - [0.44149074 0.25274447 0.15471405 0.2821421  0.1837047  0.37610897
+ 0.11499135 0.00099869 0.07973053 0.32977337 0.00177414 0.04451182
+ 0.22278453 0.01838369 0.01471674 0.         0.06449947 0.00377856
+ 0.         0.05054442]
+2023-02-08 17:15:56,620 - Model - INFO - End of training...
+2023-02-08 17:15:56,620 - Model - INFO - Epoch 73 (73/200):
+2023-02-08 17:16:34,511 - Model - INFO - Training mean loss: 0.554337
+2023-02-08 17:16:34,511 - Model - INFO - Train Accuracy: 3.415455
+2023-02-08 17:16:34,512 - Model - INFO - ---- EPOCH 073 EVALUATION ----
+2023-02-08 17:16:42,877 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:16:42,878 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:16:42,878 - Model - INFO - [0.43167913 0.19436517 0.16990365 0.2818358  0.15343364 0.3783075
+ 0.07761101 0.00786354 0.01918374 0.46175858 0.00480326 0.07187857
+ 0.22601983 0.04254276 0.01254026 0.         0.05947792 0.00809764
+ 0.         0.02913573]
+2023-02-08 17:16:42,887 - Model - INFO - End of training...
+2023-02-08 17:16:42,887 - Model - INFO - Epoch 74 (74/200):
+2023-02-08 17:17:20,738 - Model - INFO - Training mean loss: 0.529155
+2023-02-08 17:17:20,738 - Model - INFO - Train Accuracy: 3.422577
+2023-02-08 17:17:20,739 - Model - INFO - ---- EPOCH 074 EVALUATION ----
+2023-02-08 17:17:29,015 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 17:17:29,015 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:17:29,015 - Model - INFO - [0.43682486 0.21443677 0.15417418 0.3070159  0.15897146 0.41676757
+ 0.08121879 0.0019649  0.06776068 0.32996565 0.0063172  0.11583252
+ 0.19090378 0.02129342 0.00213785 0.         0.08628224 0.009474
+ 0.         0.02578363]
+2023-02-08 17:17:29,023 - Model - INFO - End of training...
+2023-02-08 17:17:29,023 - Model - INFO - Epoch 75 (75/200):
+2023-02-08 17:18:06,927 - Model - INFO - Training mean loss: 0.543650
+2023-02-08 17:18:06,927 - Model - INFO - Train Accuracy: 3.415909
+2023-02-08 17:18:06,928 - Model - INFO - ---- EPOCH 075 EVALUATION ----
+2023-02-08 17:18:15,522 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:18:15,522 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:18:15,522 - Model - INFO - [0.43056196 0.21647088 0.18834528 0.2500793  0.16156422 0.38377225
+ 0.08684522 0.00200508 0.05483253 0.5181646  0.00807437 0.0345972
+ 0.18758634 0.04155117 0.00398049 0.         0.06609593 0.00548233
+ 0.         0.04632957]
+2023-02-08 17:18:15,531 - Model - INFO - End of training...
+2023-02-08 17:18:15,531 - Model - INFO - Epoch 76 (76/200):
+2023-02-08 17:18:53,484 - Model - INFO - Training mean loss: 0.540240
+2023-02-08 17:18:53,484 - Model - INFO - Train Accuracy: 3.414091
+2023-02-08 17:18:53,485 - Model - INFO - ---- EPOCH 076 EVALUATION ----
+2023-02-08 17:19:01,981 - Model - INFO - Mean IoU = 13.6%
+2023-02-08 17:19:01,981 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:19:01,981 - Model - INFO - [4.32389289e-01 2.28173450e-01 1.64041892e-01 3.49555790e-01
+ 1.29271284e-01 3.90136749e-01 1.13122672e-01 6.46196352e-03
+ 1.10931188e-01 4.04619932e-01 1.04392655e-02 2.64232792e-02
+ 2.14052498e-01 3.62078249e-02 1.25226835e-02 0.00000000e+00
+ 4.12430055e-02 3.93215829e-04 0.00000000e+00 4.89289127e-02]
+2023-02-08 17:19:01,989 - Model - INFO - End of training...
+2023-02-08 17:19:01,989 - Model - INFO - Epoch 77 (77/200):
+2023-02-08 17:19:39,716 - Model - INFO - Training mean loss: 0.524312
+2023-02-08 17:19:39,716 - Model - INFO - Train Accuracy: 3.428334
+2023-02-08 17:19:39,717 - Model - INFO - ---- EPOCH 077 EVALUATION ----
+2023-02-08 17:19:48,111 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:19:48,111 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:19:48,111 - Model - INFO - [0.4181333  0.12604769 0.14782816 0.32055327 0.1780418  0.38699704
+ 0.05913591 0.01000636 0.05604069 0.5268586  0.00522621 0.06203778
+ 0.24050283 0.02872917 0.00529886 0.         0.04926876 0.00250137
+ 0.         0.02874121]
+2023-02-08 17:19:48,119 - Model - INFO - End of training...
+2023-02-08 17:19:48,119 - Model - INFO - Epoch 78 (78/200):
+2023-02-08 17:20:26,040 - Model - INFO - Training mean loss: 0.531108
+2023-02-08 17:20:26,041 - Model - INFO - Train Accuracy: 3.422424
+2023-02-08 17:20:26,041 - Model - INFO - ---- EPOCH 078 EVALUATION ----
+2023-02-08 17:20:34,297 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 17:20:34,297 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:20:34,297 - Model - INFO - [0.42853308 0.22395138 0.16106944 0.31314185 0.15862225 0.33779645
+ 0.09286293 0.00672014 0.06880887 0.458381   0.00707607 0.08422448
+ 0.22189204 0.0168255  0.00228905 0.         0.07364936 0.00557235
+ 0.         0.0303241 ]
+2023-02-08 17:20:34,305 - Model - INFO - End of training...
+2023-02-08 17:20:34,305 - Model - INFO - Epoch 79 (79/200):
+2023-02-08 17:21:12,200 - Model - INFO - Training mean loss: 0.526207
+2023-02-08 17:21:12,200 - Model - INFO - Train Accuracy: 3.423636
+2023-02-08 17:21:12,201 - Model - INFO - ---- EPOCH 079 EVALUATION ----
+2023-02-08 17:21:20,523 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:21:20,523 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:21:20,523 - Model - INFO - [4.51930583e-01 2.72440165e-01 1.00188136e-01 3.29449981e-01
+ 1.70391083e-01 4.32867676e-01 9.32563916e-02 1.07475249e-02
+ 7.36864433e-02 3.43921542e-01 8.61577597e-03 3.06689925e-02
+ 2.04449654e-01 3.69776450e-02 1.13610542e-04 0.00000000e+00
+ 5.77081740e-02 3.55037372e-03 0.00000000e+00 3.00216284e-02]
+2023-02-08 17:21:20,531 - Model - INFO - End of training...
+2023-02-08 17:21:20,531 - Model - INFO - Epoch 80 (80/200):
+2023-02-08 17:21:58,536 - Model - INFO - Training mean loss: 0.495824
+2023-02-08 17:21:58,536 - Model - INFO - Train Accuracy: 3.439091
+2023-02-08 17:21:58,536 - Model - INFO - ---- EPOCH 080 EVALUATION ----
+2023-02-08 17:22:06,865 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:22:06,865 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:22:06,865 - Model - INFO - [0.40550095 0.1892226  0.17789434 0.30722988 0.13902059 0.37659326
+ 0.11464896 0.00828086 0.05866459 0.4127982  0.01292804 0.05812864
+ 0.22408113 0.04787637 0.00197153 0.         0.07832605 0.00538467
+ 0.         0.03398264]
+2023-02-08 17:22:06,872 - Model - INFO - End of training...
+2023-02-08 17:22:06,872 - Model - INFO - Epoch 81 (81/200):
+2023-02-08 17:22:44,936 - Model - INFO - Training mean loss: 0.467152
+2023-02-08 17:22:44,936 - Model - INFO - Train Accuracy: 3.451364
+2023-02-08 17:22:44,936 - Model - INFO - ---- EPOCH 081 EVALUATION ----
+2023-02-08 17:22:53,262 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:22:53,262 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:22:53,262 - Model - INFO - [0.41896123 0.1526206  0.16085602 0.34605384 0.16866902 0.41292688
+ 0.07727801 0.0125114  0.09866723 0.39987835 0.01560289 0.10260636
+ 0.21847801 0.04643539 0.0018008  0.         0.07133505 0.00437706
+ 0.         0.03012693]
+2023-02-08 17:22:53,269 - Model - INFO - End of training...
+2023-02-08 17:22:53,269 - Model - INFO - Epoch 82 (82/200):
+2023-02-08 17:23:31,302 - Model - INFO - Training mean loss: 0.458667
+2023-02-08 17:23:31,302 - Model - INFO - Train Accuracy: 3.456666
+2023-02-08 17:23:31,303 - Model - INFO - ---- EPOCH 082 EVALUATION ----
+2023-02-08 17:23:39,575 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 17:23:39,575 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:23:39,575 - Model - INFO - [0.41684124 0.2127284  0.16005631 0.30877334 0.17231368 0.39523473
+ 0.06596558 0.03041277 0.12433928 0.34185252 0.00795202 0.10278587
+ 0.22348419 0.01965441 0.00692181 0.         0.05946494 0.00626498
+ 0.         0.03821957]
+2023-02-08 17:23:39,583 - Model - INFO - End of training...
+2023-02-08 17:23:39,584 - Model - INFO - Epoch 83 (83/200):
+2023-02-08 17:24:17,493 - Model - INFO - Training mean loss: 0.456997
+2023-02-08 17:24:17,493 - Model - INFO - Train Accuracy: 3.457576
+2023-02-08 17:24:17,493 - Model - INFO - ---- EPOCH 083 EVALUATION ----
+2023-02-08 17:24:25,994 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:24:25,994 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:24:25,994 - Model - INFO - [0.4038898  0.15682784 0.19757822 0.31585205 0.13847545 0.4120473
+ 0.08145206 0.01761861 0.11051085 0.47018287 0.01262982 0.04894685
+ 0.21938495 0.03343259 0.00757856 0.         0.06277145 0.00377515
+ 0.         0.04628501]
+2023-02-08 17:24:26,002 - Model - INFO - End of training...
+2023-02-08 17:24:26,002 - Model - INFO - Epoch 84 (84/200):
+2023-02-08 17:25:03,926 - Model - INFO - Training mean loss: 0.445829
+2023-02-08 17:25:03,926 - Model - INFO - Train Accuracy: 3.464697
+2023-02-08 17:25:03,927 - Model - INFO - ---- EPOCH 084 EVALUATION ----
+2023-02-08 17:25:12,210 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 17:25:12,210 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:25:12,210 - Model - INFO - [0.41418892 0.22568612 0.18838564 0.28380004 0.16554098 0.41299054
+ 0.08474367 0.02694311 0.08734312 0.33388662 0.0195321  0.02542492
+ 0.21234839 0.0507677  0.00858948 0.         0.03336012 0.00267719
+ 0.         0.04364776]
+2023-02-08 17:25:12,218 - Model - INFO - End of training...
+2023-02-08 17:25:12,218 - Model - INFO - Epoch 85 (85/200):
+2023-02-08 17:25:50,073 - Model - INFO - Training mean loss: 0.448806
+2023-02-08 17:25:50,073 - Model - INFO - Train Accuracy: 3.463636
+2023-02-08 17:25:50,075 - Model - INFO - ---- EPOCH 085 EVALUATION ----
+2023-02-08 17:25:58,281 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:25:58,282 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:25:58,282 - Model - INFO - [0.39834645 0.22090912 0.18979925 0.28840378 0.14594659 0.385261
+ 0.06709911 0.03522252 0.10523724 0.49454176 0.02512757 0.03507917
+ 0.23431465 0.03772874 0.01002818 0.         0.05435815 0.00380361
+ 0.         0.04335919]
+2023-02-08 17:25:58,289 - Model - INFO - End of training...
+2023-02-08 17:25:58,289 - Model - INFO - Epoch 86 (86/200):
+2023-02-08 17:26:36,083 - Model - INFO - Training mean loss: 0.458540
+2023-02-08 17:26:36,083 - Model - INFO - Train Accuracy: 3.457122
+2023-02-08 17:26:36,083 - Model - INFO - ---- EPOCH 086 EVALUATION ----
+2023-02-08 17:26:44,426 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:26:44,426 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:26:44,426 - Model - INFO - [0.37838137 0.19941895 0.18931136 0.31730366 0.11176737 0.3843538
+ 0.10866918 0.04286735 0.11216094 0.32301608 0.01645974 0.05936333
+ 0.23935923 0.03628135 0.01209375 0.         0.0667394  0.00377943
+ 0.         0.05002433]
+2023-02-08 17:26:44,433 - Model - INFO - End of training...
+2023-02-08 17:26:44,433 - Model - INFO - Epoch 87 (87/200):
+2023-02-08 17:27:22,298 - Model - INFO - Training mean loss: 0.446507
+2023-02-08 17:27:22,298 - Model - INFO - Train Accuracy: 3.461667
+2023-02-08 17:27:22,299 - Model - INFO - ---- EPOCH 087 EVALUATION ----
+2023-02-08 17:27:30,461 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:27:30,461 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:27:30,461 - Model - INFO - [0.38542056 0.17233156 0.15660146 0.29822272 0.14219768 0.39152858
+ 0.10889404 0.05747789 0.10354842 0.48167703 0.02790302 0.09087099
+ 0.21633242 0.03598626 0.00852661 0.         0.04253733 0.00190525
+ 0.         0.0514918 ]
+2023-02-08 17:27:30,469 - Model - INFO - End of training...
+2023-02-08 17:27:30,469 - Model - INFO - Epoch 88 (88/200):
+2023-02-08 17:28:08,340 - Model - INFO - Training mean loss: 0.448960
+2023-02-08 17:28:08,341 - Model - INFO - Train Accuracy: 3.461970
+2023-02-08 17:28:08,341 - Model - INFO - ---- EPOCH 088 EVALUATION ----
+2023-02-08 17:28:16,449 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:28:16,450 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:28:16,450 - Model - INFO - [0.3886941  0.23331162 0.18853223 0.33348277 0.15706058 0.38890865
+ 0.06223841 0.05446058 0.11082888 0.43912524 0.01284267 0.03125238
+ 0.2513123  0.04211371 0.0103042  0.         0.0331202  0.00333005
+ 0.         0.04570234]
+2023-02-08 17:28:16,457 - Model - INFO - End of training...
+2023-02-08 17:28:16,457 - Model - INFO - Epoch 89 (89/200):
+2023-02-08 17:28:54,345 - Model - INFO - Training mean loss: 0.444982
+2023-02-08 17:28:54,345 - Model - INFO - Train Accuracy: 3.459242
+2023-02-08 17:28:54,345 - Model - INFO - ---- EPOCH 089 EVALUATION ----
+2023-02-08 17:29:02,599 - Model - INFO - Mean IoU = 13.8%
+2023-02-08 17:29:02,599 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:29:02,599 - Model - INFO - [0.37513617 0.13839293 0.19094592 0.31535974 0.1287502  0.38226375
+ 0.08803328 0.05208449 0.11412169 0.49931845 0.02212327 0.07903232
+ 0.22955683 0.04910655 0.00937138 0.         0.03578005 0.00783338
+ 0.         0.05134095]
+2023-02-08 17:29:02,607 - Model - INFO - End of training...
+2023-02-08 17:29:02,607 - Model - INFO - Epoch 90 (90/200):
+2023-02-08 17:29:40,404 - Model - INFO - Training mean loss: 0.426546
+2023-02-08 17:29:40,404 - Model - INFO - Train Accuracy: 3.477272
+2023-02-08 17:29:40,404 - Model - INFO - ---- EPOCH 090 EVALUATION ----
+2023-02-08 17:29:48,648 - Model - INFO - Mean IoU = 13.9%
+2023-02-08 17:29:48,648 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:29:48,648 - Model - INFO - [0.40215284 0.1990315  0.20095609 0.2973259  0.1529571  0.3779271
+ 0.08427094 0.04664358 0.13953951 0.40179518 0.02113175 0.04166609
+ 0.24354596 0.03116228 0.01161343 0.         0.05686532 0.01218635
+ 0.         0.05007944]
+2023-02-08 17:29:48,655 - Model - INFO - End of training...
+2023-02-08 17:29:48,655 - Model - INFO - Epoch 91 (91/200):
+2023-02-08 17:30:27,049 - Model - INFO - Training mean loss: 0.411160
+2023-02-08 17:30:27,050 - Model - INFO - Train Accuracy: 3.475000
+2023-02-08 17:30:27,050 - Model - INFO - ---- EPOCH 091 EVALUATION ----
+2023-02-08 17:30:35,362 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:30:35,362 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:30:35,362 - Model - INFO - [0.39300823 0.17317924 0.12855254 0.3168062  0.14243604 0.38857728
+ 0.08120642 0.07165268 0.10458643 0.29058936 0.01997806 0.09606651
+ 0.25196117 0.04119585 0.00055765 0.         0.06768393 0.01014461
+ 0.         0.0553395 ]
+2023-02-08 17:30:35,371 - Model - INFO - End of training...
+2023-02-08 17:30:35,371 - Model - INFO - Epoch 92 (92/200):
+2023-02-08 17:31:13,176 - Model - INFO - Training mean loss: 0.427564
+2023-02-08 17:31:13,176 - Model - INFO - Train Accuracy: 3.470303
+2023-02-08 17:31:13,177 - Model - INFO - ---- EPOCH 092 EVALUATION ----
+2023-02-08 17:31:21,502 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:31:21,502 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:31:21,502 - Model - INFO - [0.39182177 0.21675669 0.1958655  0.2686496  0.14324166 0.3645551
+ 0.10526702 0.04981375 0.11408944 0.39656022 0.02344939 0.06493451
+ 0.20718896 0.04276872 0.01294298 0.         0.07534501 0.009367
+ 0.         0.05564538]
+2023-02-08 17:31:21,509 - Model - INFO - End of training...
+2023-02-08 17:31:21,510 - Model - INFO - Epoch 93 (93/200):
+2023-02-08 17:31:59,772 - Model - INFO - Training mean loss: 0.409938
+2023-02-08 17:31:59,773 - Model - INFO - Train Accuracy: 3.480454
+2023-02-08 17:31:59,773 - Model - INFO - ---- EPOCH 093 EVALUATION ----
+2023-02-08 17:32:08,128 - Model - INFO - Mean IoU = 14.1%
+2023-02-08 17:32:08,129 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:32:08,129 - Model - INFO - [0.36974755 0.21501121 0.15773581 0.325935   0.16987062 0.39139637
+ 0.08309162 0.07928623 0.13559444 0.43988895 0.01169375 0.05112105
+ 0.2311155  0.02591988 0.00873511 0.         0.07170525 0.00494248
+ 0.         0.05610207]
+2023-02-08 17:32:08,137 - Model - INFO - End of training...
+2023-02-08 17:32:08,137 - Model - INFO - Epoch 94 (94/200):
+2023-02-08 17:32:46,149 - Model - INFO - Training mean loss: 0.400287
+2023-02-08 17:32:46,150 - Model - INFO - Train Accuracy: 3.481970
+2023-02-08 17:32:46,150 - Model - INFO - ---- EPOCH 094 EVALUATION ----
+2023-02-08 17:32:54,437 - Model - INFO - Mean IoU = 14.0%
+2023-02-08 17:32:54,437 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:32:54,438 - Model - INFO - [0.37169167 0.1946001  0.17499577 0.33584204 0.1131595  0.38870537
+ 0.07655395 0.07504426 0.11715524 0.4661142  0.01565296 0.07733757
+ 0.22449484 0.04498704 0.00340586 0.         0.05354108 0.00784843
+ 0.         0.05368108]
+2023-02-08 17:32:54,445 - Model - INFO - End of training...
+2023-02-08 17:32:54,445 - Model - INFO - Epoch 95 (95/200):
+2023-02-08 17:33:32,396 - Model - INFO - Training mean loss: 0.390544
+2023-02-08 17:33:32,396 - Model - INFO - Train Accuracy: 3.490909
+2023-02-08 17:33:32,397 - Model - INFO - ---- EPOCH 095 EVALUATION ----
+2023-02-08 17:33:40,818 - Model - INFO - Mean IoU = 14.2%
+2023-02-08 17:33:40,819 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:33:40,819 - Model - INFO - [0.35605046 0.15389325 0.19979796 0.32182917 0.12715663 0.39241257
+ 0.07201139 0.0681899  0.134238   0.4626536  0.02144168 0.08899814
+ 0.2266356  0.06590007 0.01324313 0.         0.06716347 0.00901886
+ 0.         0.05873592]
+2023-02-08 17:33:40,828 - Model - INFO - End of training...
+2023-02-08 17:33:40,828 - Model - INFO - Epoch 96 (96/200):
+2023-02-08 17:34:18,704 - Model - INFO - Training mean loss: 0.386311
+2023-02-08 17:34:18,705 - Model - INFO - Train Accuracy: 3.489849
+2023-02-08 17:34:18,705 - Model - INFO - ---- EPOCH 096 EVALUATION ----
+2023-02-08 17:34:27,066 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:34:27,066 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:34:27,066 - Model - INFO - [0.382011   0.19145225 0.16683918 0.33263725 0.14231771 0.40301016
+ 0.07282357 0.0678502  0.12302604 0.3854451  0.03025348 0.06013668
+ 0.23484631 0.04407449 0.00765469 0.         0.04644786 0.00441198
+ 0.         0.05157842]
+2023-02-08 17:34:27,074 - Model - INFO - End of training...
+2023-02-08 17:34:27,074 - Model - INFO - Epoch 97 (97/200):
+2023-02-08 17:35:04,784 - Model - INFO - Training mean loss: 0.380360
+2023-02-08 17:35:04,784 - Model - INFO - Train Accuracy: 3.494546
+2023-02-08 17:35:04,785 - Model - INFO - ---- EPOCH 097 EVALUATION ----
+2023-02-08 17:35:13,102 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 17:35:13,102 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:35:13,102 - Model - INFO - [0.33824217 0.13735561 0.19297077 0.3501854  0.13112037 0.4062766
+ 0.07968163 0.08181258 0.10683013 0.39615288 0.02776565 0.04622874
+ 0.21959727 0.04253638 0.00760076 0.         0.06709466 0.01067412
+ 0.         0.05624941]
+2023-02-08 17:35:13,111 - Model - INFO - End of training...
+2023-02-08 17:35:13,111 - Model - INFO - Epoch 98 (98/200):
+2023-02-08 17:35:50,810 - Model - INFO - Training mean loss: 0.402879
+2023-02-08 17:35:50,810 - Model - INFO - Train Accuracy: 3.483031
+2023-02-08 17:35:50,811 - Model - INFO - ---- EPOCH 098 EVALUATION ----
+2023-02-08 17:35:59,065 - Model - INFO - Mean IoU = 13.8%
+2023-02-08 17:35:59,066 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:35:59,066 - Model - INFO - [0.38222617 0.18122512 0.1930466  0.33055875 0.12950951 0.40976498
+ 0.09688251 0.07598902 0.11265441 0.4224148  0.02391043 0.01170196
+ 0.2128634  0.04650972 0.00961388 0.         0.05776009 0.01028628
+ 0.         0.04758896]
+2023-02-08 17:35:59,074 - Model - INFO - End of training...
+2023-02-08 17:35:59,074 - Model - INFO - Epoch 99 (99/200):
+2023-02-08 17:36:36,899 - Model - INFO - Training mean loss: 0.397583
+2023-02-08 17:36:36,899 - Model - INFO - Train Accuracy: 3.486667
+2023-02-08 17:36:36,900 - Model - INFO - ---- EPOCH 099 EVALUATION ----
+2023-02-08 17:36:45,191 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 17:36:45,191 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:36:45,191 - Model - INFO - [0.3495295  0.22257343 0.18098676 0.2854121  0.1349118  0.36600646
+ 0.09424983 0.08579312 0.09418242 0.45671496 0.01839726 0.01316832
+ 0.22612137 0.03924428 0.01393033 0.         0.0430591  0.00932157
+ 0.         0.06152886]
+2023-02-08 17:36:45,199 - Model - INFO - End of training...
+2023-02-08 17:36:45,199 - Model - INFO - Epoch 100 (100/200):
+2023-02-08 17:37:22,986 - Model - INFO - Training mean loss: 0.367862
+2023-02-08 17:37:22,987 - Model - INFO - Train Accuracy: 3.502121
+2023-02-08 17:37:22,987 - Model - INFO - ---- EPOCH 100 EVALUATION ----
+2023-02-08 17:37:31,196 - Model - INFO - Mean IoU = 14.3%
+2023-02-08 17:37:31,196 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:37:31,196 - Model - INFO - [0.35963476 0.18130648 0.19685711 0.3013813  0.15281731 0.40670273
+ 0.1035395  0.08431985 0.1385684  0.4565347  0.01597329 0.04139659
+ 0.23027907 0.04479035 0.00740192 0.         0.05692963 0.00584885
+ 0.         0.06802963]
+2023-02-08 17:37:31,206 - Model - INFO - End of training...
+2023-02-08 17:37:31,206 - Model - INFO - Epoch 101 (101/200):
+2023-02-08 17:38:09,106 - Model - INFO - Training mean loss: 0.346454
+2023-02-08 17:38:09,107 - Model - INFO - Train Accuracy: 3.511061
+2023-02-08 17:38:09,108 - Model - INFO - ---- EPOCH 101 EVALUATION ----
+2023-02-08 17:38:17,435 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:38:17,435 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:38:17,435 - Model - INFO - [0.3483399  0.17428389 0.20408094 0.3056847  0.12362114 0.37734455
+ 0.09274584 0.0887149  0.11946176 0.3959538  0.02375226 0.01094132
+ 0.2323357  0.05448872 0.00732975 0.         0.05867324 0.00733037
+ 0.         0.05524416]
+2023-02-08 17:38:17,443 - Model - INFO - End of training...
+2023-02-08 17:38:17,443 - Model - INFO - Epoch 102 (102/200):
+2023-02-08 17:38:55,304 - Model - INFO - Training mean loss: 0.353819
+2023-02-08 17:38:55,304 - Model - INFO - Train Accuracy: 3.510910
+2023-02-08 17:38:55,305 - Model - INFO - ---- EPOCH 102 EVALUATION ----
+2023-02-08 17:39:03,638 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 17:39:03,638 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:39:03,638 - Model - INFO - [0.3589326  0.1592077  0.18842016 0.30438247 0.12818028 0.39218518
+ 0.10130685 0.07765996 0.11129842 0.42783222 0.0105166  0.01444918
+ 0.22950588 0.0436842  0.01033457 0.         0.06869825 0.01260566
+ 0.         0.06259239]
+2023-02-08 17:39:03,647 - Model - INFO - End of training...
+2023-02-08 17:39:03,647 - Model - INFO - Epoch 103 (103/200):
+2023-02-08 17:39:41,513 - Model - INFO - Training mean loss: 0.336843
+2023-02-08 17:39:41,513 - Model - INFO - Train Accuracy: 3.517879
+2023-02-08 17:39:41,514 - Model - INFO - ---- EPOCH 103 EVALUATION ----
+2023-02-08 17:39:49,860 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 17:39:49,860 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:39:49,860 - Model - INFO - [0.32289508 0.1664137  0.20439188 0.2778641  0.12464374 0.39449328
+ 0.11376256 0.09711766 0.12138436 0.4353189  0.02130836 0.02122412
+ 0.23420946 0.030761   0.00432515 0.         0.06734812 0.00765976
+ 0.         0.05056833]
+2023-02-08 17:39:49,868 - Model - INFO - End of training...
+2023-02-08 17:39:49,868 - Model - INFO - Epoch 104 (104/200):
+2023-02-08 17:40:27,786 - Model - INFO - Training mean loss: 0.337887
+2023-02-08 17:40:27,787 - Model - INFO - Train Accuracy: 3.514697
+2023-02-08 17:40:27,787 - Model - INFO - ---- EPOCH 104 EVALUATION ----
+2023-02-08 17:40:36,165 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:40:36,165 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:40:36,165 - Model - INFO - [0.3438703  0.17309012 0.20342523 0.26193097 0.11820941 0.387517
+ 0.09976645 0.08602569 0.1073298  0.46678525 0.02459391 0.01671767
+ 0.19982392 0.04202133 0.00864913 0.         0.04585734 0.00969189
+ 0.         0.05241528]
+2023-02-08 17:40:36,172 - Model - INFO - End of training...
+2023-02-08 17:40:36,172 - Model - INFO - Epoch 105 (105/200):
+2023-02-08 17:41:14,099 - Model - INFO - Training mean loss: 0.329623
+2023-02-08 17:41:14,100 - Model - INFO - Train Accuracy: 3.516971
+2023-02-08 17:41:14,101 - Model - INFO - ---- EPOCH 105 EVALUATION ----
+2023-02-08 17:41:22,413 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:41:22,414 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:41:22,414 - Model - INFO - [0.34872648 0.16982809 0.18438226 0.31113115 0.12028787 0.41030782
+ 0.10483106 0.08001306 0.11345414 0.38608253 0.02989975 0.03855372
+ 0.21607168 0.04189842 0.01087228 0.         0.04482986 0.00547083
+ 0.         0.0601268 ]
+2023-02-08 17:41:22,421 - Model - INFO - End of training...
+2023-02-08 17:41:22,422 - Model - INFO - Epoch 106 (106/200):
+2023-02-08 17:42:00,359 - Model - INFO - Training mean loss: 0.324508
+2023-02-08 17:42:00,359 - Model - INFO - Train Accuracy: 3.520910
+2023-02-08 17:42:00,360 - Model - INFO - ---- EPOCH 106 EVALUATION ----
+2023-02-08 17:42:08,578 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 17:42:08,579 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:42:08,579 - Model - INFO - [0.31393725 0.172604   0.18535216 0.26582077 0.12480462 0.38035074
+ 0.10192773 0.08614589 0.10974404 0.42627853 0.02306508 0.01532408
+ 0.20931146 0.03938309 0.00177685 0.         0.05188448 0.00614172
+ 0.         0.06979981]
+2023-02-08 17:42:08,586 - Model - INFO - End of training...
+2023-02-08 17:42:08,587 - Model - INFO - Epoch 107 (107/200):
+2023-02-08 17:42:46,451 - Model - INFO - Training mean loss: 0.333353
+2023-02-08 17:42:46,451 - Model - INFO - Train Accuracy: 3.515304
+2023-02-08 17:42:46,452 - Model - INFO - ---- EPOCH 107 EVALUATION ----
+2023-02-08 17:42:54,829 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:42:54,829 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:42:54,829 - Model - INFO - [3.3419305e-01 1.6885883e-01 2.1891689e-01 2.6461437e-01 1.1641252e-01
+ 3.8524884e-01 1.0767488e-01 8.8594317e-02 1.1512282e-01 4.4940808e-01
+ 4.0011968e-02 1.4938880e-02 2.1669447e-01 4.1151121e-02 7.0213568e-03
+ 1.8635855e-04 4.8584312e-02 8.9881159e-03 0.0000000e+00 6.0524538e-02]
+2023-02-08 17:42:54,837 - Model - INFO - End of training...
+2023-02-08 17:42:54,838 - Model - INFO - Epoch 108 (108/200):
+2023-02-08 17:43:32,761 - Model - INFO - Training mean loss: 0.323564
+2023-02-08 17:43:32,762 - Model - INFO - Train Accuracy: 3.519091
+2023-02-08 17:43:32,762 - Model - INFO - ---- EPOCH 108 EVALUATION ----
+2023-02-08 17:43:41,047 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:43:41,047 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:43:41,047 - Model - INFO - [0.32604814 0.15712516 0.18295828 0.3011095  0.12367086 0.39079902
+ 0.10163134 0.09040497 0.12153681 0.42173144 0.03444259 0.00622647
+ 0.22447659 0.0254917  0.00812264 0.         0.04740416 0.00834849
+ 0.         0.06186767]
+2023-02-08 17:43:41,054 - Model - INFO - End of training...
+2023-02-08 17:43:41,054 - Model - INFO - Epoch 109 (109/200):
+2023-02-08 17:44:18,964 - Model - INFO - Training mean loss: 0.321542
+2023-02-08 17:44:18,965 - Model - INFO - Train Accuracy: 3.521666
+2023-02-08 17:44:18,965 - Model - INFO - ---- EPOCH 109 EVALUATION ----
+2023-02-08 17:44:27,162 - Model - INFO - Mean IoU = 13.7%
+2023-02-08 17:44:27,163 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:44:27,163 - Model - INFO - [0.33443806 0.1456044  0.18567398 0.2956517  0.11659209 0.3731552
+ 0.10281517 0.0895036  0.11908174 0.5211331  0.03410397 0.05099162
+ 0.21132888 0.04567482 0.00699766 0.         0.03108181 0.00698355
+ 0.         0.06848555]
+2023-02-08 17:44:27,171 - Model - INFO - End of training...
+2023-02-08 17:44:27,171 - Model - INFO - Epoch 110 (110/200):
+2023-02-08 17:45:05,109 - Model - INFO - Training mean loss: 0.322718
+2023-02-08 17:45:05,110 - Model - INFO - Train Accuracy: 3.520910
+2023-02-08 17:45:05,110 - Model - INFO - ---- EPOCH 110 EVALUATION ----
+2023-02-08 17:45:13,460 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:45:13,461 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:45:13,461 - Model - INFO - [3.34549129e-01 2.28557691e-01 1.88060760e-01 3.33033174e-01
+ 1.11034885e-01 4.01366621e-01 1.03404723e-01 7.53795281e-02
+ 1.20979428e-01 3.85528505e-01 3.19919176e-02 1.04449326e-02
+ 2.03542754e-01 3.45208347e-02 4.96477913e-03 0.00000000e+00
+ 4.33834679e-02 1.02902455e-02 1.47139974e-04 6.08146712e-02]
+2023-02-08 17:45:13,468 - Model - INFO - End of training...
+2023-02-08 17:45:13,468 - Model - INFO - Epoch 111 (111/200):
+2023-02-08 17:45:51,363 - Model - INFO - Training mean loss: 0.319299
+2023-02-08 17:45:51,364 - Model - INFO - Train Accuracy: 3.522274
+2023-02-08 17:45:51,364 - Model - INFO - ---- EPOCH 111 EVALUATION ----
+2023-02-08 17:45:59,698 - Model - INFO - Mean IoU = 12.6%
+2023-02-08 17:45:59,699 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:45:59,699 - Model - INFO - [0.2851339  0.16313423 0.21024518 0.30939478 0.10874628 0.36201236
+ 0.10079462 0.09554084 0.13065909 0.31717914 0.02947265 0.02595338
+ 0.21454972 0.03749526 0.00623209 0.         0.05417091 0.01164243
+ 0.         0.06078286]
+2023-02-08 17:45:59,706 - Model - INFO - End of training...
+2023-02-08 17:45:59,706 - Model - INFO - Epoch 112 (112/200):
+2023-02-08 17:46:37,686 - Model - INFO - Training mean loss: 0.330131
+2023-02-08 17:46:37,687 - Model - INFO - Train Accuracy: 3.516364
+2023-02-08 17:46:37,687 - Model - INFO - ---- EPOCH 112 EVALUATION ----
+2023-02-08 17:46:46,046 - Model - INFO - Mean IoU = 13.8%
+2023-02-08 17:46:46,046 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:46:46,046 - Model - INFO - [0.3107719  0.14340082 0.21700326 0.29304925 0.12324007 0.40064275
+ 0.107437   0.0899712  0.12889287 0.46048445 0.04464948 0.01404292
+ 0.23668489 0.05711201 0.00893418 0.         0.05031069 0.01005874
+ 0.         0.05435895]
+2023-02-08 17:46:46,054 - Model - INFO - End of training...
+2023-02-08 17:46:46,054 - Model - INFO - Epoch 113 (113/200):
+2023-02-08 17:47:24,166 - Model - INFO - Training mean loss: 0.297589
+2023-02-08 17:47:24,167 - Model - INFO - Train Accuracy: 3.533637
+2023-02-08 17:47:24,167 - Model - INFO - ---- EPOCH 113 EVALUATION ----
+2023-02-08 17:47:32,489 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:47:32,490 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:47:32,490 - Model - INFO - [0.3299159  0.14990734 0.2097229  0.3217868  0.0910401  0.37342966
+ 0.12176028 0.08690727 0.13701403 0.39683455 0.04671931 0.00974603
+ 0.20178804 0.03907427 0.00687756 0.         0.04903652 0.01147886
+ 0.         0.06006926]
+2023-02-08 17:47:32,497 - Model - INFO - End of training...
+2023-02-08 17:47:32,497 - Model - INFO - Epoch 114 (114/200):
+2023-02-08 17:48:10,702 - Model - INFO - Training mean loss: 0.305429
+2023-02-08 17:48:10,703 - Model - INFO - Train Accuracy: 3.530303
+2023-02-08 17:48:10,704 - Model - INFO - ---- EPOCH 114 EVALUATION ----
+2023-02-08 17:48:19,055 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:48:19,055 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:48:19,055 - Model - INFO - [3.1297025e-01 1.4332995e-01 1.9987132e-01 3.0004540e-01 1.0383056e-01
+ 3.7890869e-01 1.0256497e-01 9.6578285e-02 1.1622880e-01 4.1312483e-01
+ 4.9730401e-02 2.8383508e-02 2.2507435e-01 4.1813698e-02 6.2587033e-03
+ 0.0000000e+00 4.2997066e-02 9.7771604e-03 7.3751755e-05 6.6148020e-02]
+2023-02-08 17:48:19,064 - Model - INFO - End of training...
+2023-02-08 17:48:19,064 - Model - INFO - Epoch 115 (115/200):
+2023-02-08 17:48:57,152 - Model - INFO - Training mean loss: 0.298408
+2023-02-08 17:48:57,152 - Model - INFO - Train Accuracy: 3.535455
+2023-02-08 17:48:57,153 - Model - INFO - ---- EPOCH 115 EVALUATION ----
+2023-02-08 17:49:05,544 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:49:05,544 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:49:05,544 - Model - INFO - [3.0876490e-01 1.5423372e-01 2.0740797e-01 2.9862732e-01 1.1746682e-01
+ 3.7785843e-01 1.0120124e-01 8.3754048e-02 1.3245411e-01 4.5277044e-01
+ 3.8282063e-02 1.9254234e-02 2.0958894e-01 3.5351701e-02 4.5284149e-03
+ 0.0000000e+00 4.7732670e-02 1.2215173e-02 1.1007558e-04 7.0688240e-02]
+2023-02-08 17:49:05,553 - Model - INFO - End of training...
+2023-02-08 17:49:05,553 - Model - INFO - Epoch 116 (116/200):
+2023-02-08 17:49:43,415 - Model - INFO - Training mean loss: 0.300875
+2023-02-08 17:49:43,415 - Model - INFO - Train Accuracy: 3.530152
+2023-02-08 17:49:43,416 - Model - INFO - ---- EPOCH 116 EVALUATION ----
+2023-02-08 17:49:51,753 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:49:51,753 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:49:51,753 - Model - INFO - [0.3040097  0.16237128 0.18184078 0.31388712 0.09479874 0.37431172
+ 0.10629312 0.09910113 0.12338554 0.48154858 0.03903951 0.00712791
+ 0.21533622 0.04994258 0.01144336 0.         0.02982858 0.006292
+ 0.         0.06605425]
+2023-02-08 17:49:51,760 - Model - INFO - End of training...
+2023-02-08 17:49:51,760 - Model - INFO - Epoch 117 (117/200):
+2023-02-08 17:50:29,808 - Model - INFO - Training mean loss: 0.302811
+2023-02-08 17:50:29,808 - Model - INFO - Train Accuracy: 3.529849
+2023-02-08 17:50:29,809 - Model - INFO - ---- EPOCH 117 EVALUATION ----
+2023-02-08 17:50:38,242 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 17:50:38,242 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:50:38,242 - Model - INFO - [2.98352480e-01 1.26276359e-01 2.06703901e-01 3.07635099e-01
+ 1.01160444e-01 3.87826979e-01 1.16599336e-01 9.34291780e-02
+ 1.20586507e-01 4.42875385e-01 3.98099907e-02 1.31458174e-02
+ 2.21251458e-01 3.44019569e-02 1.00942422e-02 0.00000000e+00
+ 4.46451940e-02 1.56202782e-02 3.66824388e-04 6.55488968e-02]
+2023-02-08 17:50:38,250 - Model - INFO - End of training...
+2023-02-08 17:50:38,250 - Model - INFO - Epoch 118 (118/200):
+2023-02-08 17:51:16,440 - Model - INFO - Training mean loss: 0.289444
+2023-02-08 17:51:16,440 - Model - INFO - Train Accuracy: 3.537879
+2023-02-08 17:51:16,441 - Model - INFO - ---- EPOCH 118 EVALUATION ----
+2023-02-08 17:51:24,841 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:51:24,841 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:51:24,841 - Model - INFO - [2.9701471e-01 1.4562169e-01 2.1262659e-01 2.6424068e-01 1.3322231e-01
+ 3.8005668e-01 8.9657433e-02 8.7305166e-02 1.2366392e-01 5.0700504e-01
+ 4.0825751e-02 9.3354117e-03 2.1892941e-01 4.1204944e-02 1.0860348e-02
+ 0.0000000e+00 4.3837510e-02 5.5929753e-03 1.4698318e-04 5.9753716e-02]
+2023-02-08 17:51:24,850 - Model - INFO - End of training...
+2023-02-08 17:51:24,850 - Model - INFO - Epoch 119 (119/200):
+2023-02-08 17:52:02,881 - Model - INFO - Training mean loss: 0.316934
+2023-02-08 17:52:02,881 - Model - INFO - Train Accuracy: 3.524394
+2023-02-08 17:52:02,882 - Model - INFO - ---- EPOCH 119 EVALUATION ----
+2023-02-08 17:52:11,187 - Model - INFO - Mean IoU = 13.8%
+2023-02-08 17:52:11,187 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:52:11,187 - Model - INFO - [0.29792762 0.19158036 0.21649207 0.28594175 0.10437683 0.40130028
+ 0.11675883 0.10101527 0.11843664 0.48592374 0.03089744 0.01778913
+ 0.21653113 0.03908546 0.0129003  0.         0.05763226 0.01086919
+ 0.00062537 0.05919815]
+2023-02-08 17:52:11,194 - Model - INFO - End of training...
+2023-02-08 17:52:11,195 - Model - INFO - Epoch 120 (120/200):
+2023-02-08 17:52:49,246 - Model - INFO - Training mean loss: 0.267726
+2023-02-08 17:52:49,246 - Model - INFO - Train Accuracy: 3.547879
+2023-02-08 17:52:49,247 - Model - INFO - ---- EPOCH 120 EVALUATION ----
+2023-02-08 17:52:57,674 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 17:52:57,674 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:52:57,674 - Model - INFO - [2.9504716e-01 1.3836855e-01 2.0656215e-01 2.7999130e-01 1.0375115e-01
+ 3.8939264e-01 1.0046491e-01 9.7290523e-02 1.1502906e-01 4.5465967e-01
+ 3.7990969e-02 1.6468463e-02 2.1012647e-01 4.0509745e-02 3.8249106e-03
+ 0.0000000e+00 5.4911811e-02 1.3638223e-02 7.3784402e-05 6.2137626e-02]
+2023-02-08 17:52:57,682 - Model - INFO - End of training...
+2023-02-08 17:52:57,683 - Model - INFO - Epoch 121 (121/200):
+2023-02-08 17:53:35,625 - Model - INFO - Training mean loss: 0.268537
+2023-02-08 17:53:35,625 - Model - INFO - Train Accuracy: 3.545455
+2023-02-08 17:53:35,626 - Model - INFO - ---- EPOCH 121 EVALUATION ----
+2023-02-08 17:53:43,992 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:53:43,992 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:53:43,992 - Model - INFO - [0.2833978  0.1566263  0.22008948 0.3410226  0.10493891 0.36958966
+ 0.09665579 0.09218327 0.12177887 0.4500132  0.04202228 0.01082277
+ 0.21084332 0.03666426 0.00993436 0.         0.05920111 0.013444
+ 0.00128083 0.06192459]
+2023-02-08 17:53:44,000 - Model - INFO - End of training...
+2023-02-08 17:53:44,000 - Model - INFO - Epoch 122 (122/200):
+2023-02-08 17:54:22,028 - Model - INFO - Training mean loss: 0.260557
+2023-02-08 17:54:22,028 - Model - INFO - Train Accuracy: 3.550606
+2023-02-08 17:54:22,029 - Model - INFO - ---- EPOCH 122 EVALUATION ----
+2023-02-08 17:54:30,439 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 17:54:30,439 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:54:30,439 - Model - INFO - [2.9466391e-01 1.5156209e-01 1.9147238e-01 3.1120175e-01 1.0458971e-01
+ 3.6584121e-01 9.4325066e-02 9.4303958e-02 1.1189154e-01 4.3920368e-01
+ 3.6456682e-02 7.6927682e-03 2.3612814e-01 5.1910467e-02 7.3723090e-03
+ 0.0000000e+00 4.8856962e-02 1.2557783e-02 3.6776873e-05 6.2787779e-02]
+2023-02-08 17:54:30,447 - Model - INFO - End of training...
+2023-02-08 17:54:30,447 - Model - INFO - Epoch 123 (123/200):
+2023-02-08 17:55:08,536 - Model - INFO - Training mean loss: 0.267323
+2023-02-08 17:55:08,537 - Model - INFO - Train Accuracy: 3.548182
+2023-02-08 17:55:08,537 - Model - INFO - ---- EPOCH 123 EVALUATION ----
+2023-02-08 17:55:16,941 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:55:16,941 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:55:16,941 - Model - INFO - [0.31152555 0.13465287 0.20606567 0.27928185 0.10582716 0.38003296
+ 0.11004567 0.09496984 0.11936586 0.44464445 0.05619021 0.02133133
+ 0.20149024 0.03123504 0.01497855 0.         0.0515589  0.01831618
+ 0.00167828 0.07071193]
+2023-02-08 17:55:16,948 - Model - INFO - End of training...
+2023-02-08 17:55:16,948 - Model - INFO - Epoch 124 (124/200):
+2023-02-08 17:55:54,897 - Model - INFO - Training mean loss: 0.255804
+2023-02-08 17:55:54,897 - Model - INFO - Train Accuracy: 3.553334
+2023-02-08 17:55:54,898 - Model - INFO - ---- EPOCH 124 EVALUATION ----
+2023-02-08 17:56:03,142 - Model - INFO - Mean IoU = 12.8%
+2023-02-08 17:56:03,142 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:56:03,142 - Model - INFO - [2.83107340e-01 1.53558061e-01 1.97082043e-01 3.02213013e-01
+ 1.07119709e-01 3.76844019e-01 1.05707340e-01 1.04049765e-01
+ 1.18020073e-01 3.46802741e-01 4.10903841e-02 9.15126782e-03
+ 2.22694591e-01 4.68130261e-02 1.06617222e-02 0.00000000e+00
+ 6.03160262e-02 1.42964665e-02 3.67457942e-05 6.91449717e-02]
+2023-02-08 17:56:03,149 - Model - INFO - End of training...
+2023-02-08 17:56:03,149 - Model - INFO - Epoch 125 (125/200):
+2023-02-08 17:56:41,087 - Model - INFO - Training mean loss: 0.251561
+2023-02-08 17:56:41,088 - Model - INFO - Train Accuracy: 3.554697
+2023-02-08 17:56:41,088 - Model - INFO - ---- EPOCH 125 EVALUATION ----
+2023-02-08 17:56:49,505 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:56:49,505 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:56:49,505 - Model - INFO - [2.8057584e-01 1.6732442e-01 2.0548263e-01 3.0797932e-01 9.9141859e-02
+ 3.7904650e-01 9.6843146e-02 1.0731086e-01 1.1548399e-01 4.4124809e-01
+ 3.4233332e-02 1.7329779e-02 2.3007141e-01 5.0807387e-02 1.0364042e-02
+ 0.0000000e+00 6.7054518e-02 1.0474590e-02 7.3607887e-05 6.2146697e-02]
+2023-02-08 17:56:49,513 - Model - INFO - End of training...
+2023-02-08 17:56:49,513 - Model - INFO - Epoch 126 (126/200):
+2023-02-08 17:57:27,538 - Model - INFO - Training mean loss: 0.244116
+2023-02-08 17:57:27,538 - Model - INFO - Train Accuracy: 3.560152
+2023-02-08 17:57:27,538 - Model - INFO - ---- EPOCH 126 EVALUATION ----
+2023-02-08 17:57:35,921 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:57:35,921 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:57:35,921 - Model - INFO - [0.28083938 0.12885378 0.20508565 0.3107646  0.1117054  0.37578934
+ 0.09470505 0.09543599 0.1193975  0.45824704 0.04332381 0.00792041
+ 0.23274536 0.04308202 0.0147042  0.         0.05291932 0.00931191
+ 0.         0.06609601]
+2023-02-08 17:57:35,928 - Model - INFO - End of training...
+2023-02-08 17:57:35,928 - Model - INFO - Epoch 127 (127/200):
+2023-02-08 17:58:14,120 - Model - INFO - Training mean loss: 0.237631
+2023-02-08 17:58:14,121 - Model - INFO - Train Accuracy: 3.561061
+2023-02-08 17:58:14,121 - Model - INFO - ---- EPOCH 127 EVALUATION ----
+2023-02-08 17:58:22,538 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 17:58:22,538 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:58:22,538 - Model - INFO - [0.29618037 0.16073154 0.21123777 0.29984716 0.10771479 0.37875366
+ 0.11065617 0.09692153 0.11103196 0.45504043 0.04561292 0.01156519
+ 0.21591292 0.05204365 0.01119737 0.         0.04059374 0.00739516
+ 0.         0.05566789]
+2023-02-08 17:58:22,549 - Model - INFO - End of training...
+2023-02-08 17:58:22,549 - Model - INFO - Epoch 128 (128/200):
+2023-02-08 17:59:00,557 - Model - INFO - Training mean loss: 0.239726
+2023-02-08 17:59:00,557 - Model - INFO - Train Accuracy: 3.559848
+2023-02-08 17:59:00,558 - Model - INFO - ---- EPOCH 128 EVALUATION ----
+2023-02-08 17:59:08,999 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 17:59:09,000 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:59:09,000 - Model - INFO - [0.30038792 0.14156292 0.19397683 0.3180632  0.09451657 0.37044093
+ 0.11458009 0.10656496 0.11951604 0.45523697 0.04161796 0.02784202
+ 0.23441476 0.03428631 0.005665   0.         0.04372096 0.01472513
+ 0.00047649 0.06765765]
+2023-02-08 17:59:09,007 - Model - INFO - End of training...
+2023-02-08 17:59:09,007 - Model - INFO - Epoch 129 (129/200):
+2023-02-08 17:59:47,133 - Model - INFO - Training mean loss: 0.233217
+2023-02-08 17:59:47,134 - Model - INFO - Train Accuracy: 3.564091
+2023-02-08 17:59:47,134 - Model - INFO - ---- EPOCH 129 EVALUATION ----
+2023-02-08 17:59:55,509 - Model - INFO - Mean IoU = 13.6%
+2023-02-08 17:59:55,509 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 17:59:55,509 - Model - INFO - [2.85387993e-01 1.42717972e-01 1.95870534e-01 2.99953669e-01
+ 1.11220479e-01 3.77774864e-01 1.06171764e-01 1.03360616e-01
+ 1.24693096e-01 4.82734054e-01 4.30154502e-02 2.61348393e-02
+ 2.14952648e-01 5.54668941e-02 1.35036111e-02 0.00000000e+00
+ 4.95507121e-02 1.43405385e-02 7.29102103e-05 6.66200668e-02]
+2023-02-08 17:59:55,516 - Model - INFO - End of training...
+2023-02-08 17:59:55,516 - Model - INFO - Epoch 130 (130/200):
+2023-02-08 18:00:33,722 - Model - INFO - Training mean loss: 0.240223
+2023-02-08 18:00:33,722 - Model - INFO - Train Accuracy: 3.558182
+2023-02-08 18:00:33,723 - Model - INFO - ---- EPOCH 130 EVALUATION ----
+2023-02-08 18:00:42,034 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:00:42,034 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:00:42,034 - Model - INFO - [2.6652110e-01 1.3667975e-01 1.9866613e-01 3.0534932e-01 1.2177811e-01
+ 3.7511951e-01 1.0767058e-01 1.0576109e-01 1.2459873e-01 4.4247815e-01
+ 4.7011618e-02 1.1660605e-02 2.2358717e-01 4.8659291e-02 1.1854690e-02
+ 0.0000000e+00 4.8708018e-02 7.8832963e-03 1.8283541e-04 6.6378087e-02]
+2023-02-08 18:00:42,041 - Model - INFO - End of training...
+2023-02-08 18:00:42,041 - Model - INFO - Epoch 131 (131/200):
+2023-02-08 18:01:19,959 - Model - INFO - Training mean loss: 0.241944
+2023-02-08 18:01:19,960 - Model - INFO - Train Accuracy: 3.558485
+2023-02-08 18:01:19,960 - Model - INFO - ---- EPOCH 131 EVALUATION ----
+2023-02-08 18:01:28,295 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:01:28,295 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:01:28,296 - Model - INFO - [0.2800797  0.14123729 0.19519557 0.28777683 0.09933556 0.3649134
+ 0.12208265 0.10528232 0.11563104 0.44603407 0.04490398 0.00901831
+ 0.20470846 0.06028898 0.00455777 0.         0.03995009 0.00823635
+ 0.00126436 0.06225441]
+2023-02-08 18:01:28,303 - Model - INFO - End of training...
+2023-02-08 18:01:28,303 - Model - INFO - Epoch 132 (132/200):
+2023-02-08 18:02:06,349 - Model - INFO - Training mean loss: 0.234291
+2023-02-08 18:02:06,349 - Model - INFO - Train Accuracy: 3.562424
+2023-02-08 18:02:06,350 - Model - INFO - ---- EPOCH 132 EVALUATION ----
+2023-02-08 18:02:14,770 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 18:02:14,770 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:02:14,770 - Model - INFO - [0.28422943 0.16057846 0.19650501 0.3151993  0.09811626 0.39315036
+ 0.10921136 0.10317063 0.11096428 0.4507689  0.04144283 0.04103084
+ 0.20637925 0.04056679 0.01596262 0.         0.04274186 0.01396621
+ 0.0008701  0.07137436]
+2023-02-08 18:02:14,779 - Model - INFO - End of training...
+2023-02-08 18:02:14,779 - Model - INFO - Epoch 133 (133/200):
+2023-02-08 18:02:52,742 - Model - INFO - Training mean loss: 0.230141
+2023-02-08 18:02:52,743 - Model - INFO - Train Accuracy: 3.564698
+2023-02-08 18:02:52,743 - Model - INFO - ---- EPOCH 133 EVALUATION ----
+2023-02-08 18:03:01,105 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 18:03:01,105 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:03:01,105 - Model - INFO - [2.60655254e-01 1.49690598e-01 2.15508685e-01 3.07882369e-01
+ 9.43857357e-02 3.69807899e-01 1.00828215e-01 1.10038981e-01
+ 1.32319033e-01 4.85171527e-01 4.29528430e-02 1.95284281e-02
+ 2.22420931e-01 4.51371185e-02 1.19207902e-02 0.00000000e+00
+ 4.26878743e-02 1.35657825e-02 2.17904482e-04 6.55316040e-02]
+2023-02-08 18:03:01,113 - Model - INFO - End of training...
+2023-02-08 18:03:01,114 - Model - INFO - Epoch 134 (134/200):
+2023-02-08 18:03:39,050 - Model - INFO - Training mean loss: 0.235631
+2023-02-08 18:03:39,051 - Model - INFO - Train Accuracy: 3.559849
+2023-02-08 18:03:39,051 - Model - INFO - ---- EPOCH 134 EVALUATION ----
+2023-02-08 18:03:47,410 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 18:03:47,410 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:03:47,410 - Model - INFO - [2.7602854e-01 1.4634801e-01 2.0101650e-01 3.4668124e-01 1.1348371e-01
+ 3.7563738e-01 1.0940243e-01 8.9635670e-02 1.1501379e-01 4.7383678e-01
+ 4.2679016e-02 9.3559446e-03 2.2507773e-01 3.7172712e-02 4.3785525e-03
+ 6.1745544e-05 6.2111676e-02 9.7721135e-03 6.1607594e-04 6.1754279e-02]
+2023-02-08 18:03:47,417 - Model - INFO - End of training...
+2023-02-08 18:03:47,417 - Model - INFO - Epoch 135 (135/200):
+2023-02-08 18:04:25,473 - Model - INFO - Training mean loss: 0.222801
+2023-02-08 18:04:25,473 - Model - INFO - Train Accuracy: 3.568030
+2023-02-08 18:04:25,474 - Model - INFO - ---- EPOCH 135 EVALUATION ----
+2023-02-08 18:04:33,980 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:04:33,981 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:04:33,981 - Model - INFO - [0.2665068  0.13304134 0.19777037 0.31173256 0.09549636 0.37056813
+ 0.10128914 0.10007002 0.11117675 0.44114444 0.05652319 0.04270752
+ 0.20949084 0.0479922  0.00559203 0.         0.04601478 0.01566011
+ 0.0018612  0.06477217]
+2023-02-08 18:04:33,988 - Model - INFO - End of training...
+2023-02-08 18:04:33,988 - Model - INFO - Epoch 136 (136/200):
+2023-02-08 18:05:11,974 - Model - INFO - Training mean loss: 0.241995
+2023-02-08 18:05:11,974 - Model - INFO - Train Accuracy: 3.555607
+2023-02-08 18:05:11,975 - Model - INFO - ---- EPOCH 136 EVALUATION ----
+2023-02-08 18:05:20,344 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:05:20,344 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:05:20,344 - Model - INFO - [0.25705576 0.13664101 0.20545578 0.33379304 0.11461012 0.37482274
+ 0.10806338 0.1090945  0.12268306 0.4225413  0.04391215 0.02805032
+ 0.2264509  0.04836738 0.00901375 0.         0.04415456 0.01260309
+ 0.00068054 0.06535217]
+2023-02-08 18:05:20,352 - Model - INFO - End of training...
+2023-02-08 18:05:20,352 - Model - INFO - Epoch 137 (137/200):
+2023-02-08 18:05:58,346 - Model - INFO - Training mean loss: 0.222898
+2023-02-08 18:05:58,347 - Model - INFO - Train Accuracy: 3.567425
+2023-02-08 18:05:58,347 - Model - INFO - ---- EPOCH 137 EVALUATION ----
+2023-02-08 18:06:06,742 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:06:06,742 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:06:06,742 - Model - INFO - [0.2653925  0.1508485  0.21687974 0.2904877  0.10815778 0.3885089
+ 0.11595186 0.09881652 0.12082722 0.40876547 0.05606458 0.00978702
+ 0.21075685 0.04015159 0.00716471 0.         0.02920781 0.01160901
+ 0.00050461 0.0706716 ]
+2023-02-08 18:06:06,750 - Model - INFO - End of training...
+2023-02-08 18:06:06,750 - Model - INFO - Epoch 138 (138/200):
+2023-02-08 18:06:45,188 - Model - INFO - Training mean loss: 0.221983
+2023-02-08 18:06:45,188 - Model - INFO - Train Accuracy: 3.569091
+2023-02-08 18:06:45,189 - Model - INFO - ---- EPOCH 138 EVALUATION ----
+2023-02-08 18:06:53,540 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:06:53,540 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:06:53,540 - Model - INFO - [0.2764733  0.14997002 0.20519598 0.2980294  0.10717689 0.37483448
+ 0.10663609 0.10966049 0.11993655 0.41623425 0.04497803 0.02904832
+ 0.22546214 0.04210713 0.00394783 0.         0.03779853 0.01086144
+ 0.00298455 0.06387598]
+2023-02-08 18:06:53,548 - Model - INFO - End of training...
+2023-02-08 18:06:53,548 - Model - INFO - Epoch 139 (139/200):
+2023-02-08 18:07:31,938 - Model - INFO - Training mean loss: 0.225332
+2023-02-08 18:07:31,939 - Model - INFO - Train Accuracy: 3.566364
+2023-02-08 18:07:31,939 - Model - INFO - ---- EPOCH 139 EVALUATION ----
+2023-02-08 18:07:40,268 - Model - INFO - Mean IoU = 12.6%
+2023-02-08 18:07:40,269 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:07:40,269 - Model - INFO - [0.26240283 0.12788758 0.21008706 0.284076   0.12058498 0.36567366
+ 0.10027509 0.10454959 0.10706925 0.37186652 0.05351755 0.01510102
+ 0.23642601 0.0348963  0.00661203 0.         0.0460289  0.01372769
+ 0.00153517 0.06408164]
+2023-02-08 18:07:40,278 - Model - INFO - End of training...
+2023-02-08 18:07:40,278 - Model - INFO - Epoch 140 (140/200):
+2023-02-08 18:08:18,412 - Model - INFO - Training mean loss: 0.210102
+2023-02-08 18:08:18,412 - Model - INFO - Train Accuracy: 3.571667
+2023-02-08 18:08:18,413 - Model - INFO - ---- EPOCH 140 EVALUATION ----
+2023-02-08 18:08:26,848 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:08:26,848 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:08:26,848 - Model - INFO - [0.27143657 0.12924676 0.20343666 0.3198293  0.1213965  0.3778549
+ 0.09261152 0.11041006 0.12411348 0.43839726 0.04292996 0.02783646
+ 0.23421675 0.03300663 0.00545692 0.         0.04100185 0.0111946
+ 0.00303532 0.0643627 ]
+2023-02-08 18:08:26,857 - Model - INFO - End of training...
+2023-02-08 18:08:26,857 - Model - INFO - Epoch 141 (141/200):
+2023-02-08 18:09:04,792 - Model - INFO - Training mean loss: 0.213953
+2023-02-08 18:09:04,792 - Model - INFO - Train Accuracy: 3.573030
+2023-02-08 18:09:04,792 - Model - INFO - ---- EPOCH 141 EVALUATION ----
+2023-02-08 18:09:13,063 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:09:13,063 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:09:13,063 - Model - INFO - [0.2595839  0.09639857 0.20947164 0.30788916 0.1092752  0.3661857
+ 0.11045671 0.10888955 0.11648636 0.42096755 0.05844075 0.02045023
+ 0.225248   0.0421751  0.01350923 0.         0.04743476 0.01091941
+ 0.00126605 0.06723549]
+2023-02-08 18:09:13,071 - Model - INFO - End of training...
+2023-02-08 18:09:13,071 - Model - INFO - Epoch 142 (142/200):
+2023-02-08 18:09:51,329 - Model - INFO - Training mean loss: 0.194494
+2023-02-08 18:09:51,329 - Model - INFO - Train Accuracy: 3.579091
+2023-02-08 18:09:51,330 - Model - INFO - ---- EPOCH 142 EVALUATION ----
+2023-02-08 18:09:59,764 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:09:59,765 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:09:59,765 - Model - INFO - [2.54010916e-01 1.27460629e-01 2.02133372e-01 3.06541443e-01
+ 1.13821983e-01 3.63134801e-01 1.04728654e-01 1.01142645e-01
+ 1.13852225e-01 4.19436693e-01 5.32095917e-02 3.40404548e-02
+ 2.10681066e-01 4.19118442e-02 9.20548663e-03 9.26640932e-05
+ 7.54861608e-02 1.42392740e-02 3.94259021e-03 6.71545863e-02]
+2023-02-08 18:09:59,772 - Model - INFO - End of training...
+2023-02-08 18:09:59,772 - Model - INFO - Epoch 143 (143/200):
+2023-02-08 18:10:37,798 - Model - INFO - Training mean loss: 0.201284
+2023-02-08 18:10:37,799 - Model - INFO - Train Accuracy: 3.573486
+2023-02-08 18:10:37,799 - Model - INFO - ---- EPOCH 143 EVALUATION ----
+2023-02-08 18:10:46,233 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:10:46,233 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:10:46,233 - Model - INFO - [0.25268131 0.131966   0.19841872 0.3357625  0.12150104 0.3849673
+ 0.10449998 0.10862878 0.12022087 0.45739514 0.04760085 0.0128974
+ 0.21174103 0.03640353 0.0024466  0.         0.05619768 0.00922715
+ 0.0041434  0.064063  ]
+2023-02-08 18:10:46,241 - Model - INFO - End of training...
+2023-02-08 18:10:46,241 - Model - INFO - Epoch 144 (144/200):
+2023-02-08 18:11:24,389 - Model - INFO - Training mean loss: 0.201178
+2023-02-08 18:11:24,389 - Model - INFO - Train Accuracy: 3.575000
+2023-02-08 18:11:24,390 - Model - INFO - ---- EPOCH 144 EVALUATION ----
+2023-02-08 18:11:32,744 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:11:32,744 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:11:32,744 - Model - INFO - [0.26090026 0.12800255 0.20220375 0.3281738  0.11269747 0.37370723
+ 0.08453432 0.09660392 0.09374878 0.43706995 0.05235467 0.0235137
+ 0.23868446 0.04627974 0.01061448 0.         0.05551754 0.01227058
+ 0.0051779  0.07125331]
+2023-02-08 18:11:32,752 - Model - INFO - End of training...
+2023-02-08 18:11:32,752 - Model - INFO - Epoch 145 (145/200):
+2023-02-08 18:12:10,801 - Model - INFO - Training mean loss: 0.196478
+2023-02-08 18:12:10,802 - Model - INFO - Train Accuracy: 3.581061
+2023-02-08 18:12:10,802 - Model - INFO - ---- EPOCH 145 EVALUATION ----
+2023-02-08 18:12:19,137 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:12:19,137 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:12:19,137 - Model - INFO - [0.26946166 0.12470043 0.19627    0.29880026 0.09911299 0.3674292
+ 0.10045899 0.10182454 0.10839023 0.44140404 0.04916687 0.01523962
+ 0.22403733 0.05013183 0.00880952 0.         0.05901142 0.01258954
+ 0.00476224 0.06498484]
+2023-02-08 18:12:19,145 - Model - INFO - End of training...
+2023-02-08 18:12:19,145 - Model - INFO - Epoch 146 (146/200):
+2023-02-08 18:12:57,187 - Model - INFO - Training mean loss: 0.194229
+2023-02-08 18:12:57,187 - Model - INFO - Train Accuracy: 3.575454
+2023-02-08 18:12:57,188 - Model - INFO - ---- EPOCH 146 EVALUATION ----
+2023-02-08 18:13:05,583 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:13:05,583 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:13:05,583 - Model - INFO - [0.26545832 0.11231182 0.19622365 0.3204269  0.12044732 0.37949482
+ 0.11071648 0.0929907  0.10726395 0.42717817 0.0527295  0.03298824
+ 0.22879927 0.05249849 0.00786649 0.         0.06184367 0.01524372
+ 0.00898892 0.06925333]
+2023-02-08 18:13:05,591 - Model - INFO - End of training...
+2023-02-08 18:13:05,591 - Model - INFO - Epoch 147 (147/200):
+2023-02-08 18:13:43,629 - Model - INFO - Training mean loss: 0.190003
+2023-02-08 18:13:43,629 - Model - INFO - Train Accuracy: 3.579697
+2023-02-08 18:13:43,630 - Model - INFO - ---- EPOCH 147 EVALUATION ----
+2023-02-08 18:13:52,149 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:13:52,149 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:13:52,149 - Model - INFO - [2.6128215e-01 1.3085514e-01 2.0708339e-01 3.0636328e-01 1.1432662e-01
+ 3.7820727e-01 9.5786445e-02 1.0177094e-01 1.0212319e-01 3.8025934e-01
+ 5.7126183e-02 3.8502157e-02 2.2879885e-01 6.2608145e-02 5.8353543e-03
+ 3.0963587e-05 5.8169898e-02 1.6757999e-02 2.6093794e-03 6.6820078e-02]
+2023-02-08 18:13:52,157 - Model - INFO - End of training...
+2023-02-08 18:13:52,157 - Model - INFO - Epoch 148 (148/200):
+2023-02-08 18:14:30,179 - Model - INFO - Training mean loss: 0.195419
+2023-02-08 18:14:30,180 - Model - INFO - Train Accuracy: 3.577727
+2023-02-08 18:14:30,181 - Model - INFO - ---- EPOCH 148 EVALUATION ----
+2023-02-08 18:14:38,668 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:14:38,668 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:14:38,668 - Model - INFO - [0.26859534 0.11870895 0.20507528 0.32459345 0.10508707 0.36931455
+ 0.11468063 0.10036025 0.1014494  0.4206376  0.06059952 0.0205283
+ 0.21878949 0.05190299 0.0070875  0.         0.0447255  0.0119032
+ 0.00175797 0.06580908]
+2023-02-08 18:14:38,676 - Model - INFO - End of training...
+2023-02-08 18:14:38,676 - Model - INFO - Epoch 149 (149/200):
+2023-02-08 18:15:16,744 - Model - INFO - Training mean loss: 0.199924
+2023-02-08 18:15:16,745 - Model - INFO - Train Accuracy: 3.573788
+2023-02-08 18:15:16,745 - Model - INFO - ---- EPOCH 149 EVALUATION ----
+2023-02-08 18:15:25,116 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:15:25,116 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:15:25,116 - Model - INFO - [0.24768835 0.11523379 0.20038077 0.31858057 0.10853181 0.37215436
+ 0.093297   0.11804237 0.10875    0.4565132  0.03461796 0.03602323
+ 0.22215492 0.04926206 0.00569673 0.         0.05087852 0.01796163
+ 0.00576937 0.06380622]
+2023-02-08 18:15:25,125 - Model - INFO - End of training...
+2023-02-08 18:15:25,125 - Model - INFO - Epoch 150 (150/200):
+2023-02-08 18:16:03,075 - Model - INFO - Training mean loss: 0.189099
+2023-02-08 18:16:03,076 - Model - INFO - Train Accuracy: 3.577879
+2023-02-08 18:16:03,076 - Model - INFO - ---- EPOCH 150 EVALUATION ----
+2023-02-08 18:16:11,560 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:16:11,561 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:16:11,561 - Model - INFO - [2.49631733e-01 1.19214937e-01 2.14120045e-01 2.81656414e-01
+ 1.06301285e-01 3.93279731e-01 1.12730138e-01 9.34348628e-02
+ 1.09887935e-01 4.22367752e-01 5.92767261e-02 2.70099603e-02
+ 2.10197359e-01 4.95721474e-02 5.56353945e-03 1.23689664e-04
+ 6.70725331e-02 1.30680194e-02 9.76645481e-03 6.22834451e-02]
+2023-02-08 18:16:11,570 - Model - INFO - End of training...
+2023-02-08 18:16:11,570 - Model - INFO - Epoch 151 (151/200):
+2023-02-08 18:16:49,553 - Model - INFO - Training mean loss: 0.195477
+2023-02-08 18:16:49,553 - Model - INFO - Train Accuracy: 3.575455
+2023-02-08 18:16:49,554 - Model - INFO - ---- EPOCH 151 EVALUATION ----
+2023-02-08 18:16:57,825 - Model - INFO - Mean IoU = 12.7%
+2023-02-08 18:16:57,825 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:16:57,825 - Model - INFO - [0.25266594 0.10914408 0.202339   0.31958196 0.10416905 0.34760582
+ 0.10082924 0.09638754 0.11535157 0.4393739  0.05773846 0.01845122
+ 0.21128409 0.05171178 0.00762286 0.         0.04573291 0.0086343
+ 0.0044931  0.05588748]
+2023-02-08 18:16:57,833 - Model - INFO - End of training...
+2023-02-08 18:16:57,833 - Model - INFO - Epoch 152 (152/200):
+2023-02-08 18:17:36,035 - Model - INFO - Training mean loss: 0.195927
+2023-02-08 18:17:36,035 - Model - INFO - Train Accuracy: 3.574091
+2023-02-08 18:17:36,035 - Model - INFO - ---- EPOCH 152 EVALUATION ----
+2023-02-08 18:17:44,358 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 18:17:44,359 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:17:44,359 - Model - INFO - [0.23654617 0.12261376 0.19958723 0.30996323 0.10984087 0.38520905
+ 0.10251406 0.11318649 0.11876644 0.41809186 0.05022875 0.03103453
+ 0.18230693 0.03316079 0.01320344 0.         0.05952737 0.01585651
+ 0.00585911 0.06531297]
+2023-02-08 18:17:44,366 - Model - INFO - End of training...
+2023-02-08 18:17:44,366 - Model - INFO - Epoch 153 (153/200):
+2023-02-08 18:18:22,390 - Model - INFO - Training mean loss: 0.188749
+2023-02-08 18:18:22,391 - Model - INFO - Train Accuracy: 3.580757
+2023-02-08 18:18:22,391 - Model - INFO - ---- EPOCH 153 EVALUATION ----
+2023-02-08 18:18:30,635 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:18:30,635 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:18:30,635 - Model - INFO - [0.27307737 0.12178199 0.19953492 0.30233738 0.11914501 0.35016063
+ 0.10026895 0.10953774 0.10207328 0.41761288 0.05372025 0.00970767
+ 0.22996715 0.05490593 0.01222408 0.         0.0582087  0.01651447
+ 0.00363015 0.0775869 ]
+2023-02-08 18:18:30,643 - Model - INFO - End of training...
+2023-02-08 18:18:30,643 - Model - INFO - Epoch 154 (154/200):
+2023-02-08 18:19:08,488 - Model - INFO - Training mean loss: 0.187828
+2023-02-08 18:19:08,488 - Model - INFO - Train Accuracy: 3.581516
+2023-02-08 18:19:08,489 - Model - INFO - ---- EPOCH 154 EVALUATION ----
+2023-02-08 18:19:16,859 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:19:16,859 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:19:16,859 - Model - INFO - [2.52069354e-01 1.07748501e-01 2.00331122e-01 3.20065379e-01
+ 1.15508109e-01 3.59589607e-01 9.71152857e-02 1.15754820e-01
+ 1.07677214e-01 4.30013746e-01 4.98545207e-02 2.71196961e-02
+ 2.13024259e-01 5.57146929e-02 9.58633516e-03 9.29857706e-05
+ 7.10787252e-02 1.23174600e-02 4.11739852e-03 7.47795254e-02]
+2023-02-08 18:19:16,868 - Model - INFO - End of training...
+2023-02-08 18:19:16,868 - Model - INFO - Epoch 155 (155/200):
+2023-02-08 18:19:54,772 - Model - INFO - Training mean loss: 0.183512
+2023-02-08 18:19:54,773 - Model - INFO - Train Accuracy: 3.582273
+2023-02-08 18:19:54,773 - Model - INFO - ---- EPOCH 155 EVALUATION ----
+2023-02-08 18:20:03,091 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:20:03,092 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:20:03,092 - Model - INFO - [0.25713825 0.10879929 0.20665327 0.2916769  0.11471114 0.38647938
+ 0.09946562 0.1063847  0.1147122  0.40812856 0.0571905  0.01871819
+ 0.22713484 0.05667649 0.00592629 0.         0.05144556 0.01027001
+ 0.00980159 0.06802859]
+2023-02-08 18:20:03,099 - Model - INFO - End of training...
+2023-02-08 18:20:03,099 - Model - INFO - Epoch 156 (156/200):
+2023-02-08 18:20:41,189 - Model - INFO - Training mean loss: 0.181151
+2023-02-08 18:20:41,189 - Model - INFO - Train Accuracy: 3.586818
+2023-02-08 18:20:41,189 - Model - INFO - ---- EPOCH 156 EVALUATION ----
+2023-02-08 18:20:49,527 - Model - INFO - Mean IoU = 12.8%
+2023-02-08 18:20:49,527 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:20:49,527 - Model - INFO - [0.22628579 0.11929461 0.20366599 0.30844474 0.12389732 0.37499934
+ 0.09367377 0.11367781 0.11326352 0.40324348 0.04947642 0.02973812
+ 0.217706   0.04982757 0.00902938 0.         0.03901161 0.00922568
+ 0.00998932 0.067465  ]
+2023-02-08 18:20:49,534 - Model - INFO - End of training...
+2023-02-08 18:20:49,535 - Model - INFO - Epoch 157 (157/200):
+2023-02-08 18:21:27,489 - Model - INFO - Training mean loss: 0.176271
+2023-02-08 18:21:27,490 - Model - INFO - Train Accuracy: 3.585303
+2023-02-08 18:21:27,491 - Model - INFO - ---- EPOCH 157 EVALUATION ----
+2023-02-08 18:21:35,847 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:21:35,847 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:21:35,847 - Model - INFO - [0.26328284 0.11974824 0.20169507 0.2938783  0.10806459 0.38195062
+ 0.09247553 0.10929037 0.1053004  0.43750963 0.0536643  0.03131484
+ 0.22871315 0.05777995 0.00600417 0.         0.05062917 0.01649456
+ 0.00417335 0.06706961]
+2023-02-08 18:21:35,855 - Model - INFO - End of training...
+2023-02-08 18:21:35,855 - Model - INFO - Epoch 158 (158/200):
+2023-02-08 18:22:13,902 - Model - INFO - Training mean loss: 0.178701
+2023-02-08 18:22:13,902 - Model - INFO - Train Accuracy: 3.585000
+2023-02-08 18:22:13,903 - Model - INFO - ---- EPOCH 158 EVALUATION ----
+2023-02-08 18:22:22,309 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:22:22,309 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:22:22,309 - Model - INFO - [0.25539252 0.13939445 0.20142545 0.30832517 0.10958587 0.37382042
+ 0.10039642 0.11248188 0.1221206  0.44490096 0.04932111 0.02437349
+ 0.22876514 0.04350504 0.00799722 0.         0.04082262 0.01430144
+ 0.00631225 0.07313588]
+2023-02-08 18:22:22,317 - Model - INFO - End of training...
+2023-02-08 18:22:22,317 - Model - INFO - Epoch 159 (159/200):
+2023-02-08 18:23:00,348 - Model - INFO - Training mean loss: 0.186563
+2023-02-08 18:23:00,348 - Model - INFO - Train Accuracy: 3.580758
+2023-02-08 18:23:00,349 - Model - INFO - ---- EPOCH 159 EVALUATION ----
+2023-02-08 18:23:08,670 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:23:08,670 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:23:08,670 - Model - INFO - [2.44293883e-01 1.26243427e-01 2.02887192e-01 3.22129875e-01
+ 1.23101264e-01 3.69836837e-01 1.01722725e-01 1.10334247e-01
+ 1.02806762e-01 4.20493186e-01 5.19386716e-02 1.80784203e-02
+ 2.05136120e-01 5.70464917e-02 1.31434994e-02 1.55293965e-04
+ 6.22374080e-02 1.13537470e-02 1.11576505e-02 6.98018447e-02]
+2023-02-08 18:23:08,678 - Model - INFO - End of training...
+2023-02-08 18:23:08,678 - Model - INFO - Epoch 160 (160/200):
+2023-02-08 18:23:46,808 - Model - INFO - Training mean loss: 0.177309
+2023-02-08 18:23:46,808 - Model - INFO - Train Accuracy: 3.583939
+2023-02-08 18:23:46,809 - Model - INFO - ---- EPOCH 160 EVALUATION ----
+2023-02-08 18:23:55,033 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:23:55,034 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:23:55,034 - Model - INFO - [0.25057793 0.12512563 0.20129439 0.30625317 0.11717887 0.36784247
+ 0.08838617 0.11015878 0.11301444 0.4220327  0.0508347  0.03647894
+ 0.22137104 0.04630185 0.00511097 0.         0.05162414 0.01409973
+ 0.00785013 0.06575969]
+2023-02-08 18:23:55,042 - Model - INFO - End of training...
+2023-02-08 18:23:55,042 - Model - INFO - Epoch 161 (161/200):
+2023-02-08 18:24:33,237 - Model - INFO - Training mean loss: 0.156660
+2023-02-08 18:24:33,237 - Model - INFO - Train Accuracy: 3.596364
+2023-02-08 18:24:33,238 - Model - INFO - ---- EPOCH 161 EVALUATION ----
+2023-02-08 18:24:41,577 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 18:24:41,577 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:24:41,577 - Model - INFO - [0.25643778 0.11799316 0.21302778 0.3018852  0.10137722 0.36880055
+ 0.10634182 0.10868044 0.11371419 0.4298394  0.0587568  0.02060073
+ 0.20256482 0.0448378  0.0129092  0.         0.03802676 0.01503816
+ 0.00535619 0.06169288]
+2023-02-08 18:24:41,584 - Model - INFO - End of training...
+2023-02-08 18:24:41,584 - Model - INFO - Epoch 162 (162/200):
+2023-02-08 18:25:19,891 - Model - INFO - Training mean loss: 0.168833
+2023-02-08 18:25:19,891 - Model - INFO - Train Accuracy: 3.588636
+2023-02-08 18:25:19,892 - Model - INFO - ---- EPOCH 162 EVALUATION ----
+2023-02-08 18:25:28,315 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:25:28,315 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:25:28,315 - Model - INFO - [0.24462901 0.11532781 0.20735507 0.2989328  0.11153504 0.38657725
+ 0.10319512 0.11297348 0.11921585 0.40508276 0.05207787 0.03447024
+ 0.20372695 0.05783157 0.0081381  0.         0.03724438 0.01407113
+ 0.00722594 0.07102595]
+2023-02-08 18:25:28,323 - Model - INFO - End of training...
+2023-02-08 18:25:28,323 - Model - INFO - Epoch 163 (163/200):
+2023-02-08 18:26:06,272 - Model - INFO - Training mean loss: 0.172790
+2023-02-08 18:26:06,273 - Model - INFO - Train Accuracy: 3.586818
+2023-02-08 18:26:06,273 - Model - INFO - ---- EPOCH 163 EVALUATION ----
+2023-02-08 18:26:14,670 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 18:26:14,670 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:26:14,670 - Model - INFO - [0.22927839 0.12742446 0.20641421 0.31424642 0.11675538 0.37437588
+ 0.10138133 0.11094933 0.11643997 0.40824264 0.05067326 0.01825604
+ 0.21699971 0.04008711 0.00816641 0.00068323 0.0511367  0.01437652
+ 0.00900745 0.07083194]
+2023-02-08 18:26:14,681 - Model - INFO - End of training...
+2023-02-08 18:26:14,681 - Model - INFO - Epoch 164 (164/200):
+2023-02-08 18:26:52,597 - Model - INFO - Training mean loss: 0.159136
+2023-02-08 18:26:52,598 - Model - INFO - Train Accuracy: 3.593030
+2023-02-08 18:26:52,599 - Model - INFO - ---- EPOCH 164 EVALUATION ----
+2023-02-08 18:27:00,765 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:27:00,765 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:27:00,765 - Model - INFO - [0.2525871  0.13572459 0.21424894 0.30483907 0.10535    0.3769029
+ 0.10135692 0.10168558 0.10246277 0.43952805 0.04925813 0.02504618
+ 0.23440549 0.0708428  0.00941257 0.         0.04468275 0.01550186
+ 0.01120226 0.06868178]
+2023-02-08 18:27:00,772 - Model - INFO - End of training...
+2023-02-08 18:27:00,772 - Model - INFO - Epoch 165 (165/200):
+2023-02-08 18:27:38,697 - Model - INFO - Training mean loss: 0.161511
+2023-02-08 18:27:38,698 - Model - INFO - Train Accuracy: 3.592121
+2023-02-08 18:27:38,698 - Model - INFO - ---- EPOCH 165 EVALUATION ----
+2023-02-08 18:27:46,948 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:27:46,949 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:27:46,949 - Model - INFO - [2.34811187e-01 1.12547800e-01 2.05301270e-01 3.26020539e-01
+ 1.19511358e-01 3.61986011e-01 1.00109600e-01 1.06469296e-01
+ 1.12365179e-01 4.47214097e-01 5.77884018e-02 3.23787034e-02
+ 2.21214175e-01 5.56568429e-02 6.49505341e-03 2.79000553e-04
+ 4.96032499e-02 1.45237967e-02 1.51383327e-02 6.70135394e-02]
+2023-02-08 18:27:46,956 - Model - INFO - End of training...
+2023-02-08 18:27:46,956 - Model - INFO - Epoch 166 (166/200):
+2023-02-08 18:28:24,907 - Model - INFO - Training mean loss: 0.159963
+2023-02-08 18:28:24,907 - Model - INFO - Train Accuracy: 3.591364
+2023-02-08 18:28:24,908 - Model - INFO - ---- EPOCH 166 EVALUATION ----
+2023-02-08 18:28:33,302 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:28:33,303 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:28:33,303 - Model - INFO - [2.27082640e-01 1.09240443e-01 2.10946888e-01 3.18557054e-01
+ 1.15082249e-01 3.52467656e-01 1.07183650e-01 1.03106014e-01
+ 1.05909750e-01 4.32178259e-01 5.35310134e-02 4.02210988e-02
+ 2.15738684e-01 5.36598265e-02 7.19126407e-03 6.19674684e-05
+ 5.05994484e-02 1.52306436e-02 3.00599877e-02 6.05348125e-02]
+2023-02-08 18:28:33,311 - Model - INFO - End of training...
+2023-02-08 18:28:33,311 - Model - INFO - Epoch 167 (167/200):
+2023-02-08 18:29:11,342 - Model - INFO - Training mean loss: 0.161957
+2023-02-08 18:29:11,342 - Model - INFO - Train Accuracy: 3.591212
+2023-02-08 18:29:11,343 - Model - INFO - ---- EPOCH 167 EVALUATION ----
+2023-02-08 18:29:19,775 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:29:19,775 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:29:19,775 - Model - INFO - [0.22959475 0.1142458  0.20038883 0.30802056 0.10717281 0.36763358
+ 0.10053083 0.10396465 0.10505418 0.4728315  0.05358309 0.02155692
+ 0.21851279 0.05089593 0.00997798 0.         0.05931852 0.01222605
+ 0.01399763 0.06221174]
+2023-02-08 18:29:19,783 - Model - INFO - End of training...
+2023-02-08 18:29:19,783 - Model - INFO - Epoch 168 (168/200):
+2023-02-08 18:29:57,822 - Model - INFO - Training mean loss: 0.159486
+2023-02-08 18:29:57,822 - Model - INFO - Train Accuracy: 3.591364
+2023-02-08 18:29:57,822 - Model - INFO - ---- EPOCH 168 EVALUATION ----
+2023-02-08 18:30:06,204 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:30:06,204 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:30:06,204 - Model - INFO - [0.24501175 0.11894444 0.20801574 0.31014866 0.11089829 0.36572534
+ 0.09698932 0.10917696 0.10111365 0.442037   0.05468453 0.02230305
+ 0.22153094 0.04885279 0.01548744 0.         0.05453291 0.01573871
+ 0.02796109 0.06419026]
+2023-02-08 18:30:06,212 - Model - INFO - End of training...
+2023-02-08 18:30:06,212 - Model - INFO - Epoch 169 (169/200):
+2023-02-08 18:30:44,145 - Model - INFO - Training mean loss: 0.149586
+2023-02-08 18:30:44,146 - Model - INFO - Train Accuracy: 3.598787
+2023-02-08 18:30:44,146 - Model - INFO - ---- EPOCH 169 EVALUATION ----
+2023-02-08 18:30:52,501 - Model - INFO - Mean IoU = 12.6%
+2023-02-08 18:30:52,501 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:30:52,501 - Model - INFO - [0.22149639 0.11727648 0.19458802 0.27635637 0.1121626  0.38178656
+ 0.09654357 0.10894864 0.11214054 0.39818957 0.05078927 0.031974
+ 0.21989103 0.04330331 0.00538181 0.         0.04773527 0.01465993
+ 0.01927304 0.06861854]
+2023-02-08 18:30:52,508 - Model - INFO - End of training...
+2023-02-08 18:30:52,508 - Model - INFO - Epoch 170 (170/200):
+2023-02-08 18:31:30,671 - Model - INFO - Training mean loss: 0.158036
+2023-02-08 18:31:30,672 - Model - INFO - Train Accuracy: 3.591818
+2023-02-08 18:31:30,672 - Model - INFO - ---- EPOCH 170 EVALUATION ----
+2023-02-08 18:31:39,109 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:31:39,109 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:31:39,109 - Model - INFO - [0.2264894  0.11851612 0.21153688 0.3074296  0.12232711 0.3606836
+ 0.1016534  0.11316856 0.10358402 0.418986   0.05477762 0.03561831
+ 0.22219153 0.04903307 0.00769795 0.         0.07063022 0.01057042
+ 0.01395162 0.06420062]
+2023-02-08 18:31:39,117 - Model - INFO - End of training...
+2023-02-08 18:31:39,117 - Model - INFO - Epoch 171 (171/200):
+2023-02-08 18:32:17,237 - Model - INFO - Training mean loss: 0.154794
+2023-02-08 18:32:17,237 - Model - INFO - Train Accuracy: 3.597576
+2023-02-08 18:32:17,238 - Model - INFO - ---- EPOCH 171 EVALUATION ----
+2023-02-08 18:32:25,671 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:32:25,671 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:32:25,671 - Model - INFO - [0.23530525 0.11722199 0.19988573 0.32634827 0.10902674 0.36842534
+ 0.10046411 0.11266647 0.10507105 0.408051   0.06026487 0.03273366
+ 0.21531421 0.05347621 0.00815164 0.         0.06246605 0.01184436
+ 0.02342871 0.06954993]
+2023-02-08 18:32:25,680 - Model - INFO - End of training...
+2023-02-08 18:32:25,680 - Model - INFO - Epoch 172 (172/200):
+2023-02-08 18:33:03,610 - Model - INFO - Training mean loss: 0.153931
+2023-02-08 18:33:03,610 - Model - INFO - Train Accuracy: 3.593940
+2023-02-08 18:33:03,611 - Model - INFO - ---- EPOCH 172 EVALUATION ----
+2023-02-08 18:33:11,996 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:33:11,996 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:33:11,996 - Model - INFO - [2.42570937e-01 1.22059621e-01 1.98962674e-01 2.95476556e-01
+ 1.17424130e-01 3.63780916e-01 9.60721597e-02 1.11631714e-01
+ 1.02955878e-01 4.40298468e-01 5.04211783e-02 3.41319814e-02
+ 2.28579029e-01 4.87652943e-02 6.64386479e-03 1.85482873e-04
+ 5.76830991e-02 1.44931469e-02 3.57202813e-02 7.45130852e-02]
+2023-02-08 18:33:12,004 - Model - INFO - End of training...
+2023-02-08 18:33:12,004 - Model - INFO - Epoch 173 (173/200):
+2023-02-08 18:33:49,924 - Model - INFO - Training mean loss: 0.148892
+2023-02-08 18:33:49,924 - Model - INFO - Train Accuracy: 3.597424
+2023-02-08 18:33:49,925 - Model - INFO - ---- EPOCH 173 EVALUATION ----
+2023-02-08 18:33:58,122 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:33:58,122 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:33:58,122 - Model - INFO - [2.37971425e-01 1.09078124e-01 2.06623092e-01 3.10352027e-01
+ 1.24083549e-01 3.68152052e-01 1.04763374e-01 1.06482267e-01
+ 1.16549648e-01 4.25123632e-01 5.73274456e-02 3.31630073e-02
+ 2.14454114e-01 5.33670299e-02 8.46095569e-03 3.08699127e-05
+ 5.69192730e-02 1.06094684e-02 3.46638672e-02 7.10643008e-02]
+2023-02-08 18:33:58,130 - Model - INFO - End of training...
+2023-02-08 18:33:58,130 - Model - INFO - Epoch 174 (174/200):
+2023-02-08 18:34:36,185 - Model - INFO - Training mean loss: 0.145816
+2023-02-08 18:34:36,186 - Model - INFO - Train Accuracy: 3.601060
+2023-02-08 18:34:36,187 - Model - INFO - ---- EPOCH 174 EVALUATION ----
+2023-02-08 18:34:44,559 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:34:44,559 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:34:44,559 - Model - INFO - [0.23106834 0.11360757 0.20193753 0.29304063 0.11705825 0.3747751
+ 0.10559703 0.11012965 0.1161477  0.43121585 0.05810339 0.02588844
+ 0.21687101 0.05615425 0.00626453 0.         0.05173267 0.01416093
+ 0.02532454 0.06377608]
+2023-02-08 18:34:44,566 - Model - INFO - End of training...
+2023-02-08 18:34:44,567 - Model - INFO - Epoch 175 (175/200):
+2023-02-08 18:35:22,602 - Model - INFO - Training mean loss: 0.147861
+2023-02-08 18:35:22,602 - Model - INFO - Train Accuracy: 3.593636
+2023-02-08 18:35:22,603 - Model - INFO - ---- EPOCH 175 EVALUATION ----
+2023-02-08 18:35:30,976 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:35:30,976 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:35:30,976 - Model - INFO - [0.230005   0.1163037  0.19647121 0.33160672 0.11505912 0.363266
+ 0.1025086  0.10499594 0.10290965 0.39792022 0.05195754 0.05261581
+ 0.21180826 0.05264836 0.01103516 0.         0.05347856 0.01383303
+ 0.02694929 0.07056899]
+2023-02-08 18:35:30,985 - Model - INFO - End of training...
+2023-02-08 18:35:30,985 - Model - INFO - Epoch 176 (176/200):
+2023-02-08 18:36:09,064 - Model - INFO - Training mean loss: 0.146002
+2023-02-08 18:36:09,065 - Model - INFO - Train Accuracy: 3.594698
+2023-02-08 18:36:09,065 - Model - INFO - ---- EPOCH 176 EVALUATION ----
+2023-02-08 18:36:17,508 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:36:17,508 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:36:17,508 - Model - INFO - [2.43886232e-01 1.18473440e-01 1.91106930e-01 3.01892132e-01
+ 1.23352356e-01 3.71316135e-01 9.59709808e-02 9.91091803e-02
+ 1.05457075e-01 4.08400565e-01 4.70031127e-02 3.48219238e-02
+ 2.32156709e-01 5.38691953e-02 8.60422105e-03 2.15936088e-04
+ 5.26215248e-02 1.49439089e-02 2.56209597e-02 6.82833120e-02]
+2023-02-08 18:36:17,517 - Model - INFO - End of training...
+2023-02-08 18:36:17,517 - Model - INFO - Epoch 177 (177/200):
+2023-02-08 18:36:55,698 - Model - INFO - Training mean loss: 0.147048
+2023-02-08 18:36:55,698 - Model - INFO - Train Accuracy: 3.595758
+2023-02-08 18:36:55,699 - Model - INFO - ---- EPOCH 177 EVALUATION ----
+2023-02-08 18:37:04,135 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:37:04,135 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:37:04,135 - Model - INFO - [0.23256549 0.11429421 0.20222294 0.30414096 0.121004   0.36761254
+ 0.09985431 0.10713979 0.11376268 0.41527516 0.0588883  0.02239819
+ 0.2216029  0.05083829 0.00992624 0.         0.05864279 0.0142523
+ 0.0373221  0.07085633]
+2023-02-08 18:37:04,143 - Model - INFO - End of training...
+2023-02-08 18:37:04,143 - Model - INFO - Epoch 178 (178/200):
+2023-02-08 18:37:42,170 - Model - INFO - Training mean loss: 0.144172
+2023-02-08 18:37:42,170 - Model - INFO - Train Accuracy: 3.596667
+2023-02-08 18:37:42,171 - Model - INFO - ---- EPOCH 178 EVALUATION ----
+2023-02-08 18:37:50,540 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:37:50,540 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:37:50,540 - Model - INFO - [0.22978675 0.0990363  0.19723625 0.31925836 0.11684212 0.39229187
+ 0.10034808 0.11195185 0.10639811 0.408683   0.0533806  0.03649429
+ 0.22027503 0.0406574  0.00774152 0.         0.06801575 0.01410409
+ 0.06206874 0.07041203]
+2023-02-08 18:37:50,550 - Model - INFO - End of training...
+2023-02-08 18:37:50,550 - Model - INFO - Epoch 179 (179/200):
+2023-02-08 18:38:28,811 - Model - INFO - Training mean loss: 0.161332
+2023-02-08 18:38:28,812 - Model - INFO - Train Accuracy: 3.592576
+2023-02-08 18:38:28,812 - Model - INFO - ---- EPOCH 179 EVALUATION ----
+2023-02-08 18:38:37,195 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 18:38:37,195 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:38:37,195 - Model - INFO - [2.29909554e-01 1.00553691e-01 1.94314897e-01 3.32000583e-01
+ 1.19394474e-01 3.89514506e-01 1.08463518e-01 1.03413425e-01
+ 1.20993041e-01 3.99875939e-01 5.62230200e-02 3.94718274e-02
+ 2.23387778e-01 5.57483025e-02 1.19412541e-02 3.07976588e-05
+ 6.65239543e-02 1.13213006e-02 4.77888510e-02 6.99931905e-02]
+2023-02-08 18:38:37,203 - Model - INFO - End of training...
+2023-02-08 18:38:37,203 - Model - INFO - Epoch 180 (180/200):
+2023-02-08 18:39:15,334 - Model - INFO - Training mean loss: 0.139199
+2023-02-08 18:39:15,334 - Model - INFO - Train Accuracy: 3.598788
+2023-02-08 18:39:15,335 - Model - INFO - ---- EPOCH 180 EVALUATION ----
+2023-02-08 18:39:23,794 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:39:23,794 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:39:23,794 - Model - INFO - [0.24159932 0.1296806  0.20606369 0.2908023  0.11312339 0.37560007
+ 0.10023234 0.10545649 0.11200698 0.42976803 0.05275183 0.02199083
+ 0.2208434  0.04035011 0.01146968 0.         0.05789294 0.01219058
+ 0.06111572 0.0727748 ]
+2023-02-08 18:39:23,803 - Model - INFO - End of training...
+2023-02-08 18:39:23,803 - Model - INFO - Epoch 181 (181/200):
+2023-02-08 18:40:01,915 - Model - INFO - Training mean loss: 0.137216
+2023-02-08 18:40:01,916 - Model - INFO - Train Accuracy: 3.601970
+2023-02-08 18:40:01,916 - Model - INFO - ---- EPOCH 181 EVALUATION ----
+2023-02-08 18:40:10,299 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:40:10,299 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:40:10,299 - Model - INFO - [0.22940502 0.11649857 0.20184372 0.31378317 0.11304622 0.37086946
+ 0.10244551 0.11160576 0.10400249 0.4122638  0.05725768 0.02405552
+ 0.21540229 0.04988779 0.00741393 0.         0.06050644 0.01211056
+ 0.06453896 0.07087889]
+2023-02-08 18:40:10,308 - Model - INFO - End of training...
+2023-02-08 18:40:10,308 - Model - INFO - Epoch 182 (182/200):
+2023-02-08 18:40:48,199 - Model - INFO - Training mean loss: 0.131008
+2023-02-08 18:40:48,200 - Model - INFO - Train Accuracy: 3.604091
+2023-02-08 18:40:48,201 - Model - INFO - ---- EPOCH 182 EVALUATION ----
+2023-02-08 18:40:56,310 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:40:56,310 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:40:56,310 - Model - INFO - [2.25300342e-01 1.23138309e-01 2.03700602e-01 3.15335542e-01
+ 1.14395998e-01 3.61568838e-01 9.96827930e-02 1.04391105e-01
+ 1.06127448e-01 4.38616127e-01 5.26312962e-02 3.23597826e-02
+ 2.21267328e-01 4.39291224e-02 6.37082290e-03 2.76931591e-04
+ 5.34810126e-02 1.30349938e-02 7.38975778e-02 6.29930273e-02]
+2023-02-08 18:40:56,319 - Model - INFO - End of training...
+2023-02-08 18:40:56,319 - Model - INFO - Epoch 183 (183/200):
+2023-02-08 18:41:34,152 - Model - INFO - Training mean loss: 0.137984
+2023-02-08 18:41:34,152 - Model - INFO - Train Accuracy: 3.599394
+2023-02-08 18:41:34,153 - Model - INFO - ---- EPOCH 183 EVALUATION ----
+2023-02-08 18:41:42,312 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:41:42,312 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:41:42,312 - Model - INFO - [0.24001497 0.12291852 0.20867641 0.31034765 0.11175087 0.3767548
+ 0.10294539 0.10836852 0.10825837 0.37156728 0.05958986 0.01927588
+ 0.22686109 0.05361954 0.01265881 0.         0.04637338 0.01143513
+ 0.08287878 0.06819338]
+2023-02-08 18:41:42,321 - Model - INFO - End of training...
+2023-02-08 18:41:42,321 - Model - INFO - Epoch 184 (184/200):
+2023-02-08 18:42:20,117 - Model - INFO - Training mean loss: 0.135286
+2023-02-08 18:42:20,118 - Model - INFO - Train Accuracy: 3.601061
+2023-02-08 18:42:20,119 - Model - INFO - ---- EPOCH 184 EVALUATION ----
+2023-02-08 18:42:28,206 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:42:28,206 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:42:28,206 - Model - INFO - [0.23098253 0.10799447 0.20467012 0.32217968 0.116892   0.37013817
+ 0.09576705 0.10526484 0.1092306  0.42437077 0.05782319 0.02697476
+ 0.21996982 0.04825785 0.005762   0.         0.05852698 0.01370596
+ 0.05804565 0.07005521]
+2023-02-08 18:42:28,214 - Model - INFO - End of training...
+2023-02-08 18:42:28,214 - Model - INFO - Epoch 185 (185/200):
+2023-02-08 18:43:06,188 - Model - INFO - Training mean loss: 0.133777
+2023-02-08 18:43:06,188 - Model - INFO - Train Accuracy: 3.603334
+2023-02-08 18:43:06,189 - Model - INFO - ---- EPOCH 185 EVALUATION ----
+2023-02-08 18:43:14,223 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:43:14,223 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:43:14,223 - Model - INFO - [0.21891032 0.12104563 0.20289752 0.2963116  0.11787956 0.36565965
+ 0.09595658 0.11132136 0.11538766 0.41289517 0.05786407 0.03918746
+ 0.2239507  0.04617934 0.00742151 0.00058377 0.05806587 0.01206307
+ 0.06376044 0.06411672]
+2023-02-08 18:43:14,231 - Model - INFO - End of training...
+2023-02-08 18:43:14,231 - Model - INFO - Epoch 186 (186/200):
+2023-02-08 18:43:52,099 - Model - INFO - Training mean loss: 0.132928
+2023-02-08 18:43:52,100 - Model - INFO - Train Accuracy: 3.605000
+2023-02-08 18:43:52,101 - Model - INFO - ---- EPOCH 186 EVALUATION ----
+2023-02-08 18:44:00,266 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:44:00,266 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:44:00,266 - Model - INFO - [2.20784813e-01 1.14312232e-01 2.04702526e-01 3.22778374e-01
+ 1.18574284e-01 3.59722406e-01 1.03073709e-01 1.08736075e-01
+ 1.13269769e-01 4.11446095e-01 5.10111637e-02 4.45560291e-02
+ 2.30382100e-01 5.53749688e-02 7.98130687e-03 3.07191367e-05
+ 5.55776879e-02 1.22733321e-02 6.40970990e-02 7.08562508e-02]
+2023-02-08 18:44:00,276 - Model - INFO - End of training...
+2023-02-08 18:44:00,276 - Model - INFO - Epoch 187 (187/200):
+2023-02-08 18:44:38,163 - Model - INFO - Training mean loss: 0.131835
+2023-02-08 18:44:38,163 - Model - INFO - Train Accuracy: 3.604545
+2023-02-08 18:44:38,164 - Model - INFO - ---- EPOCH 187 EVALUATION ----
+2023-02-08 18:44:46,317 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:44:46,317 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:44:46,317 - Model - INFO - [2.32145429e-01 1.06210202e-01 2.06409916e-01 3.09873939e-01
+ 1.12413049e-01 3.68709505e-01 9.81959552e-02 1.07006803e-01
+ 1.14219405e-01 3.97242993e-01 6.22263849e-02 3.01863197e-02
+ 2.12874025e-01 5.67468181e-02 7.99632072e-03 3.68810899e-04
+ 6.17532209e-02 1.11780977e-02 4.45039496e-02 6.76885173e-02]
+2023-02-08 18:44:46,325 - Model - INFO - End of training...
+2023-02-08 18:44:46,325 - Model - INFO - Epoch 188 (188/200):
+2023-02-08 18:45:24,198 - Model - INFO - Training mean loss: 0.138407
+2023-02-08 18:45:24,199 - Model - INFO - Train Accuracy: 3.602727
+2023-02-08 18:45:24,200 - Model - INFO - ---- EPOCH 188 EVALUATION ----
+2023-02-08 18:45:32,322 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:45:32,322 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:45:32,322 - Model - INFO - [0.21281856 0.11727937 0.2053473  0.3102057  0.12609294 0.3699262
+ 0.08860694 0.10913067 0.10486508 0.45879257 0.0496375  0.03046679
+ 0.21443659 0.06196399 0.00652243 0.         0.0554342  0.00955579
+ 0.05397652 0.06367334]
+2023-02-08 18:45:32,331 - Model - INFO - End of training...
+2023-02-08 18:45:32,331 - Model - INFO - Epoch 189 (189/200):
+2023-02-08 18:46:10,197 - Model - INFO - Training mean loss: 0.131133
+2023-02-08 18:46:10,197 - Model - INFO - Train Accuracy: 3.601818
+2023-02-08 18:46:10,197 - Model - INFO - ---- EPOCH 189 EVALUATION ----
+2023-02-08 18:46:18,435 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:46:18,435 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:46:18,435 - Model - INFO - [2.20106915e-01 1.13274463e-01 2.08602786e-01 3.23893279e-01
+ 1.12719305e-01 3.64584267e-01 1.06156550e-01 1.01184569e-01
+ 1.05978422e-01 3.95205021e-01 5.78964092e-02 3.56367044e-02
+ 2.20049277e-01 4.99620996e-02 1.08435731e-02 3.07389637e-05
+ 6.61818534e-02 1.03192087e-02 4.40943353e-02 6.52144104e-02]
+2023-02-08 18:46:18,444 - Model - INFO - End of training...
+2023-02-08 18:46:18,445 - Model - INFO - Epoch 190 (190/200):
+2023-02-08 18:46:56,372 - Model - INFO - Training mean loss: 0.127515
+2023-02-08 18:46:56,372 - Model - INFO - Train Accuracy: 3.608030
+2023-02-08 18:46:56,373 - Model - INFO - ---- EPOCH 190 EVALUATION ----
+2023-02-08 18:47:04,584 - Model - INFO - Mean IoU = 13.3%
+2023-02-08 18:47:04,584 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:47:04,584 - Model - INFO - [0.2246701  0.12803629 0.19391207 0.30970365 0.11664376 0.36208707
+ 0.09935269 0.10502285 0.11009736 0.43577567 0.05664035 0.03371352
+ 0.21319291 0.05684743 0.00771706 0.         0.06440777 0.01281776
+ 0.06728486 0.06482208]
+2023-02-08 18:47:04,592 - Model - INFO - End of training...
+2023-02-08 18:47:04,592 - Model - INFO - Epoch 191 (191/200):
+2023-02-08 18:47:42,495 - Model - INFO - Training mean loss: 0.136843
+2023-02-08 18:47:42,495 - Model - INFO - Train Accuracy: 3.600455
+2023-02-08 18:47:42,496 - Model - INFO - ---- EPOCH 191 EVALUATION ----
+2023-02-08 18:47:50,619 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:47:50,619 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:47:50,619 - Model - INFO - [0.22588246 0.11544202 0.21512225 0.30243358 0.10958928 0.35143784
+ 0.09784349 0.10883313 0.11142182 0.40519905 0.04826709 0.03884378
+ 0.21619125 0.06440025 0.01105171 0.         0.06119575 0.01042059
+ 0.06870576 0.06529628]
+2023-02-08 18:47:50,627 - Model - INFO - End of training...
+2023-02-08 18:47:50,627 - Model - INFO - Epoch 192 (192/200):
+2023-02-08 18:48:28,360 - Model - INFO - Training mean loss: 0.129849
+2023-02-08 18:48:28,361 - Model - INFO - Train Accuracy: 3.603788
+2023-02-08 18:48:28,362 - Model - INFO - ---- EPOCH 192 EVALUATION ----
+2023-02-08 18:48:36,471 - Model - INFO - Mean IoU = 13.5%
+2023-02-08 18:48:36,471 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:48:36,471 - Model - INFO - [2.19310343e-01 1.09660283e-01 2.06498817e-01 3.24283868e-01
+ 1.19966455e-01 3.74820709e-01 1.00517564e-01 1.11846454e-01
+ 1.10055082e-01 4.20481861e-01 5.66654392e-02 5.25607206e-02
+ 2.18978986e-01 7.05072135e-02 8.36228859e-03 6.15630852e-05
+ 5.89375235e-02 1.40815983e-02 4.55589965e-02 6.92186058e-02]
+2023-02-08 18:48:36,480 - Model - INFO - End of training...
+2023-02-08 18:48:36,481 - Model - INFO - Epoch 193 (193/200):
+2023-02-08 18:49:14,291 - Model - INFO - Training mean loss: 0.139785
+2023-02-08 18:49:14,291 - Model - INFO - Train Accuracy: 3.600455
+2023-02-08 18:49:14,292 - Model - INFO - ---- EPOCH 193 EVALUATION ----
+2023-02-08 18:49:22,446 - Model - INFO - Mean IoU = 13.1%
+2023-02-08 18:49:22,446 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:49:22,446 - Model - INFO - [0.20864612 0.11653528 0.2006228  0.32696396 0.11345012 0.36550784
+ 0.10419245 0.10821833 0.10852466 0.42688873 0.04618744 0.03297059
+ 0.21833572 0.05166968 0.00903257 0.00049275 0.05308724 0.01143236
+ 0.04066852 0.06794617]
+2023-02-08 18:49:22,454 - Model - INFO - End of training...
+2023-02-08 18:49:22,455 - Model - INFO - Epoch 194 (194/200):
+2023-02-08 18:50:00,290 - Model - INFO - Training mean loss: 0.133137
+2023-02-08 18:50:00,290 - Model - INFO - Train Accuracy: 3.604091
+2023-02-08 18:50:00,291 - Model - INFO - ---- EPOCH 194 EVALUATION ----
+2023-02-08 18:50:08,404 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:50:08,404 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:50:08,404 - Model - INFO - [0.21600612 0.12078259 0.2047592  0.31015962 0.11757655 0.36775172
+ 0.10769284 0.11124296 0.10772581 0.43063784 0.04790432 0.03642152
+ 0.2327307  0.05274236 0.00773242 0.         0.05019331 0.01189901
+ 0.04852951 0.06739201]
+2023-02-08 18:50:08,413 - Model - INFO - End of training...
+2023-02-08 18:50:08,413 - Model - INFO - Epoch 195 (195/200):
+2023-02-08 18:50:46,190 - Model - INFO - Training mean loss: 0.133660
+2023-02-08 18:50:46,190 - Model - INFO - Train Accuracy: 3.603788
+2023-02-08 18:50:46,191 - Model - INFO - ---- EPOCH 195 EVALUATION ----
+2023-02-08 18:50:54,272 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:50:54,272 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:50:54,272 - Model - INFO - [0.21893677 0.11154214 0.21093293 0.32868642 0.11676751 0.35168654
+ 0.10313595 0.10812324 0.11228943 0.42434454 0.05738434 0.03962857
+ 0.2121428  0.05185995 0.00544615 0.         0.05272228 0.00979245
+ 0.05344674 0.07003922]
+2023-02-08 18:50:54,280 - Model - INFO - End of training...
+2023-02-08 18:50:54,281 - Model - INFO - Epoch 196 (196/200):
+2023-02-08 18:51:32,242 - Model - INFO - Training mean loss: 0.138104
+2023-02-08 18:51:32,242 - Model - INFO - Train Accuracy: 3.600909
+2023-02-08 18:51:32,243 - Model - INFO - ---- EPOCH 196 EVALUATION ----
+2023-02-08 18:51:40,348 - Model - INFO - Mean IoU = 13.2%
+2023-02-08 18:51:40,348 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:51:40,348 - Model - INFO - [0.22813067 0.13353644 0.20202447 0.2993258  0.11493409 0.36264306
+ 0.09640965 0.10740423 0.10135868 0.40966982 0.05048301 0.04004443
+ 0.21873964 0.05242822 0.00677009 0.00055496 0.05099804 0.01489842
+ 0.07725981 0.06698003]
+2023-02-08 18:51:40,357 - Model - INFO - End of training...
+2023-02-08 18:51:40,357 - Model - INFO - Epoch 197 (197/200):
+2023-02-08 18:52:18,321 - Model - INFO - Training mean loss: 0.127582
+2023-02-08 18:52:18,321 - Model - INFO - Train Accuracy: 3.605152
+2023-02-08 18:52:18,322 - Model - INFO - ---- EPOCH 197 EVALUATION ----
+2023-02-08 18:52:26,519 - Model - INFO - Mean IoU = 12.9%
+2023-02-08 18:52:26,519 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:52:26,519 - Model - INFO - [2.03711346e-01 1.10659465e-01 1.97367325e-01 3.11364263e-01
+ 1.23261780e-01 3.61204654e-01 9.51280966e-02 1.08912624e-01
+ 1.20564558e-01 3.85053962e-01 4.98191714e-02 3.00562847e-02
+ 2.28233278e-01 5.61360158e-02 7.31657026e-03 3.08270901e-05
+ 4.90284823e-02 1.24595482e-02 5.92133030e-02 6.87653720e-02]
+2023-02-08 18:52:26,529 - Model - INFO - End of training...
+2023-02-08 18:52:26,529 - Model - INFO - Epoch 198 (198/200):
+2023-02-08 18:53:04,359 - Model - INFO - Training mean loss: 0.130870
+2023-02-08 18:53:04,360 - Model - INFO - Train Accuracy: 3.602576
+2023-02-08 18:53:04,360 - Model - INFO - ---- EPOCH 198 EVALUATION ----
+2023-02-08 18:53:12,427 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 18:53:12,428 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:53:12,428 - Model - INFO - [0.22474675 0.11692784 0.2007243  0.3033079  0.12288598 0.36507413
+ 0.09663017 0.11577599 0.11422931 0.43128216 0.05489781 0.03680408
+ 0.22290674 0.05690236 0.00836329 0.         0.05184746 0.01064833
+ 0.07599548 0.06998836]
+2023-02-08 18:53:12,436 - Model - INFO - End of training...
+2023-02-08 18:53:12,436 - Model - INFO - Epoch 199 (199/200):
+2023-02-08 18:53:50,432 - Model - INFO - Training mean loss: 0.123319
+2023-02-08 18:53:50,433 - Model - INFO - Train Accuracy: 3.608030
+2023-02-08 18:53:50,433 - Model - INFO - ---- EPOCH 199 EVALUATION ----
+2023-02-08 18:53:58,547 - Model - INFO - Mean IoU = 13.4%
+2023-02-08 18:53:58,548 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:53:58,548 - Model - INFO - [0.2275963  0.11557361 0.20229024 0.3074193  0.12763292 0.36893976
+ 0.09363253 0.11488509 0.10774718 0.43873996 0.05621823 0.03316468
+ 0.22846869 0.05301482 0.00814997 0.         0.05358267 0.01287664
+ 0.0695961  0.06930985]
+2023-02-08 18:53:58,557 - Model - INFO - End of training...
+2023-02-08 18:53:58,557 - Model - INFO - Epoch 200 (200/200):
+2023-02-08 18:54:36,520 - Model - INFO - Training mean loss: 0.125977
+2023-02-08 18:54:36,520 - Model - INFO - Train Accuracy: 3.604091
+2023-02-08 18:54:36,520 - Model - INFO - ---- EPOCH 200 EVALUATION ----
+2023-02-08 18:54:44,650 - Model - INFO - Mean IoU = 13.0%
+2023-02-08 18:54:44,650 - Model - INFO - Best Mean IoU = 14.6%
+2023-02-08 18:54:44,650 - Model - INFO - [0.21644394 0.11440197 0.2056777  0.30641454 0.11478145 0.35187668
+ 0.09663931 0.11188792 0.10536002 0.41869232 0.0526306  0.03303799
+ 0.22131604 0.05744627 0.00857794 0.         0.04304796 0.01131553
+ 0.07277883 0.06459989]
+2023-02-08 18:54:44,659 - Model - INFO - End of training...
